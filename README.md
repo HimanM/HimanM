@@ -41,19 +41,18 @@
 <br />
 ---
 
-<details>
   
 
   <img align="left" alt="Himan's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=HimanM&show_icons=true&hide_border=true" />
 
-</details>
 
-<details>
+
+
   
 
 <img align="left" alt="Himan's GitHub Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanM" />
 
-</details>
+
 
 [linkedin]: https://www.linkedin.com/in/himan-manduja-645256206/
 [portfolio]: https://arsentieva.github.io/profile/
