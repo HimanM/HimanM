@@ -20,9 +20,7 @@
 
 ### Languages and Tools:
 
-**Languages and Tools:** 
-
-<!-- Your github readme stats
+ <!-- Your github readme stats
 You can use this api: https://github.com/anuraghazra/github-readme-stats
 -->
 <p>
