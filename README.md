@@ -1,14 +1,14 @@
 ### Hi I'm Himan Manduja 👋
 
-<img align="right" alt="GIF" src="https://github.com/arsentieva/arsentieva/blob/main/code.gif?raw=true" width="500" height="320" />
+<img align="right" alt="GIF" src="https://camo.githubusercontent.com/bb27b9c1df90df738e91a54665d3adb08f60583fad2f266ffbde14508e6dc918/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f65342f32362f37302f65343236373032656466383734623138316163656431653266613563366364652e676966" width="500" height="320" />
  
 
 - 🔭 I’m currently working on Terminal LOL
 - 🌱 I’m currently learning Beef
-- 👯 I’m looking to collaborate on Telegram
+- 👯 I’m looking to collaborate on Open source
 - 🤔 I’m looking for help with eJPT
 - 💬 Ask me about IoT related things
-- 📫 How to reach me:<a href="t.me/drazox">Telegram</a>
+- 📫 How to reach me:[TELEGRAM](https://t.me/himanmanduja)
 - 😄 Pronouns: He/His
 - ⚡ Fun fact: 😅 NOT FUNNY AT ALL
 
@@ -54,4 +54,4 @@
 
 
 [linkedin]: https://www.linkedin.com/in/himan-manduja-645256206/
-[portfolio]: https://arsentieva.github.io/profile/
+[portfolio]: https://himanm.github.io/profile/
