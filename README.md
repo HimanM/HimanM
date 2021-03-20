@@ -8,7 +8,7 @@
 - 👯 I’m looking to collaborate on Telegram
 - 🤔 I’m looking for help with eJPT
 - 💬 Ask me about IoT related things
-- 📫 How to reach me: Telegram
+- 📫 How to reach me: Telegram [t.me/drazox]
 - 😄 Pronouns: He/His
 - ⚡ Fun fact: 😅 NOT FUNNY AT ALL
 
