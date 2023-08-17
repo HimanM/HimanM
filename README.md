@@ -3,16 +3,6 @@
 <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
  
 
-- 🔭 I’m currently working on Terminal LOL
-- 🌱 I’m currently learning Beef
-- 👯 I’m looking to collaborate on Open source
-- 🤔 I’m looking for help with eJPT
-- 💬 Ask me about IoT related things
-- 📫 How to reach me:[TELEGRAM](https://t.me/himanmanduja)
-- 😄 Pronouns: He/His
-- ⚡ Fun fact: 😅 NOT FUNNY AT ALL
-
-
 ### Talk with me, I am kinda awesome:
 [<img align="left" alt="holisitc_developer | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
