@@ -74,11 +74,6 @@
 - [HimanM/Butterfly-Predict](https://github.com/HimanM/Butterfly-Predict) - A web application that uses a deep learning model to classify butterfly species from images
 ### 🔨 My recent Pull Requests
 
-- [Day 3](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google/pull/2) on [HimanM/5-Day-AI-Agents-Intensive-Course-with-Google](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google)
-- [Day 2](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google/pull/1) on [HimanM/5-Day-AI-Agents-Intensive-Course-with-Google](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google)
-- [feat(header): Enhance mobile navigation and interaction experience](https://github.com/HimanM/Lankalive-Clone/pull/14) on [HimanM/Lankalive-Clone](https://github.com/HimanM/Lankalive-Clone)
-- [Revert &#34;feat(article): implement pagination in article listing and enhance AP…&#34;](https://github.com/HimanM/Lankalive-Clone/pull/13) on [HimanM/Lankalive-Clone](https://github.com/HimanM/Lankalive-Clone)
-- [feat(article): implement pagination in article listing and enhance AP…](https://github.com/HimanM/Lankalive-Clone/pull/12) on [HimanM/Lankalive-Clone](https://github.com/HimanM/Lankalive-Clone)
 ### ⭐ Recent Stars
 
 - [markterence/discord-quest-completer](https://github.com/markterence/discord-quest-completer) - A Windows desktop application to complete quests on Discord without installing the full actual games. 
