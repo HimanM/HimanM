@@ -60,20 +60,21 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/document-agent](https://github.com/HimanM/document-agent) - An agent-powered assistant that crafts professional plain-text application emails and tailored cover
 - [HimanM/5-Day-AI-Agents-Intensive-Course-with-Google](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google) - 
 - [HimanM/Lankalive-Clone](https://github.com/HimanM/Lankalive-Clone) - Full-stack news CMS with React, Flask &amp; PostgreSQL. Features admin dashboard for content management, media uploads, search &amp; filtering. Scalable architecture ready for multi-user expansion.
 - [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 - [HimanM/Predicting-Optimal-Fertilizers](https://github.com/HimanM/Predicting-Optimal-Fertilizers) - FertiliZen is a personal project built on top of a model developed for the Kaggle Fertilizer Prediction Challenge   Note: FertiliZen provides fertilizer suggestions based on a predictive model trained on a synthetic dataset. Always consult local agricultural experts for critical decisions.
-- [HimanM/Butterfly-Predict](https://github.com/HimanM/Butterfly-Predict) - A web application that uses a deep learning model to classify butterfly species from images
 ### 🌱 My latest projects
 
+- [HimanM/document-agent](https://github.com/HimanM/document-agent) - An agent-powered assistant that crafts professional plain-text application emails and tailored cover
 - [HimanM/5-Day-AI-Agents-Intensive-Course-with-Google](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google) - 
 - [HimanM/Lankalive-Clone](https://github.com/HimanM/Lankalive-Clone) - Full-stack news CMS with React, Flask &amp; PostgreSQL. Features admin dashboard for content management, media uploads, search &amp; filtering. Scalable architecture ready for multi-user expansion.
 - [HimanM/Predicting-Optimal-Fertilizers](https://github.com/HimanM/Predicting-Optimal-Fertilizers) - FertiliZen is a personal project built on top of a model developed for the Kaggle Fertilizer Prediction Challenge   Note: FertiliZen provides fertilizer suggestions based on a predictive model trained on a synthetic dataset. Always consult local agricultural experts for critical decisions.
 - [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
-- [HimanM/Butterfly-Predict](https://github.com/HimanM/Butterfly-Predict) - A web application that uses a deep learning model to classify butterfly species from images
 ### 🔨 My recent Pull Requests
 
+- [V2](https://github.com/HimanM/document-agent/pull/1) on [HimanM/document-agent](https://github.com/HimanM/document-agent)
 ### ⭐ Recent Stars
 
 - [markterence/discord-quest-completer](https://github.com/markterence/discord-quest-completer) - A Windows desktop application to complete quests on Discord without installing the full actual games. 
