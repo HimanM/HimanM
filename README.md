@@ -60,18 +60,18 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/DevOps-2](https://github.com/HimanM/DevOps-2) - 
 - [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
 - [HimanM/document-agent](https://github.com/HimanM/document-agent) - An agent-powered assistant that crafts professional plain-text application emails and tailored cover
 - [HimanM/5-Day-AI-Agents-Intensive-Course-with-Google](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google) - 
 - [HimanM/Lankalive-Clone](https://github.com/HimanM/Lankalive-Clone) - Full-stack news CMS with React, Flask &amp; PostgreSQL. Features admin dashboard for content management, media uploads, search &amp; filtering. Scalable architecture ready for multi-user expansion.
-- [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 ### 🌱 My latest projects
 
+- [HimanM/DevOps-2](https://github.com/HimanM/DevOps-2) - 
 - [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
 - [HimanM/document-agent](https://github.com/HimanM/document-agent) - An agent-powered assistant that crafts professional plain-text application emails and tailored cover
 - [HimanM/5-Day-AI-Agents-Intensive-Course-with-Google](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google) - 
 - [HimanM/Lankalive-Clone](https://github.com/HimanM/Lankalive-Clone) - Full-stack news CMS with React, Flask &amp; PostgreSQL. Features admin dashboard for content management, media uploads, search &amp; filtering. Scalable architecture ready for multi-user expansion.
-- [HimanM/Predicting-Optimal-Fertilizers](https://github.com/HimanM/Predicting-Optimal-Fertilizers) - FertiliZen is a personal project built on top of a model developed for the Kaggle Fertilizer Prediction Challenge   Note: FertiliZen provides fertilizer suggestions based on a predictive model trained on a synthetic dataset. Always consult local agricultural experts for critical decisions.
 ### 🔨 My recent Pull Requests
 
 - [Monitoring](https://github.com/HimanM/DevOps-Project-1/pull/3) on [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1)
