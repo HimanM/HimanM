@@ -60,11 +60,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 - [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3) - This project demonstrates a production-grade GitOps workflow for deploying a full-stack application on Kubernetes. It leverages Jenkins for Continuous Integration (CI) and ArgoCD for Continuous Deployment (CD), ensuring that the state of the cluster always matches the configuration in the Git repository.
-- [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
 - [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
+- [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
 - [HimanM/document-agent](https://github.com/HimanM/document-agent) - An agent-powered assistant that crafts professional plain-text application emails and tailored cover
-- [HimanM/5-Day-AI-Agents-Intensive-Course-with-Google](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google) - 
 ### 🌱 My latest projects
 
 - [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3) - This project demonstrates a production-grade GitOps workflow for deploying a full-stack application on Kubernetes. It leverages Jenkins for Continuous Integration (CI) and ArgoCD for Continuous Deployment (CD), ensuring that the state of the cluster always matches the configuration in the Git repository.
