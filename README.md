@@ -60,25 +60,25 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
+- [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
 - [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3) - This project demonstrates a production-grade GitOps workflow for deploying a full-stack application on Kubernetes. It leverages Jenkins for Continuous Integration (CI) and ArgoCD for Continuous Deployment (CD), ensuring that the state of the cluster always matches the configuration in the Git repository.
-- [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
+- [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 - [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
-- [HimanM/document-agent](https://github.com/HimanM/document-agent) - An agent-powered assistant that crafts professional plain-text application emails and tailored cover
+- [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
 ### 🌱 My latest projects
 
+- [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
 - [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3) - This project demonstrates a production-grade GitOps workflow for deploying a full-stack application on Kubernetes. It leverages Jenkins for Continuous Integration (CI) and ArgoCD for Continuous Deployment (CD), ensuring that the state of the cluster always matches the configuration in the Git repository.
 - [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
 - [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
 - [HimanM/document-agent](https://github.com/HimanM/document-agent) - An agent-powered assistant that crafts professional plain-text application emails and tailored cover
-- [HimanM/5-Day-AI-Agents-Intensive-Course-with-Google](https://github.com/HimanM/5-Day-AI-Agents-Intensive-Course-with-Google) - 
 ### 🔨 My recent Pull Requests
 
+- [Test](https://github.com/HimanM/DevOps-Project-4/pull/1) on [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4)
 - [UI](https://github.com/HimanM/DevOps-Project-3/pull/2) on [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3)
 - [feat: Introduce full CI/CD and GitOps setup with new Jenkins deploy p…](https://github.com/HimanM/DevOps-Project-3/pull/1) on [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3)
 - [UI and documentation](https://github.com/HimanM/DevOps-Project-2/pull/1) on [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2)
 - [feat: Add Ansible playbook for server setup and Terraform for remote …](https://github.com/HimanM/DevOps-Project-1/pull/4) on [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1)
-- [Monitoring](https://github.com/HimanM/DevOps-Project-1/pull/3) on [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1)
 ### ⭐ Recent Stars
 
 - [markterence/discord-quest-completer](https://github.com/markterence/discord-quest-completer) - A Windows desktop application to complete quests on Discord without installing the full actual games. 
