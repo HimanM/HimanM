@@ -61,24 +61,24 @@
 ### 👷 Check out what I'm currently working on
 
 - [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
+- [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream) - An event-driven microservices architecture simulating a &#34;Soul Selling&#34; process. Built with Python (FastAPI/AIOKafka), Next.js, and Apache Kafka to demonstrate robust, asynchronous communication and distributed system patterns.
 - [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
-- [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3) - This project demonstrates a production-grade GitOps workflow for deploying a full-stack application on Kubernetes. It leverages Jenkins for Continuous Integration (CI) and ArgoCD for Continuous Deployment (CD), ensuring that the state of the cluster always matches the configuration in the Git repository.
 - [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
-- [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
+- [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3) - This project demonstrates a production-grade GitOps workflow for deploying a full-stack application on Kubernetes. It leverages Jenkins for Continuous Integration (CI) and ArgoCD for Continuous Deployment (CD), ensuring that the state of the cluster always matches the configuration in the Git repository.
 ### 🌱 My latest projects
 
+- [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream) - An event-driven microservices architecture simulating a &#34;Soul Selling&#34; process. Built with Python (FastAPI/AIOKafka), Next.js, and Apache Kafka to demonstrate robust, asynchronous communication and distributed system patterns.
 - [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
 - [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
 - [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3) - This project demonstrates a production-grade GitOps workflow for deploying a full-stack application on Kubernetes. It leverages Jenkins for Continuous Integration (CI) and ArgoCD for Continuous Deployment (CD), ensuring that the state of the cluster always matches the configuration in the Git repository.
 - [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
-- [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
 ### 🔨 My recent Pull Requests
 
+- [Revelation service](https://github.com/HimanM/Kafka-Soul-Stream/pull/1) on [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream)
 - [Test](https://github.com/HimanM/DevOps-Project-5/pull/1) on [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5)
 - [Test](https://github.com/HimanM/DevOps-Project-4/pull/1) on [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4)
 - [UI](https://github.com/HimanM/DevOps-Project-3/pull/2) on [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3)
 - [feat: Introduce full CI/CD and GitOps setup with new Jenkins deploy p…](https://github.com/HimanM/DevOps-Project-3/pull/1) on [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3)
-- [UI and documentation](https://github.com/HimanM/DevOps-Project-2/pull/1) on [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2)
 ### ⭐ Recent Stars
 
 - [Dhruv-Vegad/terraform-iac-testing-pipeline](https://github.com/Dhruv-Vegad/terraform-iac-testing-pipeline) - 
