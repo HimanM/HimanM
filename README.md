@@ -60,18 +60,18 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
+- [HimanM/DevOps-Project-6](https://github.com/HimanM/DevOps-Project-6) - A comprehensive demonstration of modern DevOps practices, featuring Kubernetes orchestration, Service Mesh traffic management, and GitOps automation.
 - [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream) - An event-driven microservices architecture simulating a &#34;Soul Selling&#34; process. Built with Python (FastAPI/AIOKafka), Next.js, and Apache Kafka to demonstrate robust, asynchronous communication and distributed system patterns.
+- [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
 - [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
-- [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 - [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3) - This project demonstrates a production-grade GitOps workflow for deploying a full-stack application on Kubernetes. It leverages Jenkins for Continuous Integration (CI) and ArgoCD for Continuous Deployment (CD), ensuring that the state of the cluster always matches the configuration in the Git repository.
 ### 🌱 My latest projects
 
+- [HimanM/DevOps-Project-6](https://github.com/HimanM/DevOps-Project-6) - A comprehensive demonstration of modern DevOps practices, featuring Kubernetes orchestration, Service Mesh traffic management, and GitOps automation.
 - [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream) - An event-driven microservices architecture simulating a &#34;Soul Selling&#34; process. Built with Python (FastAPI/AIOKafka), Next.js, and Apache Kafka to demonstrate robust, asynchronous communication and distributed system patterns.
 - [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
 - [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
 - [HimanM/DevOps-Project-3](https://github.com/HimanM/DevOps-Project-3) - This project demonstrates a production-grade GitOps workflow for deploying a full-stack application on Kubernetes. It leverages Jenkins for Continuous Integration (CI) and ArgoCD for Continuous Deployment (CD), ensuring that the state of the cluster always matches the configuration in the Git repository.
-- [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
 ### 🔨 My recent Pull Requests
 
 - [Revelation service](https://github.com/HimanM/Kafka-Soul-Stream/pull/1) on [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream)
