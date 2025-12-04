@@ -22,6 +22,14 @@ jobs:
           template: 'README.gtpl'
           writeTo: 'README.md'
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch Credly Badges
+        run: node scripts/fetch-badges.js
+
       - name: Commit README
         uses: stefanzweifel/git-auto-commit-action@v5
         env:
