@@ -27,7 +27,6 @@
 ### 🏅 Certifications
 
 <p align="left">
-  <!-- CREDLY_BADGES_START -->
   <a href="https://www.credly.com/badges/6e6054cc-b781-4a79-883c-d75e9421174d" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="https://images.credly.com/images/6723c6fb-7220-4861-81e0-defe48981ba1/IBM_20Z_20Day_202025_20AI_20and_20Data.png" alt="IBM Z Day 2025 - AI & Data" height="110" />
   </a>
@@ -58,7 +57,6 @@
   <a href="https://www.credly.com/badges/ac758be7-ff54-4727-bfcc-95b69f432780" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="https://images.credly.com/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Introduction to Cybersecurity" height="110" />
   </a>
-<!-- CREDLY_BADGES_END -->
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/Himanman/646B140D45887B94?sharingId=157C81941C0409CE" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/certs/github-foundations.png" height="110" />
   </a>

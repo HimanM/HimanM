@@ -27,8 +27,7 @@
 ### 🏅 Certifications
 
 <p align="left">
-  <!-- CREDLY_BADGES_START -->
-  <!-- CREDLY_BADGES_END -->
+  __CREDLY_BADGES__
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/Himanman/646B140D45887B94?sharingId=157C81941C0409CE" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/certs/github-foundations.png" height="110" />
   </a>

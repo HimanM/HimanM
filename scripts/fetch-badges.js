@@ -45,20 +45,14 @@ async function main() {
         console.log('Reading README.md...');
         let readme = fs.readFileSync(README_PATH, 'utf8');
 
-        const startMarker = '<!-- CREDLY_BADGES_START -->';
-        const endMarker = '<!-- CREDLY_BADGES_END -->';
+        const placeholder = '__CREDLY_BADGES__';
 
-        const startIndex = readme.indexOf(startMarker);
-        const endIndex = readme.indexOf(endMarker);
-
-        if (startIndex === -1 || endIndex === -1) {
-            console.error('Markers not found in README.md');
+        if (!readme.includes(placeholder)) {
+            console.error('Placeholder not found in README.md');
             process.exit(1);
         }
 
-        const newReadme = readme.substring(0, startIndex + startMarker.length) +
-            '\n  ' + badgeHtml + '\n' +
-            readme.substring(endIndex);
+        const newReadme = readme.replace(placeholder, badgeHtml);
 
         console.log('Updating README.md...');
         fs.writeFileSync(README_PATH, newReadme);
