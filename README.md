@@ -27,36 +27,42 @@
 ### 🏅 Certifications
 
 <p align="left">
-  <a href="https://www.credly.com/badges/bab05f1a-f1b2-459f-b895-f9c405b38b83" target="_blank" rel="noreferrer">
-  <img src="assets/certs/aws-cloud-quest-cloud-practitioner-training-badge.png" alt="Certification Name" height="120" />
+  <!-- CREDLY_BADGES_START -->
+  <a href="https://www.credly.com/badges/6e6054cc-b781-4a79-883c-d75e9421174d" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/6723c6fb-7220-4861-81e0-defe48981ba1/IBM_20Z_20Day_202025_20AI_20and_20Data.png" alt="IBM Z Day 2025 - AI & Data" height="110" />
   </a>
-  <a href="https://www.credly.com/badges/ac0c6698-6d8e-4793-bad2-08bdc25e9dbf" target="_blank" rel="noreferrer">
-    <img src="assets/certs/aws-educate-introduction-to-cloud-101-training-badg.png" height="120" />
+  <a href="https://www.credly.com/badges/9829ab9b-eaac-4415-a7c0-282b50858a3c" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/9353b9fb-3e78-451f-99b4-4dd70cc01dac/IBM_20Z_20Day_202025_20IBM_20Z_20Skills.png" alt="IBM Z Day 2025 - IBM Z Skills" height="110" />
   </a>
-  <a href="https://www.credly.com/badges/68041bb9-5c02-478d-9f2d-f7c59a1cf6ea" target="_blank" rel="noreferrer">
-    <img src="assets/certs/lfs101-introduction-to-linux.png" height="120" />
+  <a href="https://www.credly.com/badges/aeae6a00-8c8c-4cb2-a25c-b01d07bf4a25" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/9d1057a7-dd5d-4c0c-b179-0949f268e62f/IBM_20Z_20Day_202025_20Modernization.png" alt="IBM Z Day 2025 - Modernization" height="110" />
   </a>
-  <a href="https://www.credly.com/badges/45d7b42f-e034-4f53-bde3-5755ff613c56" target="_blank" rel="noreferrer">
-    <img src="assets/certs/cybersecurity-essentials.png" height="120" />
+  <a href="https://www.credly.com/badges/fbf17016-1272-4f7c-91fb-67f24fe895ce" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/b5ce7c00-5f78-4fcb-b819-3ff8137500f8/IBM_20Z_20Day_202025_20Security.png" alt="IBM Z Day 2025 - Security" height="110" />
   </a>
-  <a href="https://www.credly.com/badges/ac758be7-ff54-4727-bfcc-95b69f432780" target="_blank" rel="noreferrer">
-    <img src="assets/certs/introduction-to-cybersecurity.png" height="120" />
+  <a href="https://www.credly.com/badges/bab05f1a-f1b2-459f-b895-f9c405b38b83" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob" alt="AWS Cloud Quest: Cloud Practitioner - Training Badge" height="110" />
   </a>
-  <a href="https://www.credly.com/badges/d98038fb-5bd6-41d0-b7ac-391c3f10d0af" target="_blank" rel="noreferrer">
-    <img src="assets/certs/introduction-to-iot.png" height="120" />
+  <a href="https://www.credly.com/badges/ac0c6698-6d8e-4793-bad2-08bdc25e9dbf" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/e51a8579-188d-4363-8ed1-12ad164ef57b/blob" alt="AWS Educate Introduction to Cloud 101 - Training Badge" height="110" />
   </a>
-  <a href="https://learn.microsoft.com/api/credentials/share/en-us/Himanman/646B140D45887B94?sharingId=157C81941C0409CE" target="_blank" rel="noreferrer">
-    <img src="assets/certs/github-foundations.png" height="120" />
+  <a href="https://www.credly.com/badges/68041bb9-5c02-478d-9f2d-f7c59a1cf6ea" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/97a95d07-04c3-4afb-952a-6bcf46ddb87e/blob" alt="LFS101: Introduction to Linux" height="110" />
   </a>
-
-
-
-  
-  
+  <a href="https://www.credly.com/badges/d98038fb-5bd6-41d0-b7ac-391c3f10d0af" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/fce226c2-0f13-4e17-b60c-24fa6ffd88cb/Intro2IoT.png" alt="Introduction to IoT" height="110" />
+  </a>
+  <a href="https://www.credly.com/badges/45d7b42f-e034-4f53-bde3-5755ff613c56" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/054913b2-e271-49a2-a1a4-9bf1c1f9a404/CyberEssentials.png" alt="Cybersecurity Essentials" height="110" />
+  </a>
+  <a href="https://www.credly.com/badges/ac758be7-ff54-4727-bfcc-95b69f432780" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="https://images.credly.com/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Introduction to Cybersecurity" height="110" />
+  </a>
+<!-- CREDLY_BADGES_END -->
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/Himanman/646B140D45887B94?sharingId=157C81941C0409CE" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/certs/github-foundations.png" height="110" />
+  </a>
 </p>
-
-
-
 
 ### 👷 Check out what I'm currently working on
 
