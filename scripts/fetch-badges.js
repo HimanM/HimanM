@@ -72,16 +72,11 @@ async function main() {
             console.log(`Downloading image for ${title}...`);
             try {
                 await downloadImage(imageUrl, localImagePath);
-
-                // Use local path in HTML (relative to README.md)
-                // 110px height to match the requested size
                 badgeHtmlParts.push(`<a href="${badgeUrl}" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="${localImagePath}" alt="${title}" height="110" />
   </a>`);
             } catch (err) {
                 console.error(`Failed to download image for ${title}:`, err);
-                // Fallback to remote URL if download fails? Or just skip?
-                // Let's fallback to remote URL but log error
                 badgeHtmlParts.push(`<a href="${badgeUrl}" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="${imageUrl}" alt="${title}" height="110" />
   </a>`);
