@@ -64,25 +64,25 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
 - [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7) - A comprehensive DevOps platform demonstrating modern GitOps practices with a focus on environment isolation and scalability. Features two distinct, highly available EKS clusters for Staging and Production, fully automated via Terraform. The system employs a strict GitOps workflow managed by ArgoCD and includes HPA for dynamic resource management. 
 - [HimanM/DevOps-Project-6](https://github.com/HimanM/DevOps-Project-6) - A comprehensive demonstration of modern DevOps practices, featuring Kubernetes orchestration, Service Mesh traffic management, and GitOps automation.
 - [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream) - An event-driven microservices architecture simulating a &#34;Soul Selling&#34; process. Built with Python (FastAPI/AIOKafka), Next.js, and Apache Kafka to demonstrate robust, asynchronous communication and distributed system patterns.
 - [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
-- [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
 ### 🌱 My latest projects
 
+- [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
 - [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7) - A comprehensive DevOps platform demonstrating modern GitOps practices with a focus on environment isolation and scalability. Features two distinct, highly available EKS clusters for Staging and Production, fully automated via Terraform. The system employs a strict GitOps workflow managed by ArgoCD and includes HPA for dynamic resource management. 
 - [HimanM/DevOps-Project-6](https://github.com/HimanM/DevOps-Project-6) - A comprehensive demonstration of modern DevOps practices, featuring Kubernetes orchestration, Service Mesh traffic management, and GitOps automation.
 - [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream) - An event-driven microservices architecture simulating a &#34;Soul Selling&#34; process. Built with Python (FastAPI/AIOKafka), Next.js, and Apache Kafka to demonstrate robust, asynchronous communication and distributed system patterns.
 - [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
-- [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
 ### 🔨 My recent Pull Requests
 
+- [feat: add initial home page with `HomeClient` and `BACKEND_API_URL` c…](https://github.com/HimanM/DevOps-Project-8/pull/3) on [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8)
+- [feat: Add Next.js frontend application with UI components, API integr…](https://github.com/HimanM/DevOps-Project-8/pull/2) on [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8)
+- [feat: Add initial Next.js frontend application including main page, c…](https://github.com/HimanM/DevOps-Project-8/pull/1) on [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8)
 - [UI updates](https://github.com/HimanM/DevOps-Project-7/pull/2) on [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7)
 - [UI implementation](https://github.com/HimanM/DevOps-Project-7/pull/1) on [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7)
-- [Revelation service](https://github.com/HimanM/Kafka-Soul-Stream/pull/1) on [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream)
-- [Test](https://github.com/HimanM/DevOps-Project-5/pull/1) on [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5)
-- [Test](https://github.com/HimanM/DevOps-Project-4/pull/1) on [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4)
 ### ⭐ Recent Stars
 
 - [Dhruv-Vegad/terraform-iac-testing-pipeline](https://github.com/Dhruv-Vegad/terraform-iac-testing-pipeline) - 
