@@ -64,11 +64,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
+- [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
 - [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
 - [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7) - A comprehensive DevOps platform demonstrating modern GitOps practices with a focus on environment isolation and scalability. Features two distinct, highly available EKS clusters for Staging and Production, fully automated via Terraform. The system employs a strict GitOps workflow managed by ArgoCD and includes HPA for dynamic resource management. 
-- [HimanM/DevOps-Project-6](https://github.com/HimanM/DevOps-Project-6) - A comprehensive demonstration of modern DevOps practices, featuring Kubernetes orchestration, Service Mesh traffic management, and GitOps automation.
-- [HimanM/Kafka-Soul-Stream](https://github.com/HimanM/Kafka-Soul-Stream) - An event-driven microservices architecture simulating a &#34;Soul Selling&#34; process. Built with Python (FastAPI/AIOKafka), Next.js, and Apache Kafka to demonstrate robust, asynchronous communication and distributed system patterns.
-- [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
+- [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
 ### 🌱 My latest projects
 
 - [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
