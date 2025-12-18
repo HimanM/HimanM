@@ -27,6 +27,9 @@
 ### 🏅 Certifications
 
 <p align="left">
+  <a href="https://www.credly.com/badges/954b9418-2fbf-4632-b78b-f9669b6a1e85" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/954b9418-2fbf-4632-b78b-f9669b6a1e85.png" alt="Optimizing and Maintaining MongoDB Cluster Reliability" height="110" />
+  </a>
   <a href="https://www.credly.com/badges/6e6054cc-b781-4a79-883c-d75e9421174d" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/6e6054cc-b781-4a79-883c-d75e9421174d.png" alt="IBM Z Day 2025 - AI & Data" height="110" />
   </a>
@@ -65,7 +68,7 @@
 ### 👷 Check out what I'm currently working on
 
 - [HimanM/DevOps-Project-9](https://github.com/HimanM/DevOps-Project-9) - This project implements a secure, scalable, and cost-efficient full-stack architecture on AWS using Infrastructure as Code (Terraform).
-- [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
+- [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
 - [HimanM/DevOps-Project-1](https://github.com/HimanM/DevOps-Project-1) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
 - [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7) - A comprehensive DevOps platform demonstrating modern GitOps practices with a focus on environment isolation and scalability. Features two distinct, highly available EKS clusters for Staging and Production, fully automated via Terraform. The system employs a strict GitOps workflow managed by ArgoCD and includes HPA for dynamic resource management. 
 - [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
