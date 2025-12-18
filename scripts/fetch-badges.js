@@ -60,6 +60,15 @@ async function main() {
         const badges = await fetchBadges();
         console.log(`Found ${badges.length} badges.`);
 
+        // Sort badges alphabetically by issuing company name
+        badges.sort((a, b) => {
+            const issuerA = a.badge_template?.issuer?.entities?.[0]?.entity?.name || '';
+            const issuerB = b.badge_template?.issuer?.entities?.[0]?.entity?.name || '';
+            return issuerA.localeCompare(issuerB);
+        });
+
+        console.log('Badges sorted by issuing company (alphabetical order).');
+
         const badgeHtmlParts = [];
 
         for (const badge of badges) {
@@ -73,12 +82,12 @@ async function main() {
             try {
                 await downloadImage(imageUrl, localImagePath);
                 badgeHtmlParts.push(`<a href="${badgeUrl}" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="${localImagePath}" alt="${title}" height="110" />
+    <img src="${localImagePath}" alt="${title}" height="80" />
   </a>`);
             } catch (err) {
                 console.error(`Failed to download image for ${title}:`, err);
                 badgeHtmlParts.push(`<a href="${badgeUrl}" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="${imageUrl}" alt="${title}" height="110" />
+    <img src="${imageUrl}" alt="${title}" height="80" />
   </a>`);
             }
         }
