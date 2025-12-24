@@ -27,6 +27,9 @@
 ### 🏅 Certifications
 
 <p align="left">
+  <a href="https://www.credly.com/badges/2b155f45-187f-4a47-8038-92fca2dc541b" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/2b155f45-187f-4a47-8038-92fca2dc541b.png" alt="AWS Knowledge: Amazon EKS - Training Badge" height="80" />
+  </a>
   <a href="https://www.credly.com/badges/bab05f1a-f1b2-459f-b895-f9c405b38b83" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/bab05f1a-f1b2-459f-b895-f9c405b38b83.png" alt="AWS Cloud Quest: Cloud Practitioner - Training Badge" height="80" />
   </a>
