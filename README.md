@@ -97,7 +97,7 @@
 - [UI implementation](https://github.com/HimanM/DevOps-Project-7/pull/1) on [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7)
 ### ⭐ Recent Stars
 
-- [sst/opencode](https://github.com/sst/opencode) - The open source coding agent.
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) - The open source coding agent.
 - [lowlighter/metrics](https://github.com/lowlighter/metrics) - 📊 An infographics generator with 30&#43; plugins and 300&#43; options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!
 - [Dhruv-Vegad/terraform-iac-testing-pipeline](https://github.com/Dhruv-Vegad/terraform-iac-testing-pipeline) - 
 - [rawrnuck/thegitroastshow](https://github.com/rawrnuck/thegitroastshow) - 
