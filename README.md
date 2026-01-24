@@ -78,9 +78,9 @@
 
 - [HimanM/DevOps-Project-11](https://github.com/HimanM/DevOps-Project-11) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 - [HimanM/DevOps-Project-9](https://github.com/HimanM/DevOps-Project-9) - This project implements a secure, scalable, and cost-efficient full-stack architecture on AWS using Infrastructure as Code (Terraform).
+- [HimanM/DevOps-Project-4](https://github.com/HimanM/DevOps-Project-4) - The primary goal of this project is to demystify the process of deploying a Dockerized application to the cloud. It breaks down complex AWS tasks into manageable steps, providing visual aids and direct links to necessary resources.
 - [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
 - [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
-- [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
 ### 🌱 My latest projects
 
 - [HimanM/DevOps-Project-11](https://github.com/HimanM/DevOps-Project-11) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
