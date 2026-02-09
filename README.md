@@ -80,7 +80,7 @@
 - [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 - [HimanM/DevOps-Project-11](https://github.com/HimanM/DevOps-Project-11) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 - [HimanM/DevOps-Project-9](https://github.com/HimanM/DevOps-Project-9) - This project implements a secure, scalable, and cost-efficient full-stack architecture on AWS using Infrastructure as Code (Terraform).
-- [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
+- [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
 ### 🌱 My latest projects
 
 - [HimanM/CCA-Project-2--aws-deployment-with-cloudwatch-logs-](https://github.com/HimanM/CCA-Project-2--aws-deployment-with-cloudwatch-logs-) - A Scalable, Highly Available Web Application on AWS and AWS Amplify
