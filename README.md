@@ -97,8 +97,8 @@
 - [UI implementation](https://github.com/HimanM/DevOps-Project-7/pull/1) on [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7)
 ### ⭐ Recent Stars
 
+- [InioX/matugen](https://github.com/InioX/matugen) - A material you color generation tool
+- [end-4/dots-hyprland](https://github.com/end-4/dots-hyprland) - Usability-first dotfiles that does not use 100 bash scripts
+- [3d3f/ii-sddm-theme](https://github.com/3d3f/ii-sddm-theme) - SDDM theme that looks like ii lockscreen
 - [caelestia-dots/shell](https://github.com/caelestia-dots/shell) - ‼️ No waybar here ‼️
 - [basecamp/omarchy](https://github.com/basecamp/omarchy) - Beautiful, Modern &amp; Opinionated Linux
-- [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) - Neovim config for the lazy
-- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
-- [joubertredrat/awesome-devops](https://github.com/joubertredrat/awesome-devops) - This is my awesome list with all open source and free applications that you can use in your management
