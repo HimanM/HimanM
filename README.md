@@ -97,8 +97,8 @@
 - [UI implementation](https://github.com/HimanM/DevOps-Project-7/pull/1) on [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7)
 ### ⭐ Recent Stars
 
+- [openclaw/openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
+- [torvalds/linux](https://github.com/torvalds/linux) - Linux kernel source tree
 - [InioX/matugen](https://github.com/InioX/matugen) - A material you color generation tool
 - [end-4/dots-hyprland](https://github.com/end-4/dots-hyprland) - Usability-first dotfiles
 - [3d3f/ii-sddm-theme](https://github.com/3d3f/ii-sddm-theme) - SDDM theme that looks like ii lockscreen
-- [caelestia-dots/shell](https://github.com/caelestia-dots/shell) - ‼️ No waybar here ‼️
-- [basecamp/omarchy](https://github.com/basecamp/omarchy) - Beautiful, Modern &amp; Opinionated Linux
