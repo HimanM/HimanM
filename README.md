@@ -80,7 +80,7 @@
 - [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 - [HimanM/DevOps-Project-11](https://github.com/HimanM/DevOps-Project-11) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 - [HimanM/DevOps-Project-9](https://github.com/HimanM/DevOps-Project-9) - This project implements a secure, scalable, and cost-efficient full-stack architecture on AWS using Infrastructure as Code (Terraform).
-- [HimanM/DevOps-Project-5](https://github.com/HimanM/DevOps-Project-5) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
+- [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
 ### 🌱 My latest projects
 
 - [HimanM/CCA-Project-2--aws-deployment-with-cloudwatch-logs-](https://github.com/HimanM/CCA-Project-2--aws-deployment-with-cloudwatch-logs-) - A Scalable, Highly Available Web Application on AWS and AWS Amplify
@@ -97,8 +97,8 @@
 - [UI implementation](https://github.com/HimanM/DevOps-Project-7/pull/1) on [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7)
 ### ⭐ Recent Stars
 
+- [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) - Open-source Agent Operating System
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 - [torvalds/linux](https://github.com/torvalds/linux) - Linux kernel source tree
 - [InioX/matugen](https://github.com/InioX/matugen) - A material you color generation tool
 - [end-4/dots-hyprland](https://github.com/end-4/dots-hyprland) - Usability-first dotfiles
-- [3d3f/ii-sddm-theme](https://github.com/3d3f/ii-sddm-theme) - SDDM theme that looks like ii lockscreen
