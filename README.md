@@ -80,7 +80,7 @@
 - [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 - [HimanM/DevOps-Project-11](https://github.com/HimanM/DevOps-Project-11) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 - [HimanM/DevOps-Project-9](https://github.com/HimanM/DevOps-Project-9) - This project implements a secure, scalable, and cost-efficient full-stack architecture on AWS using Infrastructure as Code (Terraform).
-- [HimanM/DevOps-Project-8](https://github.com/HimanM/DevOps-Project-8) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
+- [HimanM/DevOps-Project-2](https://github.com/HimanM/DevOps-Project-2) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
 ### 🌱 My latest projects
 
 - [HimanM/CCA-Project-2--aws-deployment-with-cloudwatch-logs-](https://github.com/HimanM/CCA-Project-2--aws-deployment-with-cloudwatch-logs-) - A Scalable, Highly Available Web Application on AWS and AWS Amplify
@@ -97,8 +97,8 @@
 - [UI implementation](https://github.com/HimanM/DevOps-Project-7/pull/1) on [HimanM/DevOps-Project-7](https://github.com/HimanM/DevOps-Project-7)
 ### ⭐ Recent Stars
 
+- [robertpsoane/ducker](https://github.com/robertpsoane/ducker) - A slightly quackers Docker TUI based on k9s 🦆
+- [eviltik/docker-tui](https://github.com/eviltik/docker-tui) - A Text User Interface (TUI) for managing Docker containers and view realtime logs, embed a MCP Server for Claude Code
 - [pinchtab/pinchtab](https://github.com/pinchtab/pinchtab) - High-performance browser automation bridge and multi-instance orchestrator with advanced stealth injection and real-time dashboard.
 - [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) - Open-source Agent Operating System
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
-- [torvalds/linux](https://github.com/torvalds/linux) - Linux kernel source tree
-- [InioX/matugen](https://github.com/InioX/matugen) - A material you color generation tool
