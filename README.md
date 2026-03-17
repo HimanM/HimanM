@@ -90,11 +90,11 @@
 - [HimanM/DevOps-Project-11](https://github.com/HimanM/DevOps-Project-11) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 ### 🔨 My recent Pull Requests
 
+- [Feat/improve UI](https://github.com/HimanM/Twitch-Predictions-Bot/pull/7) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 - [Feat/UI improvements](https://github.com/HimanM/Twitch-Predictions-Bot/pull/6) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 - [Fix/fix race conditions](https://github.com/HimanM/Twitch-Predictions-Bot/pull/5) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 - [Feat/modularize](https://github.com/HimanM/Twitch-Predictions-Bot/pull/4) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 - [Update installation links in README and user script to use &#39;master&#39; b…](https://github.com/HimanM/Twitch-Predictions-Bot/pull/3) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
-- [Feat/one click deploy](https://github.com/HimanM/Twitch-Predictions-Bot/pull/2) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 ### ⭐ Recent Stars
 
 - [localstack/localstack](https://github.com/localstack/localstack) - 💻 A fully functional local AWS cloud stack. Develop and test your cloud &amp; Serverless apps offline
