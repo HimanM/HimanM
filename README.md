@@ -45,6 +45,9 @@
   <a href="https://www.credly.com/badges/ac758be7-ff54-4727-bfcc-95b69f432780" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/ac758be7-ff54-4727-bfcc-95b69f432780.png" alt="Introduction to Cybersecurity" height="80" />
   </a>
+  <a href="https://www.credly.com/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9.png" alt="Cloud Technical Series: AI in Action Badge" height="80" />
+  </a>
   <a href="https://www.credly.com/badges/6e6054cc-b781-4a79-883c-d75e9421174d" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/6e6054cc-b781-4a79-883c-d75e9421174d.png" alt="IBM Z Day 2025 - AI & Data" height="80" />
   </a>
