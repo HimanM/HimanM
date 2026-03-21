@@ -79,18 +79,18 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/SAP01---URL-Shortner](https://github.com/HimanM/SAP01---URL-Shortner) - SYSTEM-ARCHITECTURE-PROJECT-01 - Modular, containerized URL shortener demonstrating a decoupled system architecture (React frontend, Flask APIs, Redis cache, PostgreSQL primary/replica, Kafka streaming, and Docker Compose orchestration).
 - [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot) - Twitch Predictions Tampermonkey bot with underdog auto-bet strategy, live top-nav control panel, discovery probe detection, manual bet controls, and T-5s execution safety caps.
 - [HimanM/Weather-Web-App-FullStack](https://github.com/HimanM/Weather-Web-App-FullStack) - Full-stack weather analytics dashboard with comfort index scoring - built with Next.js 16, Express 5, Redis, Auth0, and Docker. Fetches real-time data from OpenWeatherMap, ranks cities by a weighted geometric mean comfort algorithm, and presents insights through a responsive dark/light themed UI.
 - [HimanM/LMS](https://github.com/HimanM/LMS) - 
 - [HimanM/Serverless-Fullstack-Deployment](https://github.com/HimanM/Serverless-Fullstack-Deployment) - A Scalable, Highly Available Web Application on AWS and AWS Amplify
-- [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 ### 🌱 My latest projects
 
+- [HimanM/SAP01---URL-Shortner](https://github.com/HimanM/SAP01---URL-Shortner) - SYSTEM-ARCHITECTURE-PROJECT-01 - Modular, containerized URL shortener demonstrating a decoupled system architecture (React frontend, Flask APIs, Redis cache, PostgreSQL primary/replica, Kafka streaming, and Docker Compose orchestration).
 - [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot) - Twitch Predictions Tampermonkey bot with underdog auto-bet strategy, live top-nav control panel, discovery probe detection, manual bet controls, and T-5s execution safety caps.
 - [HimanM/Weather-Web-App-FullStack](https://github.com/HimanM/Weather-Web-App-FullStack) - Full-stack weather analytics dashboard with comfort index scoring - built with Next.js 16, Express 5, Redis, Auth0, and Docker. Fetches real-time data from OpenWeatherMap, ranks cities by a weighted geometric mean comfort algorithm, and presents insights through a responsive dark/light themed UI.
 - [HimanM/LMS](https://github.com/HimanM/LMS) - 
 - [HimanM/Serverless-Fullstack-Deployment](https://github.com/HimanM/Serverless-Fullstack-Deployment) - A Scalable, Highly Available Web Application on AWS and AWS Amplify
-- [HimanM/DevOps-Project-11](https://github.com/HimanM/DevOps-Project-11) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 ### 🔨 My recent Pull Requests
 
 - [Feat/improve UI](https://github.com/HimanM/Twitch-Predictions-Bot/pull/7) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
