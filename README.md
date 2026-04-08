@@ -100,8 +100,8 @@
 - [Feat/modularize](https://github.com/HimanM/Twitch-Predictions-Bot/pull/4) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 ### ⭐ Recent Stars
 
+- [M3rcena/Udeler_GUI](https://github.com/M3rcena/Udeler_GUI) - A desktop application for downloading Udemy Courses
 - [stowmyy/dropship](https://github.com/stowmyy/dropship) - a portable server selector for Overwatch 2
 - [nongpolymath/prom-grafana-stack](https://github.com/nongpolymath/prom-grafana-stack) - Prometheus &#43; Grafana Monitoring stack for local observability with metrics collection, dashboards, alerting and app instrumentation
 - [localstack/localstack](https://github.com/localstack/localstack) - 💻 A fully functional local AWS cloud stack. Develop and test your cloud &amp; Serverless apps offline
 - [robertpsoane/ducker](https://github.com/robertpsoane/ducker) - A slightly quackers Docker TUI based on k9s 🦆
-- [eviltik/docker-tui](https://github.com/eviltik/docker-tui) - A Text User Interface (TUI) for managing Docker containers and view realtime logs, embed a MCP Server for Claude Code
