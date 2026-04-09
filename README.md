@@ -79,18 +79,18 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 - [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot) - Twitch Predictions Tampermonkey bot with underdog auto-bet strategy, live top-nav control panel, discovery probe detection, manual bet controls, and T-5s execution safety caps.
 - [HimanM/SAP02---Rate-Limiter](https://github.com/HimanM/SAP02---Rate-Limiter) - SYSTEM-ARCHITECTURE-PROJECT-02 RateGuard : A horizontally scalable API Gateway demonstrating distributed systems concepts. Implements Token Bucket rate limiting via Atomic Redis Lua scripts, fail-open resiliency, and NGINX Docker DNS resolution.
 - [HimanM/SAP01---URL-Shortner](https://github.com/HimanM/SAP01---URL-Shortner) - SYSTEM-ARCHITECTURE-PROJECT-01 - Modular, containerized URL shortener demonstrating a decoupled system architecture (React frontend, Flask APIs, Redis cache, PostgreSQL primary/replica, Kafka streaming, and Docker Compose orchestration).
 - [HimanM/Weather-Web-App-FullStack](https://github.com/HimanM/Weather-Web-App-FullStack) - Full-stack weather analytics dashboard with comfort index scoring - built with Next.js 16, Express 5, Redis, Auth0, and Docker. Fetches real-time data from OpenWeatherMap, ranks cities by a weighted geometric mean comfort algorithm, and presents insights through a responsive dark/light themed UI.
-- [HimanM/LMS](https://github.com/HimanM/LMS) - 
 ### 🌱 My latest projects
 
+- [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 - [HimanM/SAP02---Rate-Limiter](https://github.com/HimanM/SAP02---Rate-Limiter) - SYSTEM-ARCHITECTURE-PROJECT-02 RateGuard : A horizontally scalable API Gateway demonstrating distributed systems concepts. Implements Token Bucket rate limiting via Atomic Redis Lua scripts, fail-open resiliency, and NGINX Docker DNS resolution.
 - [HimanM/SAP01---URL-Shortner](https://github.com/HimanM/SAP01---URL-Shortner) - SYSTEM-ARCHITECTURE-PROJECT-01 - Modular, containerized URL shortener demonstrating a decoupled system architecture (React frontend, Flask APIs, Redis cache, PostgreSQL primary/replica, Kafka streaming, and Docker Compose orchestration).
 - [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot) - Twitch Predictions Tampermonkey bot with underdog auto-bet strategy, live top-nav control panel, discovery probe detection, manual bet controls, and T-5s execution safety caps.
 - [HimanM/Weather-Web-App-FullStack](https://github.com/HimanM/Weather-Web-App-FullStack) - Full-stack weather analytics dashboard with comfort index scoring - built with Next.js 16, Express 5, Redis, Auth0, and Docker. Fetches real-time data from OpenWeatherMap, ranks cities by a weighted geometric mean comfort algorithm, and presents insights through a responsive dark/light themed UI.
-- [HimanM/LMS](https://github.com/HimanM/LMS) - 
 ### 🔨 My recent Pull Requests
 
 - [Feat/early bet timer &#43; 0 point bet bug fix](https://github.com/HimanM/Twitch-Predictions-Bot/pull/8) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
@@ -100,8 +100,8 @@
 - [Feat/modularize](https://github.com/HimanM/Twitch-Predictions-Bot/pull/4) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 ### ⭐ Recent Stars
 
+- [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) - Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. 
 - [M3rcena/Udeler_GUI](https://github.com/M3rcena/Udeler_GUI) - A desktop application for downloading Udemy Courses
 - [stowmyy/dropship](https://github.com/stowmyy/dropship) - a portable server selector for Overwatch 2
 - [nongpolymath/prom-grafana-stack](https://github.com/nongpolymath/prom-grafana-stack) - Prometheus &#43; Grafana Monitoring stack for local observability with metrics collection, dashboards, alerting and app instrumentation
 - [localstack/localstack](https://github.com/localstack/localstack) - 💻 A fully functional local AWS cloud stack. Develop and test your cloud &amp; Serverless apps offline
-- [robertpsoane/ducker](https://github.com/robertpsoane/ducker) - A slightly quackers Docker TUI based on k9s 🦆
