@@ -82,11 +82,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
-- [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot) - Twitch Predictions Tampermonkey bot with underdog auto-bet strategy, live top-nav control panel, discovery probe detection, manual bet controls, and T-5s execution safety caps.
-- [HimanM/SAP02---Rate-Limiter](https://github.com/HimanM/SAP02---Rate-Limiter) - SYSTEM-ARCHITECTURE-PROJECT-02 RateGuard : A horizontally scalable API Gateway demonstrating distributed systems concepts. Implements Token Bucket rate limiting via Atomic Redis Lua scripts, fail-open resiliency, and NGINX Docker DNS resolution.
-- [HimanM/SAP01---URL-Shortner](https://github.com/HimanM/SAP01---URL-Shortner) - SYSTEM-ARCHITECTURE-PROJECT-01 - Modular, containerized URL shortener demonstrating a decoupled system architecture (React frontend, Flask APIs, Redis cache, PostgreSQL primary/replica, Kafka streaming, and Docker Compose orchestration).
-- [HimanM/Weather-Web-App-FullStack](https://github.com/HimanM/Weather-Web-App-FullStack) - Full-stack weather analytics dashboard with comfort index scoring - built with Next.js 16, Express 5, Redis, Auth0, and Docker. Fetches real-time data from OpenWeatherMap, ranks cities by a weighted geometric mean comfort algorithm, and presents insights through a responsive dark/light themed UI.
+- [HimanM/jenkins-chained-cicd-infra-automation](https://github.com/HimanM/jenkins-chained-cicd-infra-automation) - This project is a comprehensive DevOps learning resource designed to demonstrate advanced CI/CD concepts, infrastructure automation, and containerization. It showcases a modern web application stack deployed through a robust, chained Jenkins pipeline architecture.
+- [HimanM/aws-secure-two-tier-architecture](https://github.com/HimanM/aws-secure-two-tier-architecture) - A full-stack demonstration of a secure 2-tier architecture on AWS. Frontend in Public Subnet communicating with Backend in Private Subnet.
+- [HimanM/devops-microservices-iac-pipeline](https://github.com/HimanM/devops-microservices-iac-pipeline) - A production-grade demonstration of modern DevOps practices, featuring containerized microservices, Infrastructure as Code (IaC), and automated CI/CD pipelines
+- [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
+- [HimanM/devsecops-aws-pipeline-githubactions](https://github.com/HimanM/devsecops-aws-pipeline-githubactions) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 ### 🌱 My latest projects
 
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
