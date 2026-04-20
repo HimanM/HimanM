@@ -103,8 +103,8 @@
 - [Feat/modularize](https://github.com/HimanM/Twitch-Predictions-Bot/pull/4) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 ### ⭐ Recent Stars
 
-- [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) - Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. 
-- [M3rcena/Udeler_GUI](https://github.com/M3rcena/Udeler_GUI) - A desktop application for downloading Udemy Courses
-- [stowmyy/dropship](https://github.com/stowmyy/dropship) - a portable server selector for Overwatch 2
-- [nongpolymath/prom-grafana-stack](https://github.com/nongpolymath/prom-grafana-stack) - Prometheus &#43; Grafana Monitoring stack for local observability with metrics collection, dashboards, alerting and app instrumentation
-- [localstack/localstack](https://github.com/localstack/localstack) - 💻 A fully functional local AWS cloud stack. Develop and test your cloud &amp; Serverless apps offline
+- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) - 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
+- [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#39;s observations on LLM coding pitfalls.
+- [obra/superpowers](https://github.com/obra/superpowers) - An agentic skills framework &amp; software development methodology that works.
+- [ruvnet/RuView](https://github.com/ruvnet/RuView) - π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. 
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) - &#34;DeepTutor: Agent-Native Personalized Learning Assistant&#34;
