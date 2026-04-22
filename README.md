@@ -103,8 +103,8 @@
 - [Feat/modularize](https://github.com/HimanM/Twitch-Predictions-Bot/pull/4) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 ### ⭐ Recent Stars
 
+- [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
+- [Dragoon0x/stackmd](https://github.com/Dragoon0x/stackmd) - Deciphered request to refresh GitHub repository description Extract full product DNA from any live URL. Brand voice, UX patterns, content strategy, visual design, accessibility, SEO, performance, tech stack detection, CRO audit, design system maturity, PLG detection, enterprise readiness. 64 extraction passes. 20 intelligence engines. 138 tests.
+- [bergside/design-md-chrome](https://github.com/bergside/design-md-chrome) - Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) - 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
 - [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#39;s observations on LLM coding pitfalls.
-- [obra/superpowers](https://github.com/obra/superpowers) - An agentic skills framework &amp; software development methodology that works.
-- [ruvnet/RuView](https://github.com/ruvnet/RuView) - π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. 
-- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) - &#34;DeepTutor: Agent-Native Personalized Learning Assistant&#34;
