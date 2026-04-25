@@ -82,18 +82,18 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
 - [HimanM/creative-negative-studio](https://github.com/HimanM/creative-negative-studio) - A high-end, cinematic portfolio website for Creative Negative Studio. Vibe-coded using Google Gemini &amp; AI Studio with React, Tailwind CSS v4, and GSAP animations.
+- [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
+- [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
-- [HimanM/kubernetes-gitops-servicemesh-demo](https://github.com/HimanM/kubernetes-gitops-servicemesh-demo) - A comprehensive demonstration of modern DevOps practices, featuring Kubernetes orchestration, Service Mesh traffic management, and GitOps automation.
-- [HimanM/devsecops-aws-pipeline-githubactions](https://github.com/HimanM/devsecops-aws-pipeline-githubactions) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
+- [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
 ### 🌱 My latest projects
 
+- [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 - [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
 - [HimanM/creative-negative-studio](https://github.com/HimanM/creative-negative-studio) - A high-end, cinematic portfolio website for Creative Negative Studio. Vibe-coded using Google Gemini &amp; AI Studio with React, Tailwind CSS v4, and GSAP animations.
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 - [HimanM/SAP02---Rate-Limiter](https://github.com/HimanM/SAP02---Rate-Limiter) - SYSTEM-ARCHITECTURE-PROJECT-02 RateGuard : A horizontally scalable API Gateway demonstrating distributed systems concepts. Implements Token Bucket rate limiting via Atomic Redis Lua scripts, fail-open resiliency, and NGINX Docker DNS resolution.
-- [HimanM/SAP01---URL-Shortner](https://github.com/HimanM/SAP01---URL-Shortner) - SYSTEM-ARCHITECTURE-PROJECT-01 - Modular, containerized URL shortener demonstrating a decoupled system architecture (React frontend, Flask APIs, Redis cache, PostgreSQL primary/replica, Kafka streaming, and Docker Compose orchestration).
 ### 🔨 My recent Pull Requests
 
 - [Feat/more styling](https://github.com/HimanM/creative-negative-studio/pull/1) on [HimanM/creative-negative-studio](https://github.com/HimanM/creative-negative-studio)
