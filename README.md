@@ -27,54 +27,7 @@
 ### 🏅 Certifications
 
 <p align="left">
-  <a href="https://www.credly.com/badges/be613ca9-6433-4d27-b842-0a652a2c068b" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/be613ca9-6433-4d27-b842-0a652a2c068b.png" alt="AWS Certified Cloud Practitioner" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/2b155f45-187f-4a47-8038-92fca2dc541b" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/2b155f45-187f-4a47-8038-92fca2dc541b.png" alt="AWS Knowledge: Amazon EKS - Training Badge" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/bab05f1a-f1b2-459f-b895-f9c405b38b83" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/bab05f1a-f1b2-459f-b895-f9c405b38b83.png" alt="AWS Cloud Quest: Cloud Practitioner - Training Badge" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/ac0c6698-6d8e-4793-bad2-08bdc25e9dbf" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/ac0c6698-6d8e-4793-bad2-08bdc25e9dbf.png" alt="AWS Educate Introduction to Cloud 101 - Training Badge" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/d98038fb-5bd6-41d0-b7ac-391c3f10d0af" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/d98038fb-5bd6-41d0-b7ac-391c3f10d0af.png" alt="Introduction to IoT" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/45d7b42f-e034-4f53-bde3-5755ff613c56" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/45d7b42f-e034-4f53-bde3-5755ff613c56.png" alt="Cybersecurity Essentials" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/ac758be7-ff54-4727-bfcc-95b69f432780" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/ac758be7-ff54-4727-bfcc-95b69f432780.png" alt="Introduction to Cybersecurity" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9.png" alt="Cloud Technical Series: AI in Action Badge" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/6e6054cc-b781-4a79-883c-d75e9421174d" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/6e6054cc-b781-4a79-883c-d75e9421174d.png" alt="IBM Z Day 2025 - AI & Data" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/9829ab9b-eaac-4415-a7c0-282b50858a3c" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/9829ab9b-eaac-4415-a7c0-282b50858a3c.png" alt="IBM Z Day 2025 - IBM Z Skills" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/aeae6a00-8c8c-4cb2-a25c-b01d07bf4a25" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/aeae6a00-8c8c-4cb2-a25c-b01d07bf4a25.png" alt="IBM Z Day 2025 - Modernization" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/fbf17016-1272-4f7c-91fb-67f24fe895ce" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/fbf17016-1272-4f7c-91fb-67f24fe895ce.png" alt="IBM Z Day 2025 - Security" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/51d51c47-fdfb-42bf-ad79-f1b261c5b046" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/51d51c47-fdfb-42bf-ad79-f1b261c5b046.png" alt="Cloud Computing Fundamentals" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/954b9418-2fbf-4632-b78b-f9669b6a1e85" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/954b9418-2fbf-4632-b78b-f9669b6a1e85.png" alt="Optimizing and Maintaining MongoDB Cluster Reliability" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/39d9dec4-822c-414a-b6da-1b0d90ddf1bc" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/39d9dec4-822c-414a-b6da-1b0d90ddf1bc.png" alt="LFS167: Introduction to Jenkins" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/68041bb9-5c02-478d-9f2d-f7c59a1cf6ea" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/68041bb9-5c02-478d-9f2d-f7c59a1cf6ea.png" alt="LFS101: Introduction to Linux" height="80" />
-  </a>
+  __CREDLY_BADGES__
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/Himanman/646B140D45887B94?sharingId=157C81941C0409CE" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/certs/github-foundations.png" height="80" />
   </a>
@@ -82,11 +35,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/creative-negative-studio](https://github.com/HimanM/creative-negative-studio) - A high-end, cinematic portfolio website for Creative Negative Studio. Vibe-coded using Google Gemini &amp; AI Studio with React, Tailwind CSS v4, and GSAP animations.
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
+- [HimanM/creative-negative-studio](https://github.com/HimanM/creative-negative-studio) - A high-end, cinematic portfolio website for Creative Negative Studio. Vibe-coded using Google Gemini &amp; AI Studio with React, Tailwind CSS v4, and GSAP animations.
 - [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
-- [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
+- [HimanM/eks-gitops-terraform-argocd-platform](https://github.com/HimanM/eks-gitops-terraform-argocd-platform) - A comprehensive DevOps platform demonstrating modern GitOps practices with a focus on environment isolation and scalability. Features two distinct, highly available EKS clusters for Staging and Production, fully automated via Terraform. The system employs a strict GitOps workflow managed by ArgoCD and includes HPA for dynamic resource management. 
 ### 🌱 My latest projects
 
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
