@@ -27,9 +27,24 @@ jobs:
           template: 'README.gtpl'
           writeTo: 'README.md'
 
-      - name: Commit README
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch Credly Badges for README
+        run: node scripts/fetch-badges.js
+
+      - name: Fetch Credly Badges for Website
+        run: node website/scripts/fetch-badges.mjs
+
+      - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
-          commit_message: 'markscribe: update README.md'
+          commit_message: 'ci: update README and badges from Credly'
+          file_pattern: |
+            README.md
+            assets/badges/
+            website/data/badges.json
