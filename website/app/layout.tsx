@@ -17,6 +17,9 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: 'HimanM - DevOps Engineer',
   description: 'DevOps Engineer and AI Practitioner based in Colombo, Sri Lanka.',
+  icons: {
+    icon: '/icon.ico',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
