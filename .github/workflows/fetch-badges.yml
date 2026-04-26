@@ -26,11 +26,13 @@ jobs:
 
       # Fetch badges for README (downloads images locally)
       - name: Fetch Credly Badges for README
+        working-directory: ./
         run: node scripts/fetch-badges.js
 
       # Fetch badges for website (creates JSON data)
       - name: Fetch Credly Badges for Website
-        run: node website/scripts/fetch-badges.mjs
+        working-directory: ./website
+        run: node scripts/fetch-badges.mjs
 
       # Commit changes if there are any
       - name: Commit badge updates
