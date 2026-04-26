@@ -84,10 +84,10 @@ export function Work() {
               <motion.article 
                 key={p.id}
                 layout
-                initial={{ opacity: 0, height: 0, y: -20 }}
+                initial={{ opacity: 0, height: 0, y: 20 }}
                 animate={{ opacity: 1, height: 'auto', y: 0, marginTop: i > 0 ? 16 : 0 }}
-                exit={{ opacity: 0, height: 0, y: -10, marginTop: 0 }}
-                transition={{ duration: 0.35, ease: "easeInOut" }}
+                exit={{ opacity: 0, height: 0, y: 20, marginTop: 0 }}
+                transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                 style={{ overflow: 'hidden' }}
               >
                 <div
@@ -160,15 +160,32 @@ export function Work() {
       )}
 
       {projects.length > 2 && (
-        <div className="mt-8 flex justify-center">
+        <motion.div layout className="mt-8 flex justify-center">
           <button
-            onClick={() => setIsExpanded(!isExpanded)}
+            onClick={() => {
+              if (isExpanded) {
+                // Scroll up smoothly first before removing layout so the viewport doesn't jump
+                const element = document.getElementById('work');
+                if (element) {
+                  const y = element.getBoundingClientRect().top + window.scrollY - 100;
+                  window.scrollTo({ top: y, behavior: 'smooth' });
+                  // Delay the actual collapse slightly to let the scroll start/finish
+                  setTimeout(() => {
+                    setIsExpanded(false);
+                  }, 450);
+                } else {
+                  setIsExpanded(false);
+                }
+              } else {
+                setIsExpanded(true);
+              }
+            }}
             className="inline-flex items-center gap-[7px] bg-transparent border border-border rounded-full py-[10px] px-[20px] text-muted font-inter text-[12px] tracking-[0.08em] uppercase whitespace-nowrap transition-all duration-300 hover:bg-fg hover:text-bg hover:border-fg group"
             data-cursor
           >
             {isExpanded ? 'Show Less' : 'View More Projects'}
           </button>
-        </div>
+        </motion.div>
       )}
       
       <motion.div 
