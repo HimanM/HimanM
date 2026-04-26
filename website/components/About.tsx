@@ -9,11 +9,11 @@ export function About() {
   ];
 
   const certifications = [
-    { title: 'GitHub Foundations', issuer: 'GitHub', year: '2024' },
-    { title: 'AWS Cloud Practitioner', issuer: 'AWS', year: '2024' },
-    { title: 'Introduction to Jenkins (LFS167)', issuer: 'The Linux Foundation', year: '2024' },
-    { title: 'Introduction to Linux (LFS101)', issuer: 'The Linux Foundation', year: '2024' },
-    { title: '100 Days of Cloud (AWS) / DevOps', issuer: 'KodeKloud', year: '2024' },
+    { title: 'GitHub Foundations', issuer: 'GitHub', year: '2025' },
+    { title: 'AWS Cloud Practitioner', issuer: 'AWS', year: '2026' },
+    { title: 'Introduction to Jenkins (LFS167)', issuer: 'The Linux Foundation', year: '2025' },
+    { title: 'Introduction to Linux (LFS101)', issuer: 'The Linux Foundation', year: '2025' },
+    { title: '100 Days of Cloud (AWS) / DevOps', issuer: 'KodeKloud', year: '2026' },
   ];
 
   const skills = [
