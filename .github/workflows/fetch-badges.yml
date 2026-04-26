@@ -2,8 +2,11 @@ name: Fetch and Update Badges
 
 on:
   schedule:
-    # Run daily at midnight UTC
-    - cron: '0 0 * * *'
+    # Run daily at midnight UTC (after markscribe at 00:00)
+    - cron: '5 0 * * *'
+  workflow_run:
+    workflows: ["markscribe"]
+    types: [completed]
   workflow_dispatch:
   push:
     branches: ["main"]
