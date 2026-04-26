@@ -2,6 +2,11 @@ name: markscribe
 
 on:
   push:
+    branches: ["main"]
+    paths:
+      - 'README.gtpl'
+      - 'README.md'
+      - '.github/workflows/markscribe.yml'
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
