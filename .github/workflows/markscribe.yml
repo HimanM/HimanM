@@ -63,6 +63,13 @@ jobs:
           else
             git commit -m "ci: update README and badges from Credly"
             git push "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git" HEAD:main
+            # Dispatch deploy workflow only when we actually pushed changes
+            echo "Dispatching deploy workflow"
+            curl -s -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: token ${{ secrets.GH_PAT }}" \
+              https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-website.yml/dispatches \
+              -d '{"ref":"main"}' || true
           fi
         shell: bash
 

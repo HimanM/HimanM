@@ -9,10 +9,10 @@ export function About() {
   ];
 
   const certifications = [
-    { title: 'GitHub Foundations', issuer: 'GitHub', year: '2025' },
     { title: 'AWS Cloud Practitioner', issuer: 'AWS', year: '2026' },
+    { title: 'HashiCorp Certified: Terraform Associate (004)', issuer: 'HashiCorp', year: '2026' },
+    { title: 'GitHub Foundations', issuer: 'GitHub', year: '2025' },
     { title: 'Introduction to Jenkins (LFS167)', issuer: 'The Linux Foundation', year: '2025' },
-    { title: 'Introduction to Linux (LFS101)', issuer: 'The Linux Foundation', year: '2025' },
     { title: '100 Days of Cloud (AWS) / DevOps', issuer: 'KodeKloud', year: '2026' },
   ];
 
