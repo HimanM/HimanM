@@ -31,21 +31,39 @@ function downloadImage(url, filepath) {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
             }
         };
-        https.get(url, options, (res) => {
-            if (res.statusCode === 200) {
-                const file = fs.createWriteStream(filepath);
-                res.pipe(file);
-                file.on('finish', () => {
-                    file.close(resolve);
-                });
-                file.on('error', (err) => {
-                    fs.unlink(filepath, () => reject(err));
-                });
-            } else {
-                res.resume();
-                reject(new Error(`Request Failed With a Status Code: ${res.statusCode}`));
-            }
-        }).on('error', reject);
+
+        // Helper to perform the request and follow redirects up to a limit
+        const MAX_REDIRECTS = 6;
+        function _get(currentUrl, redirectsLeft) {
+            https.get(currentUrl, options, (res) => {
+                // Follow redirects
+                if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+                    if (redirectsLeft <= 0) {
+                        res.resume();
+                        return reject(new Error('Too many redirects'));
+                    }
+                    const nextUrl = res.headers.location.startsWith('http') ? res.headers.location : new URL(res.headers.location, currentUrl).href;
+                    res.resume();
+                    return _get(nextUrl, redirectsLeft - 1);
+                }
+
+                if (res.statusCode === 200) {
+                    const file = fs.createWriteStream(filepath);
+                    res.pipe(file);
+                    file.on('finish', () => {
+                        file.close(resolve);
+                    });
+                    file.on('error', (err) => {
+                        fs.unlink(filepath, () => reject(err));
+                    });
+                } else {
+                    res.resume();
+                    reject(new Error(`Request Failed With a Status Code: ${res.statusCode}`));
+                }
+            }).on('error', reject);
+        }
+
+        _get(url, MAX_REDIRECTS);
     });
 }
 
