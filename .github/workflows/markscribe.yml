@@ -40,16 +40,16 @@ jobs:
       - name: Fetch Credly Badges for Website
         run: node website/scripts/fetch-badges.mjs
 
-      - name: "Debug: list badges and git status"
-        run: |
-          echo "PWD: $(pwd)"
-          echo "Listing assets/badges"
-          ls -la assets/badges || true
-          echo "git status:" 
-          git status --porcelain -uall || true
-          echo "git ls-files (assets/badges):"
-          git ls-files assets/badges || true
-        shell: bash
+      # - name: "Debug: list badges and git status"
+      #   run: |
+      #     echo "PWD: $(pwd)"
+      #     echo "Listing assets/badges"
+      #     ls -la assets/badges || true
+      #     echo "git status:" 
+      #     git status --porcelain -uall || true
+      #     echo "git ls-files (assets/badges):"
+      #     git ls-files assets/badges || true
+      #   # shell: bash
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -57,6 +57,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         with:
           commit_message: 'ci: update README and badges from Credly'
+          skip_checkout: true
           file_pattern: |
             README.md
             assets/badges/
