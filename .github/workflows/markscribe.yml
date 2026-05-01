@@ -40,7 +40,7 @@ jobs:
       - name: Fetch Credly Badges for Website
         run: node website/scripts/fetch-badges.mjs
 
-      - name: Debug: list badges and git status
+      - name: "Debug: list badges and git status"
         run: |
           echo "PWD: $(pwd)"
           echo "Listing assets/badges"
