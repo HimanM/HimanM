@@ -85,11 +85,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
+- [HimanM/Web-Video-Player-For-Local-Files](https://github.com/HimanM/Web-Video-Player-For-Local-Files) - 
 - [HimanM/creative-negative-studio](https://github.com/HimanM/creative-negative-studio) - A high-end, cinematic portfolio website for Creative Negative Studio. Vibe-coded using Google Gemini &amp; AI Studio with React, Tailwind CSS v4, and GSAP animations.
 - [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
+- [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
-- [HimanM/eks-gitops-terraform-argocd-platform](https://github.com/HimanM/eks-gitops-terraform-argocd-platform) - A comprehensive DevOps platform demonstrating modern GitOps practices with a focus on environment isolation and scalability. Features two distinct, highly available EKS clusters for Staging and Production, fully automated via Terraform. The system employs a strict GitOps workflow managed by ArgoCD and includes HPA for dynamic resource management. 
 ### 🌱 My latest projects
 
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
@@ -106,8 +106,8 @@
 - [Fix/fix race conditions](https://github.com/HimanM/Twitch-Predictions-Bot/pull/5) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 ### ⭐ Recent Stars
 
+- [ive663/RHCSA](https://github.com/ive663/RHCSA) - the collection of practice questions and lab environment for ex200 
+- [labex-labs/rhcsa-certification-exam-practice-exercises](https://github.com/labex-labs/rhcsa-certification-exam-practice-exercises) - This course provides hands-on practice exercises to prepare for the Red Hat Certified System Administrator (RHCSA) exam. Through a series of challenging labs, you&#39;ll develop and reinforce the essential skills required for Linux system administration and RHCSA certification.
+- [soficx/rhcsa](https://github.com/soficx/rhcsa) - This is a collection of labs and tasks in order to prepare and practice for The Red Hat Certified System Administrator (RHCSA)
 - [aggressiveHiker/rhcsa9](https://github.com/aggressiveHiker/rhcsa9) - RHCSA 9 Lab Setup and Practice Tasks
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
-- [Dragoon0x/stackmd](https://github.com/Dragoon0x/stackmd) - Extract full product DNA from any live URL. Brand voice, UX patterns, content strategy, visual design, accessibility, SEO, performance, tech stack detection, CRO audit, design system maturity, PLG detection, enterprise readiness. 64 extraction passes. 20 intelligence engines. 138 tests.
-- [bergside/design-md-chrome](https://github.com/bergside/design-md-chrome) - Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI
-- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) - 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
