@@ -106,8 +106,8 @@
 - [Fix/fix race conditions](https://github.com/HimanM/Twitch-Predictions-Bot/pull/5) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 ### ⭐ Recent Stars
 
+- [yetmike/awesome-kubestronaut](https://github.com/yetmike/awesome-kubestronaut) - Awesome Kubestronaut. Resources to prepare for CKA, CKAD, CKS, KCNA, KCSA, PCA, ICA, CNPE, CNPA, CGOA, CAPA, KCA, BCA, OTCA, CCA
 - [edithturn/KCNA-training](https://github.com/edithturn/KCNA-training) - Notes for Kubernetes and Cloud Native Associate Certification
 - [dgkanatsios/CKAD-exercises](https://github.com/dgkanatsios/CKAD-exercises) - A set of exercises to prepare for Certified Kubernetes Application Developer exam by Cloud Native Computing Foundation
 - [ive663/RHCSA](https://github.com/ive663/RHCSA) - the collection of practice questions and lab environment for ex200 
 - [labex-labs/rhcsa-certification-exam-practice-exercises](https://github.com/labex-labs/rhcsa-certification-exam-practice-exercises) - This course provides hands-on practice exercises to prepare for the Red Hat Certified System Administrator (RHCSA) exam. Through a series of challenging labs, you&#39;ll develop and reinforce the essential skills required for Linux system administration and RHCSA certification.
-- [soficx/rhcsa](https://github.com/soficx/rhcsa) - This is a collection of labs and tasks in order to prepare and practice for The Red Hat Certified System Administrator (RHCSA)
