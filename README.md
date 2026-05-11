@@ -86,9 +86,9 @@
 ### 👷 Check out what I'm currently working on
 
 - [HimanM/Web-Video-Player-For-Local-Files](https://github.com/HimanM/Web-Video-Player-For-Local-Files) - 
-- [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 - [HimanM/creative-negative-studio](https://github.com/HimanM/creative-negative-studio) - A high-end, cinematic portfolio website for Creative Negative Studio. Vibe-coded using Google Gemini &amp; AI Studio with React, Tailwind CSS v4, and GSAP animations.
 - [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
+- [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 ### 🌱 My latest projects
 
