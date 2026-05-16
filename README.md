@@ -105,8 +105,8 @@
 - [Feat/UI improvements](https://github.com/HimanM/Twitch-Predictions-Bot/pull/6) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 ### ⭐ Recent Stars
 
+- [blader/humanizer](https://github.com/blader/humanizer) - Claude Code skill that removes signs of AI-generated writing from text
 - [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
 - [dofy/learn-vim](https://github.com/dofy/learn-vim) - Learning Vim. A Hands-On Tutorial of Vim.
 - [yetmike/awesome-kubestronaut](https://github.com/yetmike/awesome-kubestronaut) - Awesome Kubestronaut. Resources to prepare for CKA, CKAD, CKS, KCNA, KCSA, PCA, ICA, CNPE, CNPA, CGOA, CAPA, KCA, BCA, OTCA, CCA
 - [edithturn/KCNA-training](https://github.com/edithturn/KCNA-training) - Notes for Kubernetes and Cloud Native Associate Certification
-- [dgkanatsios/CKAD-exercises](https://github.com/dgkanatsios/CKAD-exercises) - A set of exercises to prepare for Certified Kubernetes Application Developer exam by Cloud Native Computing Foundation
