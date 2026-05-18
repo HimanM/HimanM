@@ -85,28 +85,28 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 - [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
-- [HimanM/Lankalive-Clone](https://github.com/HimanM/Lankalive-Clone) - Full-stack news CMS with React, Flask &amp; PostgreSQL. Features admin dashboard for content management, media uploads, search &amp; filtering. Scalable architecture ready for multi-user expansion.
 - [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot) - Twitch Predictions Tampermonkey bot with underdog auto-bet strategy, live top-nav control panel, discovery probe detection, manual bet controls, and T-5s execution safety caps.
 - [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
 - [HimanM/devsecops-aws-pipeline-githubactions](https://github.com/HimanM/devsecops-aws-pipeline-githubactions) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 ### 🌱 My latest projects
 
+- [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 - [HimanM/OpneClaw-k8s-with-Knative](https://github.com/HimanM/OpneClaw-k8s-with-Knative) - Run OpenClaw AI agent runtime serverlessly on Kubernetes - scales to zero when idle, wakes on demand in under 60 seconds, persists state across cycles. One-command local setup with Knative &#43; Kourier.
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 - [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
 - [HimanM/creative-negative-studio](https://github.com/HimanM/creative-negative-studio) - A high-end, cinematic portfolio website for Creative Negative Studio. Vibe-coded using Google Gemini &amp; AI Studio with React, Tailwind CSS v4, and GSAP animations.
-- [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 ### 🔨 My recent Pull Requests
 
+- [Feat/update desktop layout](https://github.com/HimanM/medusa-tattoo-studio/pull/1) on [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio)
 - [Feat/more styling](https://github.com/HimanM/creative-negative-studio/pull/1) on [HimanM/creative-negative-studio](https://github.com/HimanM/creative-negative-studio)
 - [Feat/early bet timer &#43; 0 point bet bug fix](https://github.com/HimanM/Twitch-Predictions-Bot/pull/8) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 - [Feat/improve UI](https://github.com/HimanM/Twitch-Predictions-Bot/pull/7) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
-- [Feat/UI improvements](https://github.com/HimanM/Twitch-Predictions-Bot/pull/6) on [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot)
 ### ⭐ Recent Stars
 
+- [timabell/gitopolis](https://github.com/timabell/gitopolis) - Manage multiple git repositories - CLI tool - run commands, clone, and organize repos with tags
 - [blader/humanizer](https://github.com/blader/humanizer) - Claude Code skill that removes signs of AI-generated writing from text
 - [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
 - [dofy/learn-vim](https://github.com/dofy/learn-vim) - Learning Vim. A Hands-On Tutorial of Vim.
 - [yetmike/awesome-kubestronaut](https://github.com/yetmike/awesome-kubestronaut) - Awesome Kubestronaut. Resources to prepare for CKA, CKAD, CKS, KCNA, KCSA, PCA, ICA, CNPE, CNPA, CGOA, CAPA, KCA, BCA, OTCA, CCA
-- [edithturn/KCNA-training](https://github.com/edithturn/KCNA-training) - Notes for Kubernetes and Cloud Native Associate Certification
