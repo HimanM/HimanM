@@ -106,8 +106,8 @@
 - [Feat/update desktop layout](https://github.com/HimanM/medusa-tattoo-studio/pull/1) on [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio)
 ### ⭐ Recent Stars
 
+- [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
+- [denysdovhan/bash-handbook](https://github.com/denysdovhan/bash-handbook) - :book: For those who wanna learn Bash
+- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
 - [rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA) - Free, Open Source, Self-Hosted WhatsApp API Gateway
 - [timabell/gitopolis](https://github.com/timabell/gitopolis) - Manage multiple git repositories - CLI tool - run commands, clone, and organize repos with tags
-- [blader/humanizer](https://github.com/blader/humanizer) - Claude Code skill that removes signs of AI-generated writing from text
-- [ChrisTitusTech/linux-benchmarks](https://github.com/ChrisTitusTech/linux-benchmarks) - takes exports from Phoronix and Mango hud to give graphs for Frametimes, 1% FPS, and Avg FPS
-- [dofy/learn-vim](https://github.com/dofy/learn-vim) - Learning Vim. A Hands-On Tutorial of Vim.
