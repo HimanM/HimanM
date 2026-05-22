@@ -20,15 +20,21 @@ export function Work() {
         
         let validRepos = data.filter(r => !r.fork);
         
+        // Find the actual latest repo from ALL repos first
+        const latestObj = [...validRepos].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())[0];
+        
         // Sort by stars + forks descending
         let sorted = validRepos.sort((a, b) => (b.stargazers_count + b.forks_count) - (a.stargazers_count + a.forks_count));
         
         // limit down to top 10
         sorted = sorted.slice(0, 10);
         
+        // If latest repo is not in top 10, add it
+        if (latestObj && !sorted.find(r => r.id === latestObj.id)) {
+          sorted = [latestObj, ...sorted.slice(0, 9)];
+        }
+        
         if (sorted.length > 0) {
-          // Identify latest
-          const latestObj = [...sorted].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())[0];
           
           const formatted = sorted.map((repo, idx) => {
             const tags = [repo.language, ...(repo.topics || [])].filter(Boolean).slice(0, 3) || ["DevOps", "Cloud"];

@@ -31,7 +31,7 @@ export function Navbar() {
         <ul className="hidden md:flex items-center gap-7">
           <li>
             <Link href="#work" className="text-xs font-normal tracking-widest uppercase text-muted hover:text-fg relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1px] after:w-0 hover:after:w-full after:bg-fg after:transition-all after:duration-300" data-cursor>
-              Work
+              Projects
             </Link>
           </li>
           <li>
