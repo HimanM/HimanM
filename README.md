@@ -106,8 +106,8 @@
 - [Feat/update desktop layout](https://github.com/HimanM/medusa-tattoo-studio/pull/1) on [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio)
 ### ⭐ Recent Stars
 
+- [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
 - [almezali/pkger-g](https://github.com/almezali/pkger-g) - PKGER - Pro modern, feature-rich GTK Package Manager for Arch Linux
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
 - [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
 - [denysdovhan/bash-handbook](https://github.com/denysdovhan/bash-handbook) - :book: For those who wanna learn Bash
-- [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
