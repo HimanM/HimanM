@@ -88,8 +88,8 @@
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
-- [HimanM/Nutrichef](https://github.com/HimanM/Nutrichef) - NutriChef: An AI-Driven Meal Planning Web Application with Nutritional Intelligence and Culinary Adaptability
 - [HimanM/devsecops-aws-pipeline-githubactions](https://github.com/HimanM/devsecops-aws-pipeline-githubactions) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
+- [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
 ### 🌱 My latest projects
 
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
@@ -99,15 +99,15 @@
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 ### 🔨 My recent Pull Requests
 
-- [feat: implement systemd service fails after reboot lab for Issue #37](https://github.com/HimanM/BrokenOps/pull/90) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: implement cron job never executes lab for Issue #38](https://github.com/HimanM/BrokenOps/pull/89) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: implement container restart loop lab for Issue #82](https://github.com/HimanM/BrokenOps/pull/88) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [Feat/swap file lab](https://github.com/HimanM/BrokenOps/pull/87) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: Add full-disk lab](https://github.com/HimanM/BrokenOps/pull/32) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add logrotate-broken troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/110) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add web-upload-permissions troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/109) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add redis-persistence-permissions troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/108) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add php-fpm-socket-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/107) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add docker-bind-mount-permissions troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/106) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 ### ⭐ Recent Stars
 
+- [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - Self-hosted AI workspace. 
 - [KhuramMurad/kubernetes-the-hard-way](https://github.com/KhuramMurad/kubernetes-the-hard-way) - Bootstrap Kubernetes the hard way. No scripts.
 - [DevilXD/TwitchDropsMiner](https://github.com/DevilXD/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
 - [almezali/pkger-g](https://github.com/almezali/pkger-g) - PKGER - Pro modern, feature-rich GTK Package Manager for Arch Linux
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
