@@ -99,11 +99,11 @@
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 ### 🔨 My recent Pull Requests
 
-- [feat: add logrotate-broken troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/110) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add web-upload-permissions troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/109) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add redis-persistence-permissions troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/108) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add php-fpm-socket-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/107) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add docker-bind-mount-permissions troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/106) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add nfs-subnet-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/123) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add dns-search-domain troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/122) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add ssh-slow-login troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/121) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add nginx-ssl-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/120) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add netplan-syntax-error troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/119) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 ### ⭐ Recent Stars
 
 - [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - Self-hosted AI workspace. 
