@@ -99,15 +99,15 @@
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 ### 🔨 My recent Pull Requests
 
-- [feat: add nfs-subnet-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/123) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add dns-search-domain troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/122) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add ssh-slow-login troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/121) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add nginx-ssl-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/120) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add netplan-syntax-error troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/119) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add broken-symlinks troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/134) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add postgres-pg-hba troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/133) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add zombie-processes troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/132) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [[codex] restrict terminal power commands](https://github.com/HimanM/BrokenOps/pull/129) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add mysql-max-connections troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/128) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 ### ⭐ Recent Stars
 
+- [garrytan/gbrain](https://github.com/garrytan/gbrain) - Garry&#39;s Opinionated OpenClaw/Hermes Agent Brain
 - [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - Self-hosted AI workspace. 
 - [KhuramMurad/kubernetes-the-hard-way](https://github.com/KhuramMurad/kubernetes-the-hard-way) - Bootstrap Kubernetes the hard way. No scripts.
 - [DevilXD/TwitchDropsMiner](https://github.com/DevilXD/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
-- [almezali/pkger-g](https://github.com/almezali/pkger-g) - PKGER - Pro modern, feature-rich GTK Package Manager for Arch Linux
