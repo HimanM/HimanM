@@ -48,6 +48,12 @@
   <a href="https://www.credly.com/badges/ac758be7-ff54-4727-bfcc-95b69f432780" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/ac758be7-ff54-4727-bfcc-95b69f432780.png" alt="Introduction to Cybersecurity" height="80" />
   </a>
+  <a href="https://www.credly.com/badges/12fa8985-3603-4c96-9f86-52d2d51506a3" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/12fa8985-3603-4c96-9f86-52d2d51506a3.png" alt="Labs: OnAir May 26 - Build a Dynamic Website with Gemini CLI" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/f5f4cbac-90e4-4436-85e9-325067545bb2" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/f5f4cbac-90e4-4436-85e9-325067545bb2.png" alt="Labs: OnAir May '26 - Use MCP Tools with ADK Agents" height="80" />
+  </a>
   <a href="https://www.credly.com/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9.png" alt="Cloud Technical Series: AI in Action Badge" height="80" />
   </a>
@@ -88,7 +94,7 @@
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
-- [HimanM/devsecops-aws-pipeline-githubactions](https://github.com/HimanM/devsecops-aws-pipeline-githubactions) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
+- [HimanM/Predicting-Optimal-Fertilizers](https://github.com/HimanM/Predicting-Optimal-Fertilizers) - FertiliZen is a personal project built on top of a model developed for the Kaggle Fertilizer Prediction Challenge   Note: FertiliZen provides fertilizer suggestions based on a predictive model trained on a synthetic dataset. Always consult local agricultural experts for critical decisions.
 - [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
 ### 🌱 My latest projects
 
@@ -106,8 +112,8 @@
 - [feat: add mysql-max-connections troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/128) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 ### ⭐ Recent Stars
 
+- [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) - Desktop Companion for Hermes Agent
 - [garrytan/gbrain](https://github.com/garrytan/gbrain) - Garry&#39;s Opinionated OpenClaw/Hermes Agent Brain
 - [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - Self-hosted AI workspace. 
 - [KhuramMurad/kubernetes-the-hard-way](https://github.com/KhuramMurad/kubernetes-the-hard-way) - Bootstrap Kubernetes the hard way. No scripts.
 - [DevilXD/TwitchDropsMiner](https://github.com/DevilXD/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
-- [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
