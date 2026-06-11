@@ -105,11 +105,11 @@
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 ### 🔨 My recent Pull Requests
 
-- [feat: add broken-symlinks troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/134) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add postgres-pg-hba troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/133) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add zombie-processes troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/132) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [[codex] restrict terminal power commands](https://github.com/HimanM/BrokenOps/pull/129) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add mysql-max-connections troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/128) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add package-repo-broken troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/174) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add firewall-rule-order troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/173) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add static-route-missing troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/172) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add network-mtu-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/171) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat: add network-interface-name-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/170) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 ### ⭐ Recent Stars
 
 - [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) - Desktop Companion for Hermes Agent
