@@ -112,8 +112,8 @@
 - [feat: add network-interface-name-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/170) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 ### ⭐ Recent Stars
 
+- [mudrii/hermesd](https://github.com/mudrii/hermesd) - TUI monitoring dashboard for Hermes AI agent
 - [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) - Desktop Companion for Hermes Agent
 - [garrytan/gbrain](https://github.com/garrytan/gbrain) - Garry&#39;s Opinionated OpenClaw/Hermes Agent Brain
 - [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - Self-hosted AI workspace. 
 - [KhuramMurad/kubernetes-the-hard-way](https://github.com/KhuramMurad/kubernetes-the-hard-way) - Bootstrap Kubernetes the hard way. No scripts.
-- [DevilXD/TwitchDropsMiner](https://github.com/DevilXD/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
