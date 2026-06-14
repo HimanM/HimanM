@@ -105,11 +105,11 @@
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 ### 🔨 My recent Pull Requests
 
+- [[codex] add Textual tdminer TUI](https://github.com/HimanM/TwitchDropsMiner/pull/2) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
+- [[codex] port original cache and Polish updates](https://github.com/HimanM/TwitchDropsMiner/pull/1) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [feat: add package-repo-broken troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/174) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 - [feat: add firewall-rule-order troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/173) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 - [feat: add static-route-missing troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/172) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add network-mtu-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/171) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add network-interface-name-mismatch troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/170) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 ### ⭐ Recent Stars
 
 - [mudrii/hermesd](https://github.com/mudrii/hermesd) - TUI monitoring dashboard for Hermes AI agent
