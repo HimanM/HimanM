@@ -105,15 +105,15 @@
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 ### 🔨 My recent Pull Requests
 
+- [Simplify fork README](https://github.com/HimanM/TwitchDropsMiner/pull/3) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [[codex] add Textual tdminer TUI](https://github.com/HimanM/TwitchDropsMiner/pull/2) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [[codex] port original cache and Polish updates](https://github.com/HimanM/TwitchDropsMiner/pull/1) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [feat: add package-repo-broken troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/174) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 - [feat: add firewall-rule-order troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/173) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add static-route-missing troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/172) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 ### ⭐ Recent Stars
 
+- [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 - [mudrii/hermesd](https://github.com/mudrii/hermesd) - TUI monitoring dashboard for Hermes AI agent
 - [fathah/hermes-desktop](https://github.com/fathah/hermes-desktop) - Desktop Companion for Hermes Agent
 - [garrytan/gbrain](https://github.com/garrytan/gbrain) - Garry&#39;s Opinionated OpenClaw/Hermes Agent Brain
 - [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) - Self-hosted AI workspace. 
-- [KhuramMurad/kubernetes-the-hard-way](https://github.com/KhuramMurad/kubernetes-the-hard-way) - Bootstrap Kubernetes the hard way. No scripts.
