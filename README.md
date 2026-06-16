@@ -105,11 +105,11 @@
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 ### 🔨 My recent Pull Requests
 
+- [Show allowed campaign channels in terminal UIs](https://github.com/HimanM/TwitchDropsMiner/pull/4) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [Simplify fork README](https://github.com/HimanM/TwitchDropsMiner/pull/3) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [[codex] add Textual tdminer TUI](https://github.com/HimanM/TwitchDropsMiner/pull/2) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [[codex] port original cache and Polish updates](https://github.com/HimanM/TwitchDropsMiner/pull/1) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [feat: add package-repo-broken troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/174) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
-- [feat: add firewall-rule-order troubleshooting lab](https://github.com/HimanM/BrokenOps/pull/173) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 ### ⭐ Recent Stars
 
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
