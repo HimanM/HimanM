@@ -75,6 +75,9 @@
   <a href="https://www.credly.com/badges/51d51c47-fdfb-42bf-ad79-f1b261c5b046" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/51d51c47-fdfb-42bf-ad79-f1b261c5b046.png" alt="Cloud Computing Fundamentals" height="80" />
   </a>
+  <a href="https://www.credly.com/badges/abd5bb8f-9c28-41f0-86f0-d00c9b3d5a43" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/abd5bb8f-9c28-41f0-86f0-d00c9b3d5a43.png" alt="AI Skills Fest 2026" height="80" />
+  </a>
   <a href="https://www.credly.com/badges/954b9418-2fbf-4632-b78b-f9669b6a1e85" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/954b9418-2fbf-4632-b78b-f9669b6a1e85.png" alt="Optimizing and Maintaining MongoDB Cluster Reliability" height="80" />
   </a>
@@ -91,25 +94,25 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
-- [HimanM/Predicting-Optimal-Fertilizers](https://github.com/HimanM/Predicting-Optimal-Fertilizers) - FertiliZen is a personal project built on top of a model developed for the Kaggle Fertilizer Prediction Challenge   Note: FertiliZen provides fertilizer suggestions based on a predictive model trained on a synthetic dataset. Always consult local agricultural experts for critical decisions.
-- [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
+- [HimanM/document-agent](https://github.com/HimanM/document-agent) - An agent-powered assistant that crafts professional plain-text application emails and tailored cover
 ### 🌱 My latest projects
 
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
+- [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 - [HimanM/OpneClaw-k8s-with-Knative](https://github.com/HimanM/OpneClaw-k8s-with-Knative) - Run OpenClaw AI agent runtime serverlessly on Kubernetes - scales to zero when idle, wakes on demand in under 60 seconds, persists state across cycles. One-command local setup with Knative &#43; Kourier.
-- [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 ### 🔨 My recent Pull Requests
 
+- [feat(tui): add priority reorder controls](https://github.com/HimanM/TwitchDropsMiner/pull/8) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [[codex] persistent data dir](https://github.com/HimanM/TwitchDropsMiner/pull/7) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [Add idle diagnostics for terminal miner](https://github.com/HimanM/TwitchDropsMiner/pull/6) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [Fix Termux CLI notification handling](https://github.com/HimanM/TwitchDropsMiner/pull/5) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [Show allowed campaign channels in terminal UIs](https://github.com/HimanM/TwitchDropsMiner/pull/4) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
-- [Simplify fork README](https://github.com/HimanM/TwitchDropsMiner/pull/3) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 ### ⭐ Recent Stars
 
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
