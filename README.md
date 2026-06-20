@@ -94,8 +94,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
+- [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 - [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
@@ -108,11 +108,11 @@
 - [HimanM/OpneClaw-k8s-with-Knative](https://github.com/HimanM/OpneClaw-k8s-with-Knative) - Run OpenClaw AI agent runtime serverlessly on Kubernetes - scales to zero when idle, wakes on demand in under 60 seconds, persists state across cycles. One-command local setup with Knative &#43; Kourier.
 ### 🔨 My recent Pull Requests
 
+- [[codex] complete cron and swap labs](https://github.com/HimanM/BrokenOps/pull/194) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
+- [feat(labs): add time drift and rsyslog forwarding labs](https://github.com/HimanM/BrokenOps/pull/191) on [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps)
 - [feat(cli): Rich-styled UI with animations, responsive layout, and help system](https://github.com/HimanM/TwitchDropsMiner/pull/12) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [feat(tui): add priority reorder controls](https://github.com/HimanM/TwitchDropsMiner/pull/8) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [[codex] persistent data dir](https://github.com/HimanM/TwitchDropsMiner/pull/7) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
-- [Add idle diagnostics for terminal miner](https://github.com/HimanM/TwitchDropsMiner/pull/6) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
-- [Fix Termux CLI notification handling](https://github.com/HimanM/TwitchDropsMiner/pull/5) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 ### ⭐ Recent Stars
 
 - [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
