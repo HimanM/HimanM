@@ -108,6 +108,7 @@
 - [HimanM/OpneClaw-k8s-with-Knative](https://github.com/HimanM/OpneClaw-k8s-with-Knative) - Run OpenClaw AI agent runtime serverlessly on Kubernetes - scales to zero when idle, wakes on demand in under 60 seconds, persists state across cycles. One-command local setup with Knative &#43; Kourier.
 ### 🔨 My recent Pull Requests
 
+- [feat(providers): add Cloudflare Workers AI and Sakana AI Fugu provider plugins](https://github.com/NousResearch/hermes-agent/pull/53105) on [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 ### ⭐ Recent Stars
 
 - [ArslanYM/Free-Certifications](https://github.com/ArslanYM/Free-Certifications) - This repository contains the list of all the development courses available with  free certifications.
