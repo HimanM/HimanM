@@ -25,6 +25,16 @@
     "link": "https://www.credly.com/badges/2b155f45-187f-4a47-8038-92fca2dc541b"
   },
   {
+    "name": "Build a Secure Google Cloud Network Skill Badge",
+    "url": "https://images.credly.com/images/e1131ae3-4a52-4af1-9801-b7853767cf79/image.png",
+    "link": "https://www.credly.com/badges/474edb4c-55fe-4027-8f1f-079e3eae7747"
+  },
+  {
+    "name": "Build Infrastructure with Terraform on Google Cloud Skill Badge",
+    "url": "https://images.credly.com/images/b18154fb-9bd3-47e5-a6f1-554be512947d/image.png",
+    "link": "https://www.credly.com/badges/2c52e8d8-0b23-4ea9-8cb8-38f14e57adcf"
+  },
+  {
     "name": "Cloud Computing Fundamentals",
     "url": "https://images.credly.com/images/5624b38a-5471-4d5c-a2bd-f4575babaa61/image.png",
     "link": "https://www.credly.com/badges/51d51c47-fdfb-42bf-ad79-f1b261c5b046"
@@ -35,9 +45,19 @@
     "link": "https://www.credly.com/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9"
   },
   {
+    "name": "Create Your First Gemini Enterprise Application",
+    "url": "https://images.credly.com/images/3c923d13-42da-4765-995d-59f3030e042a/blob",
+    "link": "https://www.credly.com/badges/4cc3d652-5aa5-45bd-a5e3-013aabab2e98"
+  },
+  {
     "name": "Cybersecurity Essentials",
     "url": "https://images.credly.com/images/054913b2-e271-49a2-a1a4-9bf1c1f9a404/CyberEssentials.png",
     "link": "https://www.credly.com/badges/45d7b42f-e034-4f53-bde3-5755ff613c56"
+  },
+  {
+    "name": "Develop Your Google Cloud Network Skill Badge",
+    "url": "https://images.credly.com/images/b126c61c-4781-4f03-9b2b-062963003abf/image.png",
+    "link": "https://www.credly.com/badges/adaa8b24-49ba-4131-8992-20386faf2053"
   },
   {
     "name": "HashiCorp Certified: Terraform Associate (004)",
@@ -63,6 +83,16 @@
     "name": "IBM Z Day 2025 - Security",
     "url": "https://images.credly.com/images/b5ce7c00-5f78-4fcb-b819-3ff8137500f8/IBM_20Z_20Day_202025_20Security.png",
     "link": "https://www.credly.com/badges/fbf17016-1272-4f7c-91fb-67f24fe895ce"
+  },
+  {
+    "name": "Implement Cloud Security Fundamentals on Google Cloud Skill Badge",
+    "url": "https://images.credly.com/images/f1dbea96-0ef4-4857-bb85-3d208a82de10/image.png",
+    "link": "https://www.credly.com/badges/68197fa7-af39-42e2-bc14-14baada852da"
+  },
+  {
+    "name": "Implement Load Balancing on Compute Engine Skill Badge",
+    "url": "https://images.credly.com/images/eea11cba-2a98-4bbe-bad2-447878dd34a2/image.png",
+    "link": "https://www.credly.com/badges/a416cc7d-d7cb-4771-9eea-c83de45db242"
   },
   {
     "name": "Introduction to Cybersecurity",
@@ -98,5 +128,10 @@
     "name": "Optimizing and Maintaining MongoDB Cluster Reliability",
     "url": "https://images.credly.com/images/46a27b55-bad9-4255-b90e-c3ba5096d1a8/blob",
     "link": "https://www.credly.com/badges/954b9418-2fbf-4632-b78b-f9669b6a1e85"
+  },
+  {
+    "name": "Set Up an App Dev Environment on Google Cloud Skill Badge",
+    "url": "https://images.credly.com/images/42326d44-14ff-4eda-b9c5-7d8f12919253/image.png",
+    "link": "https://www.credly.com/badges/08d7236a-a63b-4aef-875e-2f7b22507ad6"
   }
 ]

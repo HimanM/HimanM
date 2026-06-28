@@ -57,6 +57,27 @@
   <a href="https://www.credly.com/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9.png" alt="Cloud Technical Series: AI in Action Badge" height="80" />
   </a>
+  <a href="https://www.credly.com/badges/474edb4c-55fe-4027-8f1f-079e3eae7747" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/474edb4c-55fe-4027-8f1f-079e3eae7747.png" alt="Build a Secure Google Cloud Network Skill Badge" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/2c52e8d8-0b23-4ea9-8cb8-38f14e57adcf" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/2c52e8d8-0b23-4ea9-8cb8-38f14e57adcf.png" alt="Build Infrastructure with Terraform on Google Cloud Skill Badge" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/4cc3d652-5aa5-45bd-a5e3-013aabab2e98" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/4cc3d652-5aa5-45bd-a5e3-013aabab2e98.png" alt="Create Your First Gemini Enterprise Application" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/adaa8b24-49ba-4131-8992-20386faf2053" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/adaa8b24-49ba-4131-8992-20386faf2053.png" alt="Develop Your Google Cloud Network Skill Badge" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/68197fa7-af39-42e2-bc14-14baada852da" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/68197fa7-af39-42e2-bc14-14baada852da.png" alt="Implement Cloud Security Fundamentals on Google Cloud Skill Badge" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/a416cc7d-d7cb-4771-9eea-c83de45db242" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/a416cc7d-d7cb-4771-9eea-c83de45db242.png" alt="Implement Load Balancing on Compute Engine Skill Badge" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/08d7236a-a63b-4aef-875e-2f7b22507ad6" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/08d7236a-a63b-4aef-875e-2f7b22507ad6.png" alt="Set Up an App Dev Environment on Google Cloud Skill Badge" height="80" />
+  </a>
   <a href="https://www.credly.com/badges/3ec3bde2-7e4c-4820-bbee-8acd1010b740" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/3ec3bde2-7e4c-4820-bbee-8acd1010b740.png" alt="HashiCorp Certified: Terraform Associate (004)" height="80" />
   </a>
