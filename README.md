@@ -129,15 +129,15 @@
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 ### 🔨 My recent Pull Requests
 
+- [Add native Android drops miner](https://github.com/HimanM/TwitchDropsMiner/pull/13) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
 - [feat(providers): add Cloudflare Workers AI and Sakana AI Fugu provider plugins](https://github.com/NousResearch/hermes-agent/pull/53105) on [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 - [Refine prompts and polish the premium storefront experience](https://github.com/HimanM/MCP-Agent/pull/17) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 - [Add Groq STT fallback and tighten chat product UX](https://github.com/HimanM/MCP-Agent/pull/16) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 - [Polish responsive UI and add Vercel deployment support](https://github.com/HimanM/MCP-Agent/pull/15) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
-- [Add MCP debug route for demos](https://github.com/HimanM/MCP-Agent/pull/14) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 ### ⭐ Recent Stars
 
 - [Eugeny/tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
 - [ismet55555/Certified-Kubernetes-Administrator-Notes](https://github.com/ismet55555/Certified-Kubernetes-Administrator-Notes) - https://www.cncf.io/certification/cka/
 - [steipete/CodexBar](https://github.com/steipete/CodexBar) - Show usage stats for OpenAI Codex and Claude Code, without having to login.
-- [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) - Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.  The #1 Ai Meeting Minutes generator.
+- [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) - Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows. Understand How to write meeting minutes
 - [kodekloudhub/certified-kubernetes-administrator-course](https://github.com/kodekloudhub/certified-kubernetes-administrator-course) - Certified Kubernetes Administrator - CKA Course
