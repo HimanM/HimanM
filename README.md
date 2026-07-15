@@ -48,6 +48,12 @@
   <a href="https://www.credly.com/badges/ac758be7-ff54-4727-bfcc-95b69f432780" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/ac758be7-ff54-4727-bfcc-95b69f432780.png" alt="Introduction to Cybersecurity" height="80" />
   </a>
+  <a href="https://www.credly.com/badges/d71e8e1d-a4b7-4497-984b-c5b921c7181e" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/d71e8e1d-a4b7-4497-984b-c5b921c7181e.png" alt="Labs: OnAir June '26 - Create Agents with AI in CX Agent Studio" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/253ad80b-3a04-4bc5-ac56-8e1a77605d06" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/253ad80b-3a04-4bc5-ac56-8e1a77605d06.png" alt="Labs: OnAir June '26 - Evaluate ADK agent performance using the Agent Platform Generative AI Evaluation Service" height="80" />
+  </a>
   <a href="https://www.credly.com/badges/12fa8985-3603-4c96-9f86-52d2d51506a3" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/12fa8985-3603-4c96-9f86-52d2d51506a3.png" alt="Labs: OnAir May 26 - Build a Dynamic Website with Gemini CLI" height="80" />
   </a>
@@ -136,8 +142,8 @@
 - [Polish responsive UI and add Vercel deployment support](https://github.com/HimanM/MCP-Agent/pull/15) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 ### ⭐ Recent Stars
 
+- [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) - agent multiplexer that lives in your terminal.
 - [Eugeny/tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
 - [ismet55555/Certified-Kubernetes-Administrator-Notes](https://github.com/ismet55555/Certified-Kubernetes-Administrator-Notes) - https://www.cncf.io/certification/cka/
 - [steipete/CodexBar](https://github.com/steipete/CodexBar) - Show usage stats for OpenAI Codex and Claude Code, without having to login.
 - [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) - Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows. Understand How to write meeting minutes
-- [kodekloudhub/certified-kubernetes-administrator-course](https://github.com/kodekloudhub/certified-kubernetes-administrator-course) - Certified Kubernetes Administrator - CKA Course
