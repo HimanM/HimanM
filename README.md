@@ -84,9 +84,6 @@
   <a href="https://www.credly.com/badges/08d7236a-a63b-4aef-875e-2f7b22507ad6" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/08d7236a-a63b-4aef-875e-2f7b22507ad6.png" alt="Set Up an App Dev Environment on Google Cloud Skill Badge" height="80" />
   </a>
-  <a href="https://www.credly.com/badges/3ec3bde2-7e4c-4820-bbee-8acd1010b740" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/3ec3bde2-7e4c-4820-bbee-8acd1010b740.png" alt="HashiCorp Certified: Terraform Associate (004)" height="80" />
-  </a>
   <a href="https://www.credly.com/badges/6e6054cc-b781-4a79-883c-d75e9421174d" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/6e6054cc-b781-4a79-883c-d75e9421174d.png" alt="IBM Z Day 2025 - AI & Data" height="80" />
   </a>
@@ -98,6 +95,9 @@
   </a>
   <a href="https://www.credly.com/badges/fbf17016-1272-4f7c-91fb-67f24fe895ce" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/fbf17016-1272-4f7c-91fb-67f24fe895ce.png" alt="IBM Z Day 2025 - Security" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/3ec3bde2-7e4c-4820-bbee-8acd1010b740" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/3ec3bde2-7e4c-4820-bbee-8acd1010b740.png" alt="HashiCorp Certified: Terraform Associate (004)" height="80" />
   </a>
   <a href="https://www.credly.com/badges/51d51c47-fdfb-42bf-ad79-f1b261c5b046" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/51d51c47-fdfb-42bf-ad79-f1b261c5b046.png" alt="Cloud Computing Fundamentals" height="80" />
@@ -121,7 +121,7 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
+- [HimanM/DropForge](https://github.com/HimanM/DropForge) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
@@ -130,16 +130,16 @@
 
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
-- [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
+- [HimanM/DropForge](https://github.com/HimanM/DropForge) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 ### 🔨 My recent Pull Requests
 
-- [Add native Android drops miner](https://github.com/HimanM/TwitchDropsMiner/pull/13) on [HimanM/TwitchDropsMiner](https://github.com/HimanM/TwitchDropsMiner)
+- [Add Linux web UI and server installer](https://github.com/HimanM/DropForge/pull/14) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
+- [Add native Android drops miner](https://github.com/HimanM/DropForge/pull/13) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [feat(providers): add Cloudflare Workers AI and Sakana AI Fugu provider plugins](https://github.com/NousResearch/hermes-agent/pull/53105) on [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 - [Refine prompts and polish the premium storefront experience](https://github.com/HimanM/MCP-Agent/pull/17) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 - [Add Groq STT fallback and tighten chat product UX](https://github.com/HimanM/MCP-Agent/pull/16) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
-- [Polish responsive UI and add Vercel deployment support](https://github.com/HimanM/MCP-Agent/pull/15) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 ### ⭐ Recent Stars
 
 - [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) - agent multiplexer that lives in your terminal.
