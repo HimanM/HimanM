@@ -135,11 +135,11 @@
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 ### 🔨 My recent Pull Requests
 
+- [Add opt-in trusted channel fallback](https://github.com/HimanM/DropForge/pull/16) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
+- [Add priority-only Discord notifications](https://github.com/HimanM/DropForge/pull/15) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Add Linux web UI and server installer](https://github.com/HimanM/DropForge/pull/14) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Add native Android drops miner](https://github.com/HimanM/DropForge/pull/13) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [feat(providers): add Cloudflare Workers AI and Sakana AI Fugu provider plugins](https://github.com/NousResearch/hermes-agent/pull/53105) on [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-- [Refine prompts and polish the premium storefront experience](https://github.com/HimanM/MCP-Agent/pull/17) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
-- [Add Groq STT fallback and tighten chat product UX](https://github.com/HimanM/MCP-Agent/pull/16) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 ### ⭐ Recent Stars
 
 - [stablyai/orca](https://github.com/stablyai/orca) - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.
