@@ -142,7 +142,7 @@
 - [feat(providers): add Cloudflare Workers AI and Sakana AI Fugu provider plugins](https://github.com/NousResearch/hermes-agent/pull/53105) on [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 ### ⭐ Recent Stars
 
-- [tt-a1i/archify](https://github.com/tt-a1i/archify) - Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export
+- [tt-a1i/archify](https://github.com/tt-a1i/archify) - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 - [stablyai/orca](https://github.com/stablyai/orca) - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.
 - [fosrl/pangolin](https://github.com/fosrl/pangolin) - Identity-aware VPN and tunneled reverse proxy for remote access based on WireGuard®.
 - [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) - agent multiplexer that lives in your terminal.
