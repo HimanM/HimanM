@@ -33,9 +33,6 @@
   <a href="https://www.credly.com/badges/2b155f45-187f-4a47-8038-92fca2dc541b" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/2b155f45-187f-4a47-8038-92fca2dc541b.png" alt="AWS Knowledge: Amazon EKS - Training Badge" height="80" />
   </a>
-  <a href="https://www.credly.com/badges/bab05f1a-f1b2-459f-b895-f9c405b38b83" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/bab05f1a-f1b2-459f-b895-f9c405b38b83.png" alt="AWS Cloud Quest: Cloud Practitioner - Training Badge" height="80" />
-  </a>
   <a href="https://www.credly.com/badges/ac0c6698-6d8e-4793-bad2-08bdc25e9dbf" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/ac0c6698-6d8e-4793-bad2-08bdc25e9dbf.png" alt="AWS Educate Introduction to Cloud 101 - Training Badge" height="80" />
   </a>
@@ -74,9 +71,6 @@
   </a>
   <a href="https://www.credly.com/badges/adaa8b24-49ba-4131-8992-20386faf2053" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/adaa8b24-49ba-4131-8992-20386faf2053.png" alt="Develop Your Google Cloud Network Skill Badge" height="80" />
-  </a>
-  <a href="https://www.credly.com/badges/68197fa7-af39-42e2-bc14-14baada852da" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/68197fa7-af39-42e2-bc14-14baada852da.png" alt="Implement Cloud Security Fundamentals on Google Cloud Skill Badge" height="80" />
   </a>
   <a href="https://www.credly.com/badges/a416cc7d-d7cb-4771-9eea-c83de45db242" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/a416cc7d-d7cb-4771-9eea-c83de45db242.png" alt="Implement Load Balancing on Compute Engine Skill Badge" height="80" />
