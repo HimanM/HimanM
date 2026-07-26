@@ -129,11 +129,11 @@
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 ### 🔨 My recent Pull Requests
 
+- [Fix web Twitch login reset](https://github.com/HimanM/DropForge/pull/17) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Add opt-in trusted channel fallback](https://github.com/HimanM/DropForge/pull/16) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Add priority-only Discord notifications](https://github.com/HimanM/DropForge/pull/15) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Add Linux web UI and server installer](https://github.com/HimanM/DropForge/pull/14) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Add native Android drops miner](https://github.com/HimanM/DropForge/pull/13) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
-- [feat(providers): add Cloudflare Workers AI and Sakana AI Fugu provider plugins](https://github.com/NousResearch/hermes-agent/pull/53105) on [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 ### ⭐ Recent Stars
 
 - [tt-a1i/archify](https://github.com/tt-a1i/archify) - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
