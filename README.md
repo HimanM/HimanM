@@ -136,8 +136,8 @@
 - [Add native Android drops miner](https://github.com/HimanM/DropForge/pull/13) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 ### ⭐ Recent Stars
 
+- [HimanM/cka-2026-practice-labs-on-killercoda](https://github.com/HimanM/cka-2026-practice-labs-on-killercoda) - Lab setup for CKA domains: Cluster Architecture, Installation &amp; Configuration 25%, Workloads &amp; Scheduling 15%, Services &amp; Networking 20%, Storage 10%, Troubleshooting 30%. 
+- [HimanM/CKA-PREP-2025-v2](https://github.com/HimanM/CKA-PREP-2025-v2) - 
+- [vj2201/CKA-PREP-2025-v2](https://github.com/vj2201/CKA-PREP-2025-v2) - 
+- [sailor-sh/CK-X](https://github.com/sailor-sh/CK-X) - A mock exams for CKAD, CKA, and CKS featuring timed sessions and hands-on labs with pre-configured clusters.
 - [tt-a1i/archify](https://github.com/tt-a1i/archify) - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- [stablyai/orca](https://github.com/stablyai/orca) - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.
-- [fosrl/pangolin](https://github.com/fosrl/pangolin) - Identity-aware VPN and tunneled reverse proxy for remote access based on WireGuard®.
-- [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) - agent multiplexer that lives in your terminal.
-- [Eugeny/tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
