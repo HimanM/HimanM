@@ -116,17 +116,17 @@
 ### 👷 Check out what I'm currently working on
 
 - [HimanM/DropForge](https://github.com/HimanM/DropForge) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
-- [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
+- [HimanM/devsecops-aws-pipeline-githubactions](https://github.com/HimanM/devsecops-aws-pipeline-githubactions) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 ### 🌱 My latest projects
 
-- [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
 - [HimanM/DropForge](https://github.com/HimanM/DropForge) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
+- [HimanM/OpneClaw-k8s-with-Knative](https://github.com/HimanM/OpneClaw-k8s-with-Knative) - Run OpenClaw AI agent runtime serverlessly on Kubernetes - scales to zero when idle, wakes on demand in under 60 seconds, persists state across cycles. One-command local setup with Knative &#43; Kourier.
 ### 🔨 My recent Pull Requests
 
 - [Fix web Twitch login reset](https://github.com/HimanM/DropForge/pull/17) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
