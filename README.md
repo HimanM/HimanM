@@ -136,8 +136,8 @@
 - [Add native Android drops miner](https://github.com/HimanM/DropForge/pull/13) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 ### ⭐ Recent Stars
 
+- [throneproj/Throne](https://github.com/throneproj/Throne) - Cross-platform GUI proxy utility (Empowered by sing-box)
 - [HimanM/cka-2026-practice-labs-on-killercoda](https://github.com/HimanM/cka-2026-practice-labs-on-killercoda) - Lab setup for CKA domains: Cluster Architecture, Installation &amp; Configuration 25%, Workloads &amp; Scheduling 15%, Services &amp; Networking 20%, Storage 10%, Troubleshooting 30%. 
 - [HimanM/CKA-PREP-2025-v2](https://github.com/HimanM/CKA-PREP-2025-v2) - 
 - [vj2201/CKA-PREP-2025-v2](https://github.com/vj2201/CKA-PREP-2025-v2) - 
 - [sailor-sh/CK-X](https://github.com/sailor-sh/CK-X) - A mock exams for CKAD, CKA, and CKS featuring timed sessions and hands-on labs with pre-configured clusters.
-- [tt-a1i/archify](https://github.com/tt-a1i/archify) - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
