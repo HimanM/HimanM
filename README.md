@@ -115,11 +115,11 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/OpneClaw-k8s-with-Knative](https://github.com/HimanM/OpneClaw-k8s-with-Knative) - Run OpenClaw AI agent runtime serverlessly on Kubernetes - scales to zero when idle, wakes on demand in under 60 seconds, persists state across cycles. One-command local setup with Knative &#43; Kourier.
+- [HimanM/Serverless-Fullstack-Deployment](https://github.com/HimanM/Serverless-Fullstack-Deployment) - A Scalable, Highly Available Web Application on AWS and AWS Amplify
 - [HimanM/Weather-Web-App-FullStack](https://github.com/HimanM/Weather-Web-App-FullStack) - Full-stack weather analytics dashboard with comfort index scoring - built with Next.js 16, Express 5, Redis, Auth0, and Docker. Fetches real-time data from OpenWeatherMap, ranks cities by a weighted geometric mean comfort algorithm, and presents insights through a responsive dark/light themed UI.
 - [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot) - Twitch Predictions Tampermonkey bot with underdog auto-bet strategy, live top-nav control panel, discovery probe detection, manual bet controls, and T-5s execution safety caps.
-- [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
 - [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
+- [HimanM/devsecops-aws-pipeline-githubactions](https://github.com/HimanM/devsecops-aws-pipeline-githubactions) - DevSecOps CI/CD pipeline using GitHub Actions with secret scanning, IaC security, policy-as-code enforcement, and manual approval gates, deploying containerized services to AWS via Terraform.
 ### 🌱 My latest projects
 
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
