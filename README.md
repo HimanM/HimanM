@@ -136,8 +136,8 @@
 - [chore: migrate banner API domain](https://github.com/HimanM/Weather-Web-App-FullStack/pull/1) on [HimanM/Weather-Web-App-FullStack](https://github.com/HimanM/Weather-Web-App-FullStack)
 ### ⭐ Recent Stars
 
+- [theplatformlab/CKA-Certified-Kubernetes-Administrator](https://github.com/theplatformlab/CKA-Certified-Kubernetes-Administrator) - CKA Certification Exam Guide 2026 — study notes, practice questions, kubectl cheat sheet, exam tips, and full Kubernetes v1.35 syllabus breakdown. Covers etcd backup, RBAC, kubeadm, Gateway API, NetworkPolicy, troubleshooting, and killer.sh prep. Scored 89%.
 - [throneproj/Throne](https://github.com/throneproj/Throne) - Cross-platform GUI proxy utility (Empowered by sing-box)
 - [HimanM/cka-2026-practice-labs-on-killercoda](https://github.com/HimanM/cka-2026-practice-labs-on-killercoda) - Lab setup for CKA domains: Cluster Architecture, Installation &amp; Configuration 25%, Workloads &amp; Scheduling 15%, Services &amp; Networking 20%, Storage 10%, Troubleshooting 30%. 
 - [HimanM/CKA-PREP-2025-v2](https://github.com/HimanM/CKA-PREP-2025-v2) - 
 - [vj2201/CKA-PREP-2025-v2](https://github.com/vj2201/CKA-PREP-2025-v2) - 
-- [sailor-sh/CK-X](https://github.com/sailor-sh/CK-X) - A mock exams for CKAD, CKA, and CKS featuring timed sessions and hands-on labs with pre-configured clusters.
