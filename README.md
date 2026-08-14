@@ -132,8 +132,6 @@
 - [chore: migrate README portfolio domain](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform/pull/6) on [HimanM/gitops-kubernetes-jenkins-argocd-platform](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform)
 - [chore: migrate banner API domain](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform/pull/5) on [HimanM/gitops-kubernetes-jenkins-argocd-platform](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform)
 - [chore: migrate banner API domain](https://github.com/HimanM/jenkins-chained-cicd-infra-automation/pull/4) on [HimanM/jenkins-chained-cicd-infra-automation](https://github.com/HimanM/jenkins-chained-cicd-infra-automation)
-- [chore: migrate banner API domain](https://github.com/HimanM/devops-microservices-iac-pipeline/pull/7) on [HimanM/devops-microservices-iac-pipeline](https://github.com/HimanM/devops-microservices-iac-pipeline)
-- [chore: migrate banner API domain](https://github.com/HimanM/Weather-Web-App-FullStack/pull/1) on [HimanM/Weather-Web-App-FullStack](https://github.com/HimanM/Weather-Web-App-FullStack)
 ### ⭐ Recent Stars
 
 - [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD
