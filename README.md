@@ -130,12 +130,10 @@
 ### 🔨 My recent Pull Requests
 
 - [chore: migrate README portfolio domain](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform/pull/6) on [HimanM/gitops-kubernetes-jenkins-argocd-platform](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform)
-- [chore: migrate banner API domain](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform/pull/5) on [HimanM/gitops-kubernetes-jenkins-argocd-platform](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform)
-- [chore: migrate banner API domain](https://github.com/HimanM/jenkins-chained-cicd-infra-automation/pull/4) on [HimanM/jenkins-chained-cicd-infra-automation](https://github.com/HimanM/jenkins-chained-cicd-infra-automation)
 ### ⭐ Recent Stars
 
+- [okwasniewski/MiniSim](https://github.com/okwasniewski/MiniSim) - MacOS menu bar app for launching iOS  and Android 🤖 emulators
 - [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD
 - [theplatformlab/CKA-Certified-Kubernetes-Administrator](https://github.com/theplatformlab/CKA-Certified-Kubernetes-Administrator) - CKA Certification Exam Guide 2026 — study notes, practice questions, kubectl cheat sheet, exam tips, and full Kubernetes v1.35 syllabus breakdown. Covers etcd backup, RBAC, kubeadm, Gateway API, NetworkPolicy, troubleshooting, and killer.sh prep. Scored 89%.
 - [throneproj/Throne](https://github.com/throneproj/Throne) - Cross-platform GUI proxy utility (Empowered by sing-box)
 - [HimanM/cka-2026-practice-labs-on-killercoda](https://github.com/HimanM/cka-2026-practice-labs-on-killercoda) - Lab setup for CKA domains: Cluster Architecture, Installation &amp; Configuration 25%, Workloads &amp; Scheduling 15%, Services &amp; Networking 20%, Storage 10%, Troubleshooting 30%. 
-- [HimanM/CKA-PREP-2025-v2](https://github.com/HimanM/CKA-PREP-2025-v2) - 
