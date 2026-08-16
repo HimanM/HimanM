@@ -129,7 +129,6 @@
 - [HimanM/OpneClaw-k8s-with-Knative](https://github.com/HimanM/OpneClaw-k8s-with-Knative) - Run OpenClaw AI agent runtime serverlessly on Kubernetes - scales to zero when idle, wakes on demand in under 60 seconds, persists state across cycles. One-command local setup with Knative &#43; Kourier.
 ### 🔨 My recent Pull Requests
 
-- [chore: migrate README portfolio domain](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform/pull/6) on [HimanM/gitops-kubernetes-jenkins-argocd-platform](https://github.com/HimanM/gitops-kubernetes-jenkins-argocd-platform)
 ### ⭐ Recent Stars
 
 - [okwasniewski/MiniSim](https://github.com/okwasniewski/MiniSim) - MacOS menu bar app for launching iOS  and Android 🤖 emulators
