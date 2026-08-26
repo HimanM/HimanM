@@ -60,6 +60,9 @@
   <a href="https://www.credly.com/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/f9e9b2f2-94b7-45b9-86da-1de1d46cd2f9.png" alt="Cloud Technical Series: AI in Action Badge" height="80" />
   </a>
+  <a href="https://www.credly.com/badges/fd292228-01b9-476a-8edf-5a8eaae8a924" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/fd292228-01b9-476a-8edf-5a8eaae8a924.png" alt="Associate Cloud Engineer Certification" height="80" />
+  </a>
   <a href="https://www.credly.com/badges/474edb4c-55fe-4027-8f1f-079e3eae7747" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/474edb4c-55fe-4027-8f1f-079e3eae7747.png" alt="Build a Secure Google Cloud Network Skill Badge" height="80" />
   </a>
