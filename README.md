@@ -118,9 +118,9 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/DropForge](https://github.com/HimanM/DropForge) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
-- [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
-- [HimanM/Serverless-Fullstack-Deployment](https://github.com/HimanM/Serverless-Fullstack-Deployment) - A Scalable, Highly Available Web Application on AWS and AWS Amplify
+- [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
 - [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot) - Twitch Predictions Tampermonkey bot with underdog auto-bet strategy, live top-nav control panel, discovery probe detection, manual bet controls, and T-5s execution safety caps.
 - [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
 ### 🌱 My latest projects
@@ -132,11 +132,11 @@
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 ### 🔨 My recent Pull Requests
 
+- [Make Twitch GQL recovery self-healing](https://github.com/HimanM/DropForge/pull/18) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [fix(cart): add WebSocket heartbeat pings, exponential reconnect, and eliminate 5s GET polling](https://github.com/HimanM/MCP-Agent/pull/31) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 - [feat(voice): Google Gemini 3.1 Multimodal Live Voice Agent with Bidirectional Streaming &amp; Multilingual Support](https://github.com/HimanM/MCP-Agent/pull/30) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 - [fix(runtime): ensure multi-action budget prompts proceed to agent without early termination](https://github.com/HimanM/MCP-Agent/pull/29) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 - [feat: High-speed Personalized Deals &amp; Curated Categories](https://github.com/HimanM/MCP-Agent/pull/28) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
-- [feat: Beautiful UI streaming text animation, markdown preservation &amp; accessory filtering](https://github.com/HimanM/MCP-Agent/pull/27) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 ### ⭐ Recent Stars
 
 - [okwasniewski/MiniSim](https://github.com/okwasniewski/MiniSim) - MacOS menu bar app for launching iOS  and Android 🤖 emulators
