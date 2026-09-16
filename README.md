@@ -139,8 +139,8 @@
 - [feat: High-speed Personalized Deals &amp; Curated Categories](https://github.com/HimanM/MCP-Agent/pull/28) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 ### ⭐ Recent Stars
 
+- [CloudWithVarJosh/CKA-Certification-Course-2025](https://github.com/CloudWithVarJosh/CKA-Certification-Course-2025) - CKA-Certification-Course-2025 is a beginner-friendly repository designed to help you prepare for the Certified Kubernetes Administrator (CKA) exam. It covers Docker basics and essential Kubernetes concepts, organized into daily lessons. 
 - [okwasniewski/MiniSim](https://github.com/okwasniewski/MiniSim) - MacOS menu bar app for launching iOS  and Android 🤖 emulators
 - [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) - A privacy-first app that strips AI watermarks from content you own.
 - [theplatformlab/CKA-Certified-Kubernetes-Administrator](https://github.com/theplatformlab/CKA-Certified-Kubernetes-Administrator) - CKA Certification Exam Guide 2026 — study notes, practice questions, kubectl cheat sheet, exam tips, and full Kubernetes v1.35 syllabus breakdown. Covers etcd backup, RBAC, kubeadm, Gateway API, NetworkPolicy, troubleshooting, and killer.sh prep. Scored 89%.
 - [throneproj/Throne](https://github.com/throneproj/Throne) - Cross-platform GUI proxy utility (Empowered by sing-box)
-- [HimanM/cka-2026-practice-labs-on-killercoda](https://github.com/HimanM/cka-2026-practice-labs-on-killercoda) - Lab setup for CKA domains: Cluster Architecture, Installation &amp; Configuration 25%, Workloads &amp; Scheduling 15%, Services &amp; Networking 20%, Storage 10%, Troubleshooting 30%. 
