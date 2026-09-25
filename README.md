@@ -122,7 +122,7 @@
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
-- [HimanM/iac-config-mgmt-enterprise-demo](https://github.com/HimanM/iac-config-mgmt-enterprise-demo) - This project is an advanced demonstration of Infrastructure as Code (IaC) and Configuration Management principles, designed to simulate a real-world enterprise deployment.
+- [HimanM/Twitch-Predictions-Bot](https://github.com/HimanM/Twitch-Predictions-Bot) - Twitch Predictions Tampermonkey bot with underdog auto-bet strategy, live top-nav control panel, discovery probe detection, manual bet controls, and T-5s execution safety caps.
 ### 🌱 My latest projects
 
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
@@ -132,11 +132,11 @@
 - [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 ### 🔨 My recent Pull Requests
 
+- [Fix web campaign discovery on headless servers](https://github.com/HimanM/DropForge/pull/21) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Fix Twitch device login startup crash](https://github.com/HimanM/DropForge/pull/20) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Add priority-first idle free badge farming](https://github.com/HimanM/DropForge/pull/19) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Make Twitch GQL recovery self-healing](https://github.com/HimanM/DropForge/pull/18) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [fix(cart): add WebSocket heartbeat pings, exponential reconnect, and eliminate 5s GET polling](https://github.com/HimanM/MCP-Agent/pull/31) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
-- [feat(voice): Google Gemini 3.1 Multimodal Live Voice Agent with Bidirectional Streaming &amp; Multilingual Support](https://github.com/HimanM/MCP-Agent/pull/30) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 ### ⭐ Recent Stars
 
 - [adam-bouafia/Kubernetes-Certified-Administrator](https://github.com/adam-bouafia/Kubernetes-Certified-Administrator) - CKA 2026 update (Kubernetes v1.35) of Walid Shaari&#39;s CKA resource guide, with a troubleshooting method and study guides.
