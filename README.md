@@ -115,7 +115,7 @@
     <img src="assets/certs/github-foundations.png" height="80" />
   </a>
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/HimanManduja-3121/C6C6FA5DE9DDDF86?sharingId=927B438A032C0E8E" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/certs/mcaa.png" height="80" />
+    <img src="assets/certs/mcaaa.png" height="80" />
   </a>
 </p>
 
