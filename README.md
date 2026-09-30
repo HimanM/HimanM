@@ -114,6 +114,9 @@
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/Himanman/646B140D45887B94?sharingId=157C81941C0409CE" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/certs/github-foundations.png" height="80" />
   </a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/HimanManduja-3121/C6C6FA5DE9DDDF86?sharingId=927B438A032C0E8E" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/certs/mcaa.png" height="80" />
+  </a>
 </p>
 
 ### 👷 Check out what I'm currently working on
