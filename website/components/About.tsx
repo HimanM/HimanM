@@ -18,7 +18,7 @@ function renderBoldText(text: string) {
     const isBoldText = parts[index - 1]?.match(/^<(?:b|strong)>$/) && parts[index + 1]?.match(/^<\/(?:b|strong)>$/);
 
     if (part.match(/^<\/?(?:b|strong)>$/)) return null;
-    return isBoldText ? <strong class="font-light text-fg" key={index}>{part}</strong> : part;
+    return isBoldText ? <strong className="font-light text-fg" key={index}>{part}</strong> : part;
   });
 }
 
