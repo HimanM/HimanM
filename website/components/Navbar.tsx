@@ -24,23 +24,28 @@ export function Navbar() {
         ? 'top-3 left-4 right-4 md:top-[16px] md:left-[22%] md:right-[22%] gap-12 p-[12px_20px] md:p-[14px_36px] rounded-full bg-bg/85 backdrop-blur-md shadow-lg shadow-black/10 dark:shadow-black/25' 
         : 'p-[18px_24px] md:py-[22px] md:px-[44px]'
     }`}>
-      <Link href="#hero" className="font-syne text-[15px] font-extrabold tracking-tight" data-cursor>
+      <Link href="/#hero" className="font-syne text-[15px] font-extrabold tracking-tight" data-cursor>
         himanm
       </Link>
       <div className="flex items-center gap-4 md:gap-9">
         <ul className="hidden md:flex items-center gap-7">
           <li>
-            <Link href="#work" className="text-xs font-normal tracking-widest uppercase text-muted hover:text-fg relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1px] after:w-0 hover:after:w-full after:bg-fg after:transition-all after:duration-300" data-cursor>
+            <Link href="/#work" className="text-xs font-normal tracking-widest uppercase text-muted hover:text-fg relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1px] after:w-0 hover:after:w-full after:bg-fg after:transition-all after:duration-300" data-cursor>
               Projects
             </Link>
           </li>
           <li>
-            <Link href="#about" className="text-xs font-normal tracking-widest uppercase text-muted hover:text-fg relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1px] after:w-0 hover:after:w-full after:bg-fg after:transition-all after:duration-300" data-cursor>
+            <Link href="/#about" className="text-xs font-normal tracking-widest uppercase text-muted hover:text-fg relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1px] after:w-0 hover:after:w-full after:bg-fg after:transition-all after:duration-300" data-cursor>
               About
             </Link>
           </li>
           <li>
-            <Link href="#contact" className="text-xs font-normal tracking-widest uppercase text-muted hover:text-fg relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1px] after:w-0 hover:after:w-full after:bg-fg after:transition-all after:duration-300" data-cursor>
+            <Link href="/resume" className="text-xs font-normal tracking-widest uppercase text-muted hover:text-fg relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1px] after:w-0 hover:after:w-full after:bg-fg after:transition-all after:duration-300" data-cursor>
+              Resume
+            </Link>
+          </li>
+          <li>
+            <Link href="/#contact" className="text-xs font-normal tracking-widest uppercase text-muted hover:text-fg relative after:absolute after:bottom-[-2px] after:left-0 after:h-[1px] after:w-0 hover:after:w-full after:bg-fg after:transition-all after:duration-300" data-cursor>
               Contact
             </Link>
           </li>
