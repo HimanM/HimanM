@@ -13,6 +13,15 @@ interface Certification {
   link?: string;
 }
 
+function renderBoldText(text: string) {
+  return text.split(/(<\/?(?:b|strong)>)/).map((part, index, parts) => {
+    const isBoldText = parts[index - 1]?.match(/^<(?:b|strong)>$/) && parts[index + 1]?.match(/^<\/(?:b|strong)>$/);
+
+    if (part.match(/^<\/?(?:b|strong)>$/)) return null;
+    return isBoldText ? <strong class="font-light text-fg" key={index}>{part}</strong> : part;
+  });
+}
+
 export function About() {
   const [showAllCerts, setShowAllCerts] = useState(false);
   const certifications: Certification[] = certificationsData;
@@ -44,7 +53,7 @@ export function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.65, delay: idx * 0.08, ease: "easeOut" }}
             >
-              {paragraph}
+              {renderBoldText(paragraph)}
             </motion.p>
           ))}
           
@@ -191,4 +200,3 @@ export function About() {
     </section>
   );
 }
-
