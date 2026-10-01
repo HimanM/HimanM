@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import certificationsData from '@/data/certifications.json';
 
+import profileData from '@/data/profile.json';
+
 interface Certification {
   title: string;
   issuer: string;
@@ -17,14 +19,8 @@ export function About() {
   const PREVIEW_COUNT = 4;
   const visibleCertifications = showAllCerts ? certifications : certifications.slice(0, PREVIEW_COUNT);
 
-  const education = [
-    { school: 'Cardiff Metropolitan University, UK', degree: 'BSc (Hons) Software Engineering (First Class)', year: '2026' },
-    { school: 'Cardiff Metropolitan University, UK', degree: 'Diploma in Computer Science & Software Engineering', year: '2024' },
-  ];
-
-  const skills = [
-    "AWS (EKS, ECS, EC2)", "Terraform", "Ansible", "Kubernetes", "Docker", "Istio", "ArgoCD", "Helm", "GitHub Actions", "Jenkins", "Python", "JavaScript/React", "Java", "SQL"
-  ];
+  const education = profileData.education;
+  const skills = profileData.skills;
 
   return (
     <section id="about" className="py-[80px] md:py-[120px] px-6 md:px-11">
@@ -39,33 +35,18 @@ export function About() {
       
       <div className="grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-12 md:gap-20 mt-12 md:mt-20 items-start">
         <div className="flex flex-col gap-6">
-          <motion.p 
-            className="text-[clamp(17px,1.7vw,22px)] leading-[1.62] font-light text-muted"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.65, ease: "easeOut" }}
-          >
-            <strong className="font-light text-fg">DevOps Engineer Intern candidate</strong> with hands-on experience in CI/CD automation, cloud infrastructure, Docker, and Infrastructure as Code (Terraform).
-          </motion.p>
-          <motion.p 
-            className="text-[clamp(17px,1.7vw,22px)] leading-[1.62] font-light text-muted"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.65, delay: 0.08, ease: "easeOut" }}
-          >
-            I am currently expanding my knowledge in <strong className="font-light text-fg">Kubernetes fundamentals</strong>, getting practical exposure through personal projects and certifications.
-          </motion.p>
-          <motion.p 
-            className="text-[clamp(17px,1.7vw,22px)] leading-[1.62] font-light text-muted"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.65, delay: 0.16, ease: "easeOut" }}
-          >
-            With a background in Software Engineering, I bring a strong interest in <strong className="font-light text-fg">cloud-native technologies and DevOps practices</strong>, focused on bridging the gap between development and operations.
-          </motion.p>
+          {profileData.bio.map((paragraph, idx) => (
+            <motion.p 
+              key={idx}
+              className="text-[clamp(17px,1.7vw,22px)] leading-[1.62] font-light text-muted"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.65, delay: idx * 0.08, ease: "easeOut" }}
+            >
+              {paragraph}
+            </motion.p>
+          ))}
           
           <motion.a 
             href="/resume" 

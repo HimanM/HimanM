@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'motion/react';
+import profileData from '@/data/profile.json';
 
 export function ResumeViewer() {
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -42,7 +43,7 @@ export function ResumeViewer() {
             Curriculum Vitae
           </h1>
           <p className="text-muted text-[13px] mt-1 font-light">
-            Himan Manduja · DevOps Engineer Intern Candidate · Colombo, Sri Lanka
+            {profileData.name} · {profileData.title} · {profileData.location}
           </p>
         </div>
 

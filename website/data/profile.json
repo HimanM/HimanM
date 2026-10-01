@@ -1,0 +1,49 @@
+{
+  "name": "Himan Manduja",
+  "firstName": "Himan",
+  "lastName": "Manduja",
+  "title": "DevOps Engineer",
+  "tagline": "Software Engineering Grad · DevOps Enthusiast",
+  "status": "Looking for internships",
+  "location": "Colombo, Sri Lanka",
+  "email": "hghimanmanduja@gmail.com",
+  "heroDescription": "Recent software engineering graduate with hands-on experience in CI/CD automation, cloud infrastructure, and Kubernetes. Based in Colombo, Sri Lanka, looking for DevOps internships.",
+  "bio": [
+    "DevOps Engineer Intern candidate with hands-on experience in CI/CD automation, cloud infrastructure, Docker, and Infrastructure as Code (Terraform).",
+    "I am currently expanding my knowledge in Kubernetes fundamentals, getting practical exposure through personal projects and certifications.",
+    "With a background in Software Engineering, I bring a strong interest in cloud-native technologies and DevOps practices, focused on bridging the gap between development and operations."
+  ],
+  "socials": {
+    "email": "hghimanmanduja@gmail.com",
+    "linkedin": "https://linkedin.com/in/himanm",
+    "github": "https://github.com/himanm"
+  },
+  "education": [
+    {
+      "school": "Cardiff Metropolitan University, UK",
+      "degree": "BSc (Hons) Software Engineering (First Class)",
+      "year": "2026"
+    },
+    {
+      "school": "Cardiff Metropolitan University, UK",
+      "degree": "Diploma in Computer Science & Software Engineering",
+      "year": "2024"
+    }
+  ],
+  "skills": [
+    "AWS (EKS, ECS, EC2)",
+    "Terraform",
+    "Ansible",
+    "Kubernetes",
+    "Docker",
+    "Istio",
+    "ArgoCD",
+    "Helm",
+    "GitHub Actions",
+    "Jenkins",
+    "Python",
+    "JavaScript/React",
+    "Java",
+    "SQL"
+  ]
+}

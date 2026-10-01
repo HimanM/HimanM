@@ -6,6 +6,7 @@ on:
     paths:
       - 'website/**'
       - 'certifications.json'
+      - 'profile.json'
       - '.github/workflows/deploy-website.yml'
   workflow_dispatch:
 

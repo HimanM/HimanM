@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'motion/react';
+import profileData from '@/data/profile.json';
 
 export function Hero() {
   return (
@@ -14,7 +15,7 @@ export function Hero() {
           animate={{ y: 0 }}
           transition={{ duration: 0.75, delay: 0.5, ease: "easeOut" }}
         >
-          Software Engineering Grad · DevOps Enthusiast
+          {profileData.tagline}
         </motion.span>
       </motion.p>
       
@@ -26,7 +27,7 @@ export function Hero() {
             animate={{ y: 0 }}
             transition={{ duration: 1.05, ease: "easeOut", delay: 0.05 }}
           >
-            Himan
+            {profileData.firstName}
           </motion.span>
         </span>
         <span className="block overflow-hidden relative pb-[0.2em] -mb-[0.2em]">
@@ -36,7 +37,7 @@ export function Hero() {
             animate={{ y: 0 }}
             transition={{ duration: 1.05, ease: "easeOut", delay: 0.15 }}
           >
-            Manduja
+            {profileData.lastName}
           </motion.span>
         </span>
       </h1>
@@ -48,7 +49,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.65, ease: "easeOut" }}
         >
-          Recent software engineering graduate with hands-on experience in CI/CD automation, cloud infrastructure, and Kubernetes. Based in Colombo, Sri Lanka, looking for DevOps internships.
+          {profileData.heroDescription}
         </motion.p>
         
         <div className="flex flex-col items-start md:items-end gap-2.5">
@@ -59,7 +60,7 @@ export function Hero() {
             transition={{ duration: 0.55, delay: 0.75, ease: "easeOut" }}
           >
             <span className="pill-dot" />
-            Looking for internships
+            {profileData.status}
           </motion.div>
           
           <motion.div 
@@ -68,7 +69,7 @@ export function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.55, delay: 0.85, ease: "easeOut" }}
           >
-            Colombo, Sri Lanka
+            {profileData.location}
           </motion.div>
         </div>
       </div>

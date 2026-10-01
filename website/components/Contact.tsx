@@ -2,12 +2,13 @@
 
 import { motion } from 'motion/react';
 import { useState } from 'react';
+import profileData from '@/data/profile.json';
 
 export function Contact() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('hghimanmanduja@gmail.com').then(() => {
+    navigator.clipboard.writeText(profileData.email).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
@@ -38,7 +39,7 @@ export function Contact() {
             transition={{ duration: 0.9, delay: 0.12, ease: "easeOut" }}
           >
             <a 
-              href="mailto:hghimanmanduja@gmail.com" 
+              href={`mailto:${profileData.email}`} 
               className="relative inline-block transition-colors duration-300 hover:text-accent group"
               data-cursor="hi"
             >
@@ -61,7 +62,7 @@ export function Contact() {
       >
         <div className="flex flex-col">
           <div className="flex items-center gap-2 group">
-            <p className="text-[13px] text-muted leading-[1.7]">hghimanmanduja@gmail.com</p>
+            <p className="text-[13px] text-muted leading-[1.7]">{profileData.email}</p>
             <button 
               onClick={handleCopy}
               className={`inline-flex items-center justify-center bg-transparent border-none p-0.5 text-muted transition-all duration-200 cursor-none hover:text-fg opacity-0 group-hover:opacity-100 ${copied ? '!text-[#00C96B] !opacity-100' : ''}`}
@@ -79,24 +80,24 @@ export function Contact() {
               )}
             </button>
           </div>
-          <p className="text-[13px] text-muted leading-[1.7]">Colombo, Sri Lanka</p>
+          <p className="text-[13px] text-muted leading-[1.7]">{profileData.location}</p>
         </div>
         
         <div className="flex flex-wrap gap-6 mt-4 md:mt-0">
-          <a href="mailto:hghimanmanduja@gmail.com" className="text-[11px] tracking-[0.1em] uppercase text-muted hover:text-fg transition-colors duration-300" data-cursor="hi">
+          <a href={`mailto:${profileData.email}`} className="text-[11px] tracking-[0.1em] uppercase text-muted hover:text-fg transition-colors duration-300" data-cursor="hi">
             Email
           </a>
-          <a href="https://linkedin.com/in/himanm" target="_blank" rel="noopener noreferrer" className="text-[11px] tracking-[0.1em] uppercase text-muted hover:text-fg transition-colors duration-300" data-cursor="hi">
+          <a href={profileData.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-[11px] tracking-[0.1em] uppercase text-muted hover:text-fg transition-colors duration-300" data-cursor="hi">
             LinkedIn
           </a>
-          <a href="https://github.com/himanm" target="_blank" rel="noopener noreferrer" className="text-[11px] tracking-[0.1em] uppercase text-muted hover:text-fg transition-colors duration-300" data-cursor="hi">
+          <a href={profileData.socials.github} target="_blank" rel="noopener noreferrer" className="text-[11px] tracking-[0.1em] uppercase text-muted hover:text-fg transition-colors duration-300" data-cursor="hi">
             GitHub
           </a>
         </div>
       </motion.div>
       
       <p className="text-[11px] text-muted mt-8 text-center pt-8 border-t border-border">
-        © 2026 Himan Manduja · DevOps Engineer
+        © 2026 {profileData.name} · {profileData.title}
       </p>
     </section>
   );

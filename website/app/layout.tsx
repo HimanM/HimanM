@@ -4,6 +4,8 @@ import './globals.css';
 import { Providers } from '@/components/Providers';
 import { Cursor } from '@/components/Cursor';
 
+import profileData from '@/data/profile.json';
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -17,14 +19,14 @@ const syne = Syne({
 export const metadata: Metadata = {
   metadataBase: new URL('https://himanm.com'),
   title: {
-    default: 'Himan Manduja · DevOps Engineer',
-    template: '%s · Himan Manduja',
+    default: `${profileData.name} · ${profileData.title}`,
+    template: `%s · ${profileData.name}`,
   },
-  description: 'DevOps Engineer candidate and Software Engineering graduate based in Colombo, Sri Lanka. Hands-on experience with Kubernetes, Terraform, Docker, AWS, Azure, Google Cloud, and CI/CD automation.',
+  description: profileData.heroDescription,
   keywords: [
-    'Himan Manduja',
+    profileData.name,
     'HimanM',
-    'DevOps Engineer',
+    profileData.title,
     'DevOps Portfolio',
     'Cloud Infrastructure',
     'Kubernetes',
@@ -36,20 +38,20 @@ export const metadata: Metadata = {
     'Google Cloud Certified Associate Cloud Engineer',
     'Platform Engineering',
     'Site Reliability',
-    'Colombo Sri Lanka',
+    profileData.location,
     'Cardiff Metropolitan University'
   ],
-  authors: [{ name: 'Himan Manduja', url: 'https://himanm.com' }],
-  creator: 'Himan Manduja',
-  publisher: 'Himan Manduja',
+  authors: [{ name: profileData.name, url: 'https://himanm.com' }],
+  creator: profileData.name,
+  publisher: profileData.name,
   alternates: {
     canonical: 'https://himanm.com',
   },
   openGraph: {
-    title: 'Himan Manduja · DevOps Engineer',
-    description: 'DevOps Engineer candidate specializing in CI/CD automation, cloud infrastructure, Docker, and Terraform.',
+    title: `${profileData.name} · ${profileData.title}`,
+    description: profileData.heroDescription,
     url: 'https://himanm.com',
-    siteName: 'Himan Manduja Portfolio',
+    siteName: `${profileData.name} Portfolio`,
     locale: 'en_US',
     type: 'website',
     images: [
@@ -57,14 +59,14 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Himan Manduja · DevOps Engineer',
+        alt: `${profileData.name} · ${profileData.title}`,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Himan Manduja · DevOps Engineer',
-    description: 'DevOps Engineer candidate specializing in CI/CD automation, cloud infrastructure, Docker, and Terraform.',
+    title: `${profileData.name} · ${profileData.title}`,
+    description: profileData.heroDescription,
     creator: '@himanm',
     images: ['/og-image.png'],
   },
@@ -92,50 +94,35 @@ const jsonLd = {
     {
       '@type': 'Person',
       '@id': 'https://himanm.com/#person',
-      name: 'Himan Manduja',
-      givenName: 'Himan',
-      familyName: 'Manduja',
+      name: profileData.name,
+      givenName: profileData.firstName,
+      familyName: profileData.lastName,
       url: 'https://himanm.com',
-      jobTitle: 'DevOps Engineer',
+      jobTitle: profileData.title,
       alumniOf: {
         '@type': 'EducationalOrganization',
-        name: 'Cardiff Metropolitan University, UK',
+        name: profileData.education[0]?.school || 'Cardiff Metropolitan University, UK',
       },
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Colombo',
+        addressLocality: profileData.location.split(',')[0].trim(),
         addressCountry: 'LK',
       },
-      email: 'mailto:hghimanmanduja@gmail.com',
+      email: `mailto:${profileData.email}`,
       sameAs: [
-        'https://github.com/himanm',
-        'https://linkedin.com/in/himanm',
+        profileData.socials.github,
+        profileData.socials.linkedin,
         'https://www.credly.com/users/himan',
         'https://learn.microsoft.com/api/credentials/share/en-us/HimanManduja-3121/C6C6FA5DE9DDDF86?sharingId=927B438A032C0E8E',
       ],
-      knowsAbout: [
-        'DevOps',
-        'Cloud Infrastructure',
-        'Kubernetes',
-        'Terraform',
-        'Docker',
-        'CI/CD Automation',
-        'Amazon Web Services (AWS)',
-        'Microsoft Azure',
-        'Google Cloud Platform (GCP)',
-        'GitHub Actions',
-        'Jenkins',
-        'Linux Administration',
-        'Ansible',
-        'Site Reliability Engineering'
-      ],
+      knowsAbout: profileData.skills,
     },
     {
       '@type': 'WebSite',
       '@id': 'https://himanm.com/#website',
       url: 'https://himanm.com',
-      name: 'Himan Manduja Portfolio',
-      description: 'DevOps Engineer and Software Engineering graduate portfolio.',
+      name: `${profileData.name} Portfolio`,
+      description: profileData.heroDescription,
       publisher: {
         '@id': 'https://himanm.com/#person',
       },

@@ -1,15 +1,16 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/Navbar';
 import { ResumeViewer } from '@/components/ResumeViewer';
+import profileData from '@/data/profile.json';
 
 export const metadata: Metadata = {
-  title: 'Resume | Himan Manduja - DevOps Engineer',
-  description: 'View and download the resume of Himan Manduja, Software Engineering graduate and DevOps Engineer specializing in Kubernetes, Terraform, Cloud Infrastructure, and CI/CD.',
+  title: `Resume | ${profileData.name} - ${profileData.title}`,
+  description: `View and download the resume of ${profileData.name}, ${profileData.title} based in ${profileData.location}. ${profileData.heroDescription}`,
   openGraph: {
-    title: 'Himan Manduja - Resume & Curriculum Vitae',
-    description: 'DevOps Engineer Intern candidate with hands-on experience in CI/CD automation, cloud infrastructure, Docker, and Terraform.',
+    title: `${profileData.name} - Resume & Curriculum Vitae`,
+    description: profileData.heroDescription,
     url: 'https://himanm.com/resume',
-    siteName: 'Himan Manduja',
+    siteName: profileData.name,
     type: 'profile',
   },
   alternates: {
