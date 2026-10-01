@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "sync-data": "node -e \"const fs = require('fs'); const path = require('path'); const rootCert = path.resolve('..', 'certifications.json'); const dest = path.resolve('data', 'certifications.json'); if (fs.existsSync(rootCert)) { fs.copyFileSync(rootCert, dest); console.log('Synced certifications.json from root'); }\"",
+    "predev": "npm run sync-data",
+    "prebuild": "npm run sync-data",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

@@ -115,6 +115,6 @@ body.is-hovering .cursor-label-dot {
   animation: mq 28s linear infinite;
 }
 
-.marquee-wrap:hover .marquee-track {
+.marquee-track:has(a:hover) {
   animation-play-state: paused;
 }

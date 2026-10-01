@@ -1,21 +1,25 @@
 'use client';
 
-import { motion } from 'motion/react';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
+import certificationsData from '@/data/certifications.json';
+
+interface Certification {
+  title: string;
+  issuer: string;
+  year: string;
+  link?: string;
+}
 
 export function About() {
+  const [showAllCerts, setShowAllCerts] = useState(false);
+  const certifications: Certification[] = certificationsData;
+  const PREVIEW_COUNT = 4;
+  const visibleCertifications = showAllCerts ? certifications : certifications.slice(0, PREVIEW_COUNT);
+
   const education = [
     { school: 'Cardiff Metropolitan University, UK', degree: 'BSc (Hons) Software Engineering (First Class)', year: '2026' },
     { school: 'Cardiff Metropolitan University, UK', degree: 'Diploma in Computer Science & Software Engineering', year: '2024' },
-  ];
-
-  const certifications = [
-    { title: 'Microsoft Certified: Azure Administrator Associate', issuer: 'Microsoft', year: '2026' },
-    { title: 'Google Cloud Certified: Associate Cloud Engineer', issuer: 'Google Cloud', year: '2026' },
-    { title: 'AWS Cloud Practitioner', issuer: 'AWS', year: '2026' },
-    { title: 'HashiCorp Certified: Terraform Associate (004)', issuer: 'HashiCorp', year: '2026' },
-    { title: 'GitHub Foundations', issuer: 'GitHub', year: '2025' },
-    { title: 'Introduction to Jenkins (LFS167)', issuer: 'The Linux Foundation', year: '2025' },
-    { title: '100 Days of Cloud (AWS) / DevOps', issuer: 'KodeKloud', year: '2026' }
   ];
 
   const skills = [
@@ -64,9 +68,7 @@ export function About() {
           </motion.p>
           
           <motion.a 
-            href="/resume.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            href="/resume" 
             className="inline-flex items-center gap-[7px] self-start bg-transparent border border-border rounded-full py-[7px] px-[15px] text-muted font-inter text-[11px] tracking-[0.08em] uppercase whitespace-nowrap transition-all duration-300 hover:bg-fg hover:text-bg hover:border-fg group mt-5"
             data-cursor
             initial={{ opacity: 0, y: 16 }}
@@ -108,18 +110,84 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.65, delay: 0.2, ease: "easeOut" }}
           >
-            <h3 className="text-[10px] tracking-[0.14em] uppercase text-muted mb-4">Certifications</h3>
+            <div className="flex justify-between items-baseline mb-4">
+              <h3 className="text-[10px] tracking-[0.14em] uppercase text-muted">Certifications</h3>
+              <span className="text-[10px] tracking-[0.1em] uppercase text-muted/60">
+                {certifications.length} Credentials
+              </span>
+            </div>
             <ul className="flex flex-col">
-              {certifications.map((a, i) => (
-                <li key={i} className="flex justify-between items-baseline py-3.5 border-b border-border gap-3">
-                  <div className="flex flex-col gap-0.5">
-                    <span className="font-syne text-[14px] font-bold tracking-[-0.01em]">{a.title}</span>
-                    <span className="text-[12px] text-muted">{a.issuer}</span>
-                  </div>
-                  <span className="text-[11px] text-muted whitespace-nowrap shrink-0">{a.year}</span>
-                </li>
-              ))}
+              <AnimatePresence initial={false}>
+                {visibleCertifications.map((a) => (
+                  <motion.li 
+                    key={a.title} 
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                    className="overflow-hidden"
+                  >
+                    {a.link ? (
+                      <a 
+                        href={a.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex justify-between items-baseline py-3.5 border-b border-border gap-3 group/cert hover:border-fg/40 transition-colors"
+                        data-cursor
+                      >
+                        <div className="flex flex-col gap-0.5">
+                          <div className="flex items-center gap-1.5">
+                            <span className="font-syne text-[14px] font-bold tracking-[-0.01em] group-hover/cert:text-accent transition-colors">
+                              {a.title}
+                            </span>
+                            <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="opacity-0 group-hover/cert:opacity-100 transition-opacity text-accent shrink-0">
+                              <path d="M2 10L10 2M10 2H4M10 2V8" />
+                            </svg>
+                          </div>
+                          <span className="text-[12px] text-muted">{a.issuer}</span>
+                        </div>
+                        <span className="text-[11px] text-muted whitespace-nowrap shrink-0">{a.year}</span>
+                      </a>
+                    ) : (
+                      <div className="flex justify-between items-baseline py-3.5 border-b border-border gap-3">
+                        <div className="flex flex-col gap-0.5">
+                          <span className="font-syne text-[14px] font-bold tracking-[-0.01em]">{a.title}</span>
+                          <span className="text-[12px] text-muted">{a.issuer}</span>
+                        </div>
+                        <span className="text-[11px] text-muted whitespace-nowrap shrink-0">{a.year}</span>
+                      </div>
+                    )}
+                  </motion.li>
+                ))}
+              </AnimatePresence>
             </ul>
+            {certifications.length > PREVIEW_COUNT && (
+              <button
+                type="button"
+                onClick={() => setShowAllCerts(!showAllCerts)}
+                className="inline-flex items-center gap-2 self-start text-[11px] tracking-[0.09em] uppercase text-muted hover:text-fg transition-all duration-300 group mt-4 py-1 cursor-none"
+                data-cursor
+              >
+                <span>
+                  {showAllCerts 
+                    ? 'Show fewer' 
+                    : `View all (${certifications.length}) certifications`}
+                </span>
+                <svg 
+                  width="11" 
+                  height="11" 
+                  viewBox="0 0 12 12" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  strokeWidth="1.6" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  className={`transition-transform duration-300 text-accent ${showAllCerts ? 'rotate-180' : ''}`}
+                >
+                  <path d="M2.5 4.5L6 8L9.5 4.5" />
+                </svg>
+              </button>
+            )}
           </motion.div>
           
           <motion.div

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Microsoft Certified: Azure Administrator Associate",
+    "issuer": "Microsoft",
+    "year": "2026",
+    "link": "https://learn.microsoft.com/api/credentials/share/en-us/HimanManduja-3121/C6C6FA5DE9DDDF86?sharingId=927B438A032C0E8E"
+  },
+  {
+    "title": "Google Cloud Certified: Associate Cloud Engineer",
+    "issuer": "Google Cloud",
+    "year": "2026",
+    "link": "https://www.credly.com/badges/fd292228-01b9-476a-8edf-5a8eaae8a924"
+  },
+  {
+    "title": "AWS Cloud Practitioner",
+    "issuer": "AWS",
+    "year": "2026",
+    "link": "https://www.credly.com/badges/be613ca9-6433-4d27-b842-0a652a2c068b"
+  },
+  {
+    "title": "HashiCorp Certified: Terraform Associate (004)",
+    "issuer": "HashiCorp",
+    "year": "2026",
+    "link": "https://www.credly.com/badges/3ec3bde2-7e4c-4820-bbee-8acd1010b740"
+  },
+  {
+    "title": "GitHub Foundations",
+    "issuer": "GitHub",
+    "year": "2025"
+  },
+  {
+    "title": "Introduction to Jenkins (LFS167)",
+    "issuer": "The Linux Foundation",
+    "year": "2025",
+    "link": "https://www.credly.com/badges/39d9dec4-822c-414a-b6da-1b0d90ddf1bc"
+  },
+  {
+    "title": "100 Days of Cloud (AWS) / DevOps",
+    "issuer": "KodeKloud",
+    "year": "2026"
+  }
+]
