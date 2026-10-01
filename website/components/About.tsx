@@ -71,6 +71,24 @@ export function About() {
               <path d="M2 12L12 2M12 2H4M12 2V10" />
             </svg>
           </motion.a>
+
+          {/* Core Skills - Desktop only (left column) */}
+          <motion.div
+            className="hidden md:block mt-10"
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.65, delay: 0.4, ease: "easeOut" }}
+          >
+            <h3 className="text-[10px] tracking-[0.14em] uppercase text-muted mb-4">Core Skills</h3>
+            <div className="flex flex-wrap gap-[7px]">
+              {skills.map((s, i) => (
+                <span key={i} className="text-[11px] tracking-[0.06em] px-3.5 py-1.5 border border-border rounded-full text-muted">
+                  {s}
+                </span>
+              ))}
+            </div>
+          </motion.div>
         </div>
         
         <div className="flex flex-col gap-11">
@@ -181,6 +199,7 @@ export function About() {
           </motion.div>
           
           <motion.div
+            className="md:hidden"
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
