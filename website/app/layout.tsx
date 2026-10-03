@@ -67,7 +67,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `${profileData.name} · ${profileData.title}`,
     description: profileData.heroDescription,
-    creator: '@himanm',
     images: ['/og-image.png'],
   },
   robots: {
