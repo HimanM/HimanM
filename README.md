@@ -142,7 +142,7 @@
 - [fix(cart): add WebSocket heartbeat pings, exponential reconnect, and eliminate 5s GET polling](https://github.com/HimanM/MCP-Agent/pull/31) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 ### ⭐ Recent Stars
 
-- [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) - A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Gemini CLI, Antigravity and more.
+- [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) - A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.
 - [adam-bouafia/Kubernetes-Certified-Administrator](https://github.com/adam-bouafia/Kubernetes-Certified-Administrator) - CKA 2026 update (Kubernetes v1.35) of Walid Shaari&#39;s CKA resource guide, with a troubleshooting method and study guides.
 - [CloudWithVarJosh/CKA-Certification-Course-2025](https://github.com/CloudWithVarJosh/CKA-Certification-Course-2025) - CKA-Certification-Course-2025 is a beginner-friendly repository designed to help you prepare for the Certified Kubernetes Administrator (CKA) exam. It covers Docker basics and essential Kubernetes concepts, organized into daily lessons. 
 - [okwasniewski/MiniSim](https://github.com/okwasniewski/MiniSim) - MacOS menu bar app for launching iOS  and Android 🤖 emulators
