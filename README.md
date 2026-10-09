@@ -121,8 +121,8 @@
 
 ### 👷 Check out what I'm currently working on
 
-- [HimanM/IPFamilySwitcher](https://github.com/HimanM/IPFamilySwitcher) - Per-application IPv4 and IPv6 control for Windows. Persistent executable-scoped firewall rules, built with .NET 10 and WPF.
 - [HimanM/DropForge](https://github.com/HimanM/DropForge) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
+- [HimanM/IPFamilySwitcher](https://github.com/HimanM/IPFamilySwitcher) - Per-application IPv4 and IPv6 control for Windows. Persistent executable-scoped firewall rules, built with .NET 10 and WPF.
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
 - [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
@@ -135,11 +135,11 @@
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 ### 🔨 My recent Pull Requests
 
+- [Restore Twitch progress and modernize session login](https://github.com/HimanM/DropForge/pull/22) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Fix web campaign discovery on headless servers](https://github.com/HimanM/DropForge/pull/21) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Fix Twitch device login startup crash](https://github.com/HimanM/DropForge/pull/20) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Add priority-first idle free badge farming](https://github.com/HimanM/DropForge/pull/19) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Make Twitch GQL recovery self-healing](https://github.com/HimanM/DropForge/pull/18) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
-- [fix(cart): add WebSocket heartbeat pings, exponential reconnect, and eliminate 5s GET polling](https://github.com/HimanM/MCP-Agent/pull/31) on [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent)
 ### ⭐ Recent Stars
 
 - [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) - A tiny friend in your Mac&#39;s notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.
