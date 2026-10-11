@@ -142,8 +142,8 @@
 - [Make Twitch GQL recovery self-healing](https://github.com/HimanM/DropForge/pull/18) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 ### ⭐ Recent Stars
 
+- [ohne-b/twitch-drops-miner](https://github.com/ohne-b/twitch-drops-miner) - a self-hosted Rust miner with a React dashboard, game selection and device-code login.
 - [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) - A tiny friend in your Mac&#39;s notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.
 - [adam-bouafia/Kubernetes-Certified-Administrator](https://github.com/adam-bouafia/Kubernetes-Certified-Administrator) - CKA 2026 update (Kubernetes v1.35) of Walid Shaari&#39;s CKA resource guide, with a troubleshooting method and study guides.
 - [CloudWithVarJosh/CKA-Certification-Course-2025](https://github.com/CloudWithVarJosh/CKA-Certification-Course-2025) - CKA-Certification-Course-2025 is a beginner-friendly repository designed to help you prepare for the Certified Kubernetes Administrator (CKA) exam. It covers Docker basics and essential Kubernetes concepts, organized into daily lessons. 
 - [okwasniewski/MiniSim](https://github.com/okwasniewski/MiniSim) - MacOS menu bar app for launching iOS  and Android 🤖 emulators
-- [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) - A privacy-first app that strips AI watermarks from content you own.
