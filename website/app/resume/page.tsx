@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${profileData.name} - Resume & Curriculum Vitae`,
     description: profileData.heroDescription,
-    url: 'https://himanm.com/resume',
+    url: 'https://www.himanm.com/resume',
     siteName: profileData.name,
     type: 'profile',
   },
   alternates: {
-    canonical: 'https://himanm.com/resume',
+    canonical: 'https://www.himanm.com/resume',
   },
 };
 

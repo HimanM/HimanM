@@ -17,7 +17,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://himanm.com'),
+  metadataBase: new URL('https://www.himanm.com'),
   title: {
     default: `${profileData.name} · ${profileData.title}`,
     template: `%s · ${profileData.name}`,
@@ -41,16 +41,16 @@ export const metadata: Metadata = {
     profileData.location,
     'Cardiff Metropolitan University'
   ],
-  authors: [{ name: profileData.name, url: 'https://himanm.com' }],
+  authors: [{ name: profileData.name, url: 'https://www.himanm.com' }],
   creator: profileData.name,
   publisher: profileData.name,
   alternates: {
-    canonical: 'https://himanm.com',
+    canonical: 'https://www.himanm.com',
   },
   openGraph: {
     title: `${profileData.name} · ${profileData.title}`,
     description: profileData.heroDescription,
-    url: 'https://himanm.com',
+    url: 'https://www.himanm.com',
     siteName: `${profileData.name} Portfolio`,
     locale: 'en_US',
     type: 'website',
@@ -92,11 +92,11 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Person',
-      '@id': 'https://himanm.com/#person',
+      '@id': 'https://www.himanm.com/#person',
       name: profileData.name,
       givenName: profileData.firstName,
       familyName: profileData.lastName,
-      url: 'https://himanm.com',
+      url: 'https://www.himanm.com',
       jobTitle: profileData.title,
       alumniOf: {
         '@type': 'EducationalOrganization',
@@ -118,12 +118,12 @@ const jsonLd = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://himanm.com/#website',
-      url: 'https://himanm.com',
+      '@id': 'https://www.himanm.com/#website',
+      url: 'https://www.himanm.com',
       name: `${profileData.name} Portfolio`,
       description: profileData.heroDescription,
       publisher: {
-        '@id': 'https://himanm.com/#person',
+        '@id': 'https://www.himanm.com/#person',
       },
     },
   ],
