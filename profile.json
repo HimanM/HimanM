@@ -2,21 +2,21 @@
   "name": "Himan Manduja",
   "firstName": "Himan",
   "lastName": "Manduja",
-  "title": "DevOps Engineer",
-  "tagline": "Software Engineering Grad · DevOps Enthusiast",
-  "status": "Looking for internships",
+  "title": "DevOps & Cloud Engineer Candidate",
+  "tagline": "Software Engineering Graduate · DevOps & Cloud",
+  "status": "Seeking DevOps & Cloud internships",
   "location": "Colombo, Sri Lanka",
-  "email": "hghimanmanduja@gmail.com",
-  "heroDescription": "Recent software engineering graduate with hands-on experience in CI/CD automation, cloud infrastructure, and Kubernetes. Based in Colombo, Sri Lanka, looking for DevOps internships.",
+  "email": "mail@himanm.com",
+  "heroDescription": "Software Engineering graduate in Colombo, Sri Lanka, seeking DevOps and Cloud internships. My projects cover AWS infrastructure, Terraform, Kubernetes, and CI/CD automation.",
   "bio": [
-    "<b>DevOps Engineer Intern</b> candidate with hands-on experience in CI/CD automation, cloud infrastructure, Docker, Linux and Infrastructure as Code (Terraform).",
-    "I am currently expanding my knowledge in <b>Kubernetes</b>, getting practical exposure through personal projects and certifications.",
-    "With a background in Software Engineering, I bring a strong interest in <b>cloud-native technologies and DevOps practices</b>, focused on bridging the gap between development and operations."
+    "I am a <b>Software Engineering graduate</b> based in Colombo, Sri Lanka, seeking <b>DevOps and Cloud internships</b>.",
+    "My hands-on projects cover <b>AWS infrastructure, Terraform, Kubernetes, Linux, and CI/CD automation</b>. I am developing these skills through personal projects and cloud certifications.",
+    "The project case studies explain the implementations, architecture decisions, captured results, and limitations, with links to the source code."
   ],
   "socials": {
-    "email": "hghimanmanduja@gmail.com",
-    "linkedin": "https://linkedin.com/in/himanm",
-    "github": "https://github.com/himanm"
+    "email": "mail@himanm.com",
+    "linkedin": "https://www.linkedin.com/in/himanm",
+    "github": "https://github.com/HimanM"
   },
   "education": [
     {

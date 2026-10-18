@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import Link from 'next/link';
 import certificationsData from '@/data/certifications.json';
 
 import profileData from '@/data/profile.json';
@@ -11,6 +12,34 @@ interface Certification {
   issuer: string;
   year: string;
   link?: string;
+}
+
+const skillEvidence: Record<string, string> = {
+  'AWS (EKS, ECS, EC2)': 'aws-secure-full-stack-platform',
+  Terraform: 'iac-config-management-demo',
+  Ansible: 'iac-config-management-demo',
+  Linux: 'brokenops',
+  Kubernetes: 'eks-gitops-platform',
+  Docker: 'dockerized-app-aws-guide',
+  Istio: 'eks-gitops-platform',
+  ArgoCD: 'eks-gitops-platform',
+  Helm: 'eks-gitops-platform',
+  'GitHub Actions': 'github-actions-telemetry',
+  Jenkins: 'jenkins-chained-cicd',
+  Python: 'github-actions-telemetry',
+};
+
+function Skills({ skills }: { skills: string[] }) {
+  const style = 'text-[11px] tracking-[0.06em] px-3.5 py-1.5 border border-border rounded-full text-muted';
+  return <>
+    <h3 className="text-[10px] tracking-[0.14em] uppercase text-muted mb-4">Core Skills</h3>
+    <p className="text-[12px] leading-relaxed text-muted mb-4">Underlined skills link to project evidence.</p>
+    <div className="flex flex-wrap gap-[7px]">
+      {skills.map(skill => skillEvidence[skill]
+        ? <Link key={skill} href={`/projects/${skillEvidence[skill]}`} aria-label={`${skill}: view project evidence`} className={`${style} underline underline-offset-4 decoration-border-hover hover:text-fg hover:border-border-hover focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2`}>{skill}</Link>
+        : <span key={skill} className={style}>{skill}</span>)}
+    </div>
+  </>;
 }
 
 function renderBoldText(text: string) {
@@ -80,14 +109,7 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.65, delay: 0.4, ease: "easeOut" }}
           >
-            <h3 className="text-[10px] tracking-[0.14em] uppercase text-muted mb-4">Core Skills</h3>
-            <div className="flex flex-wrap gap-[7px]">
-              {skills.map((s, i) => (
-                <span key={i} className="text-[11px] tracking-[0.06em] px-3.5 py-1.5 border border-border rounded-full text-muted">
-                  {s}
-                </span>
-              ))}
-            </div>
+            <Skills skills={skills} />
           </motion.div>
         </div>
         
@@ -205,14 +227,7 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.65, delay: 0.3, ease: "easeOut" }}
           >
-            <h3 className="text-[10px] tracking-[0.14em] uppercase text-muted mb-4">Core Skills</h3>
-            <div className="flex flex-wrap gap-[7px]">
-              {skills.map((s, i) => (
-                <span key={i} className="text-[11px] tracking-[0.06em] px-3.5 py-1.5 border border-border rounded-full text-muted">
-                  {s}
-                </span>
-              ))}
-            </div>
+            <Skills skills={skills} />
           </motion.div>
         </div>
       </div>

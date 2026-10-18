@@ -2,6 +2,7 @@
 
 import { motion } from 'motion/react';
 import { useState } from 'react';
+import Image from 'next/image';
 import profileData from '@/data/profile.json';
 
 export function Contact() {
@@ -54,13 +55,28 @@ export function Contact() {
       </div>
       
       <motion.div 
-        className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 pt-9"
+        className="grid gap-6 border-t border-border pt-8 sm:grid-cols-2 sm:items-center lg:grid-cols-[auto_1fr_auto]"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        <div className="flex flex-col">
+        <div className="flex items-center gap-3">
+          <Image
+            src="/images/himan-manduja-profile.png"
+            alt={`${profileData.name} in graduation attire`}
+            width={56}
+            height={56}
+            unoptimized
+            className="hidden h-14 w-14 shrink-0 rounded-full object-cover md:block"
+          />
+          <div>
+            <p className="text-[12px] leading-relaxed">{profileData.name}</p>
+            <p className="text-[11px] text-muted leading-relaxed">© 2026 · {profileData.title}</p>
+          </div>
+        </div>
+
+        <div className="flex flex-col sm:justify-self-end lg:justify-self-center">
           <div className="flex items-center gap-2 group">
             <p className="text-[13px] text-muted leading-[1.7]">{profileData.email}</p>
             <button 
@@ -83,7 +99,7 @@ export function Contact() {
           <p className="text-[13px] text-muted leading-[1.7]">{profileData.location}</p>
         </div>
         
-        <div className="flex flex-wrap gap-6 mt-4 md:mt-0">
+        <div className="flex flex-wrap gap-x-6 gap-y-3 sm:col-span-2 lg:col-span-1">
           <a href={`mailto:${profileData.email}`} className="text-[11px] tracking-[0.1em] uppercase text-muted hover:text-fg transition-colors duration-300" data-cursor="hi">
             Email
           </a>
@@ -96,9 +112,6 @@ export function Contact() {
         </div>
       </motion.div>
       
-      <p className="text-[11px] text-muted mt-8 text-center pt-8 border-t border-border">
-        © 2026 {profileData.name} · {profileData.title}
-      </p>
     </section>
   );
 }

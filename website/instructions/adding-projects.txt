@@ -1,0 +1,207 @@
+ADDING AND MAINTAINING WEBSITE PROJECTS
+=====================================
+
+Run commands below from the website/ folder unless stated otherwise.
+The site is a Next.js static export deployed to GitHub Pages.
+Development disables export validation so unknown dynamic routes show 404.
+Production builds still export the site for GitHub Pages.
+Canonical public address: https://www.himanm.com
+
+WHAT EACH FILE DOES
+
+data/projects.ts
+  Shared catalog for homepage rows, the project index, static routes,
+  repository links, and page metadata. Keep this file: it prevents those
+  surfaces from maintaining conflicting copies of the same project details.
+  This is a manually curated list; it does not fetch GitHub repositories.
+
+content/projects/<article-name>.tsx
+  The full, manually written article and its table of contents.
+
+content/projects/index.ts
+  Maps each public project slug to its article component and contents list.
+
+components/ArticleDiagram.tsx
+  Architecture diagrams reconstructed from source. These are explanations,
+  not screenshots or proof of a running deployment.
+
+components/ArticleEvidence.tsx
+  Displays a repository screenshot with dimensions, descriptive text, a
+  caption, a full-size image link, and a pinned repository source link.
+
+public/projects/evidence/
+  Local screenshots/report images used by articles.
+
+public/sitemap.xml
+  Public URL list. New project pages must be added here manually.
+
+1. REVIEW THE REPOSITORY
+
+Read the README AND the implementation: workflow files, Terraform,
+Kubernetes manifests, Docker/Compose files, scripts, and application code
+relevant to the explanation. Choose a reviewed commit SHA.
+
+Use commit-pinned source links:
+  https://github.com/HimanM/REPOSITORY/blob/COMMIT_SHA/path/to/file
+
+Do not describe documentation publishing as a running cloud deployment.
+Separate configured behavior, captured results, personal experience, and
+proposed improvements. Do not invent uptime, scale, performance, cost
+savings, personal contribution, or production experience.
+
+2. ADD THE CATALOG ENTRY
+
+Add an object to the projects array in data/projects.ts:
+
+  {
+    slug: 'my-new-project',
+    title: 'A Clear Project Title',
+    label: 'Infrastructure automation',
+    summary: 'One short sentence explaining what the implementation does.',
+    description: 'An accurate page description with the relevant technology.',
+    repository: 'https://github.com/HimanM/REPOSITORY',
+    tags: ['Terraform', 'AWS', 'GitHub Actions'],
+  }
+
+Use a unique lowercase URL slug with hyphens. Preserve published slugs;
+renaming one requires redirects or existing external links will break.
+The array order controls the index and Next article navigation.
+The FIRST FOUR entries are featured on the homepage. Counts update from
+the array automatically. An added entry alone does not create an article.
+
+3. WRITE THE ARTICLE
+
+Create content/projects/my-new-project.tsx. Start from a small article
+such as telemetry.tsx and replace its content completely.
+
+Export both:
+  export const toc = [
+    ['problem', 'The problem'],
+    ['implementation', 'How it works'],
+    ['validation', 'Evidence and limitations'],
+    ['sources', 'Source files'],
+  ];
+
+  export default function MyNewProjectArticle() {
+    return <>
+      <p>Explain the project and its purpose.</p>
+      <h2 id="problem">The problem</h2>
+      <p>Write the actual article here.</p>
+    </>;
+  }
+
+Complete EVERY listed heading and section. Contents IDs must exactly match
+the h2 IDs and must be unique. Do not add an h1 inside the article: the
+shared page already renders the title. Use clear prose, meaningful source
+links, design choices, observed results, and honest limitations. There is
+no minimum word count. Avoid generic technology definitions and filler.
+
+4. REGISTER THE ARTICLE
+
+In content/projects/index.ts, import the component and contents:
+  import MyNewProject, { toc as myNewToc } from './my-new-project';
+
+Add the matching slug to projectArticles:
+  'my-new-project': {
+    Content: MyNewProject,
+    toc: myNewToc,
+    reviewedAt: 'YYYY-MM-DD',
+    sourceRevision: 'FULL_40_CHARACTER_COMMIT_SHA',
+  },
+
+The catalog slug and registry key MUST be identical. The shared route in
+app/projects/[slug]/page.tsx creates the title, metadata, breadcrumbs,
+repository link, contents navigation, author data, and next-article link.
+Do not create a separate route file for every project. reviewedAt must be
+the date you actually reviewed the implementation, and sourceRevision must
+match the commit used by the article's source and screenshot links. The
+shared template displays this provenance and includes the review date in
+article metadata. Do not refresh dates automatically on every build, and
+do not invent a publication date for an unpublished article.
+
+To connect a relevant skill to the new article, update skillEvidence in
+components/About.tsx. Link only skills demonstrated by that implementation.
+The same skill list is rendered for desktop and mobile.
+
+5. ADD A DIAGRAM WHEN IT HELPS
+
+Add a named entry to the diagrams object in components/ArticleDiagram.tsx,
+then import ArticleDiagram in the article and render:
+  <ArticleDiagram name="my-diagram" />
+
+Follow the existing node, edge, and group tuple types. Check arrow direction,
+branching, ports, environment boundaries, labels, and mobile scrolling.
+Represent the implementation, including incomplete or conditional paths.
+
+6. ADD REAL EVIDENCE
+
+Choose useful screenshots from the reviewed repository commit. Inspect the
+image itself: a filename containing "success" does not establish success.
+Do not generate evidence images with AI. Exclude exposed secrets and keys.
+
+Save a descriptive local image under public/projects/evidence/. Lossless
+WebP is a good option for console text. Keep native aspect ratios and do
+not enlarge tiny source captures. Preserve what the capture actually shows.
+
+In the article:
+  import { ArticleEvidence } from '@/components/ArticleEvidence';
+
+  <ArticleEvidence
+    src="/projects/evidence/my-deployment.webp"
+    width={1920}
+    height={1080}
+    alt="Describe the visible deployment job and result"
+    caption="Explain this recorded result and the limits of what it proves."
+    source="https://github.com/HimanM/REPOSITORY/blob/COMMIT_SHA/docs/image.png"
+  />
+
+Use the ACTUAL pixel dimensions. Place images next to the explanation they
+support. A small selection is better than a wall of near-identical captures.
+Label historical captures accordingly. A successful job does not prove
+current uptime; a pod Running does not prove an authenticated user journey;
+an HPA listing does not prove a measured autoscaling event.
+
+7. UPDATE THE SITEMAP
+
+Add an entry to public/sitemap.xml for:
+  https://www.himanm.com/projects/my-new-project
+
+Use the real modification date in lastmod. Update the project-index lastmod
+when its content changes. Keep www.himanm.com throughout. No CNAME change
+is needed when adding a project; public/CNAME remains www.himanm.com.
+
+8. CHECK AND DEPLOY
+
+  npm ci
+  npm run lint
+  npm run build
+
+npm run dev runs the local development server. The production build exports
+static files to out/. Do not use next start to preview this static export;
+use a static server that resolves extensionless paths to their .html files.
+
+Check the homepage, /projects, the new article, all source/image links,
+contents anchors, next-article navigation, and light/dark themes. Check a
+small mobile screen and desktop: no page-wide overflow, readable images,
+and keyboard-accessible links. Confirm the new URL appears in out/ and
+has its own www canonical URL and project-specific metadata.
+
+IMPORTANT: npm run dev/build copies the repository-root profile.json and
+certifications.json into website/data/. Edit those root files to maintain
+profile and certification information. projects.ts is NOT part of that sync.
+Do not overwrite unrelated edits to resume.pdf or profile details.
+
+ERROR PAGES
+
+app/not-found.tsx is the custom 404 page. Unknown URLs should return HTTP
+404 and display this page at the requested address; they do not need a
+redirect to /404. The production export includes out/404.html for GitHub Pages.
+app/error.tsx catches page runtime errors, and app/global-error.tsx catches
+root-layout runtime errors. Both provide retry and home navigation.
+These boundaries do not add a server to GitHub Pages or create a standalone
+/500 route. GitHub Pages controls infrastructure-level 500/502/503 responses.
+
+Review the Git diff. Commit and push only when ready to publish. The
+Deploy Website to Pages GitHub Actions workflow builds on a main-branch
+push affecting website/. After deployment, verify the public page and
+image return 200, then submit the sitemap in your search webmaster tools.

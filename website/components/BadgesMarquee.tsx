@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import badgesData from '@/data/badges.json';
 
 export function BadgesMarquee() {
@@ -12,7 +13,7 @@ export function BadgesMarquee() {
   }
 
   return (
-    <div className="py-8 overflow-hidden whitespace-nowrap bg-bg border-y border-border flex marquee-wrap" aria-hidden="true" style={{ width: '100vw', contain: 'strict' }}>
+    <div className="py-8 overflow-hidden whitespace-nowrap bg-bg border-y border-border flex marquee-wrap" style={{ width: '100vw', contain: 'strict' }}>
       <div 
         className="flex min-w-max pr-16 md:pr-24 marquee-track"
         style={{ 
@@ -26,14 +27,20 @@ export function BadgesMarquee() {
             href={badge.link} 
             target="_blank" 
             rel="noopener noreferrer" 
+            aria-hidden={i >= badges.length ? true : undefined}
+            tabIndex={i >= badges.length ? -1 : undefined}
             className="inline-flex items-center justify-center mr-16 md:mr-24"
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
+            onFocus={() => setIsPaused(true)}
+            onBlur={() => setIsPaused(false)}
             data-cursor
           >
-            <img 
+            <Image
               src={badge.url} 
               alt={badge.name} 
+              width={56}
+              height={56}
               className="w-12 h-12 md:w-14 md:h-14 object-contain filter grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
               title={badge.name}
             />

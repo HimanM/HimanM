@@ -1,0 +1,89 @@
+SEO / AI SEARCH MAINTENANCE
+==========================
+
+The site uses https://www.himanm.com as its canonical address. The apex
+https://himanm.com redirects to www; keep that redirect for resume links.
+Adding project pages does not require changing public/CNAME or DNS.
+
+WEBSITE CONTENT
+
+- Maintain name, role, availability, location, and email in the repository's
+  ROOT profile.json. Build/dev sync it into website/data/profile.json.
+- Describe internship candidacy accurately; do not imply employment or
+  production experience that the author has not confirmed.
+- Keep project writeups grounded in source, with pinned code and image
+  references. Distinguish configuration, captured results, and proposed work.
+- Update reviewedAt and sourceRevision when reviewing an article against a
+  new commit. Update the article, diagrams, captions, and sitemap together.
+- Confirm claimed personal decisions, measurements, awards, and operating
+  experience with the author before publishing them as firsthand facts.
+
+IDENTITY AND IMAGES
+
+- The root layout defines one Person at https://www.himanm.com/#person.
+  The homepage's ProfilePage and project authors reference that identity.
+- Person.image references the real portrait also shown in the desktop
+  footer. Keep that image URL stable, public, and returning image content.
+- Keep name, website URL, and portrait consistent on GitHub and LinkedIn.
+  Link those profiles back to https://www.himanm.com where possible.
+- sameAs is for actual profiles of the same person. Individual credential
+  pages belong in the certification section, not as alternate identities.
+- For an incorrect AI photo, identify the answer's image/source URL first.
+  Correct or report that source; metadata cannot force every provider to
+  replace a cached or misassociated photo immediately.
+
+AFTER DEPLOYMENT
+
+1. Check that homepage, /projects, each article, robots.txt, sitemap.xml,
+   resume.pdf, and the portrait URL return successful responses.
+2. Confirm every page has its own www canonical URL, meaningful title,
+   description, and appropriate structured data in the initial HTML.
+3. Validate the deployed structured data with Google's Rich Results Test:
+   https://search.google.com/test/rich-results
+4. Verify the domain in Google Search Console and Bing Webmaster Tools.
+   Submit https://www.himanm.com/sitemap.xml and inspect the important URLs.
+   Do not add fake verification tokens to source code.
+5. Review crawl failures and indexing status. Check the generative AI
+   report in Search Console when sufficient impressions are available,
+   and AI Performance in Bing Webmaster Tools for supported citations.
+6. Monitor referrals, accurate name/photo retrieval, and useful inquiries.
+   Citation counts are not a candidate-ranking score. Manual AI searches
+   vary by provider, query, session, geography, and time.
+
+CRAWLER ACCESS
+
+robots.txt currently allows all user agents; separate allow entries are
+not needed unless the overall policy changes. Keep the sitemap declaration.
+Do not block Googlebot, Bingbot, OAI-SearchBot, or PerplexityBot if search
+visibility is desired. Search access and model-training permission are
+different decisions; do not change training policy by accident.
+
+Cloudflare settings apply to traffic proxied through Cloudflare. At the
+October 18, 2026 check, www.himanm.com resolved through himanm.github.io
+and returned GitHub Pages headers; the apex redirect returned Cloudflare
+headers. Recheck this if proxy settings change. If traffic is proxied,
+inspect AI Crawl Control and security logs for actual blocks/challenges.
+
+An allowed robots.txt or successful request with a bot-like user agent does
+not prove a real crawler can access the site. Use webmaster inspection and
+verified bot/IP logs; do not broadly bypass security based only on a spoofable
+user-agent string. Provider IP ranges can change: use official references.
+
+OFFICIAL REFERENCES
+
+Google generative AI guidance:
+https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+Profile pages:
+https://developers.google.com/search/docs/appearance/structured-data/profile-page
+Article markup:
+https://developers.google.com/search/docs/appearance/structured-data/article
+OpenAI search/training crawler distinctions:
+https://developers.openai.com/api/docs/bots
+Perplexity crawlers:
+https://docs.perplexity.ai/docs/resources/perplexity-crawlers
+Cloudflare crawl controls:
+https://developers.cloudflare.com/ai-crawl-control/get-started/
+
+There is no guaranteed AI recommendation or image selection. Prioritize
+accurate identity, accessible pages, useful evidence, and genuine external
+corroboration. Google does not require or specially use llms.txt for ranking.

@@ -40,7 +40,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: website
-        run: npm install
+        run: npm ci
 
       - name: Build
         working-directory: website

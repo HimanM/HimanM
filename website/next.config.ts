@@ -1,4 +1,5 @@
 import type {NextConfig} from 'next';
+import { PHASE_DEVELOPMENT_SERVER } from 'next/constants';
 import {fileURLToPath} from 'url';
 import {dirname} from 'path';
 
@@ -6,22 +7,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   typescript: {
     ignoreBuildErrors: false,
   },
-  // Allow access to remote image placeholder.
   images: {
     unoptimized: true,
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'picsum.photos',
-        port: '',
-        pathname: '/**', // This allows any path under the hostname
-      },
       {
         protocol: 'https',
         hostname: 'images.credly.com',
@@ -30,7 +21,6 @@ const nextConfig: NextConfig = {
       }
     ],
   },
-  output: 'export',
   outputFileTracingRoot: __dirname,
   transpilePackages: ['motion'],
   webpack: (config, {dev}) => {
@@ -45,4 +35,8 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default (phase: string): NextConfig => ({
+  ...nextConfig,
+  // Static export validation rejects unknown dynamic routes during development.
+  output: phase === PHASE_DEVELOPMENT_SERVER ? undefined : 'export',
+});

@@ -6,18 +6,11 @@ import { motion, AnimatePresence } from 'motion/react';
 export function Preloader() {
   const [loading, setLoading] = useState(true);
 
-// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
-    if (sessionStorage.getItem('himan_visited')) {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-      setTimeout(() => setLoading(false), 0);
-    } else {
-      sessionStorage.setItem('himan_visited', '1');
-      const timer = setTimeout(() => {
-        setLoading(false);
-      }, 1400);
-      return () => clearTimeout(timer);
-    }
+    const visited = sessionStorage.getItem('himan_visited');
+    sessionStorage.setItem('himan_visited', '1');
+    const timer = setTimeout(() => setLoading(false), visited ? 0 : 1400);
+    return () => clearTimeout(timer);
   }, []);
 
   return (

@@ -94,9 +94,19 @@ const jsonLd = {
       '@type': 'Person',
       '@id': 'https://www.himanm.com/#person',
       name: profileData.name,
+      alternateName: 'HimanM',
+      description: profileData.heroDescription,
+      image: {
+        '@type': 'ImageObject',
+        '@id': 'https://www.himanm.com/#portrait',
+        url: 'https://www.himanm.com/images/himan-manduja-profile.png',
+        contentUrl: 'https://www.himanm.com/images/himan-manduja-profile.png',
+        caption: `${profileData.name} in graduation attire`,
+      },
       givenName: profileData.firstName,
       familyName: profileData.lastName,
       url: 'https://www.himanm.com',
+      mainEntityOfPage: { '@id': 'https://www.himanm.com/#profile' },
       jobTitle: profileData.title,
       alumniOf: {
         '@type': 'EducationalOrganization',
@@ -112,7 +122,6 @@ const jsonLd = {
         profileData.socials.github,
         profileData.socials.linkedin,
         'https://www.credly.com/users/himan',
-        'https://learn.microsoft.com/api/credentials/share/en-us/HimanManduja-3121/C6C6FA5DE9DDDF86?sharingId=927B438A032C0E8E',
       ],
       knowsAbout: profileData.skills,
     },
@@ -135,7 +144,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
         />
       </head>
       <body className={`${inter.variable} ${syne.variable} font-inter bg-bg text-fg min-h-screen transition-colors duration-[400ms] antialiased overflow-x-hidden`} suppressHydrationWarning>

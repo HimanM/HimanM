@@ -1,0 +1,33 @@
+import { ArticleEvidence } from '@/components/ArticleEvidence';
+import { ArticleDiagram } from '@/components/ArticleDiagram';
+
+const s = 'https://github.com/HimanM/aws-terraform-secure-fullstack-platform/blob/fbc40006bcc9acf792afc743ba0f8f28f1cd4239';
+export const toc = [ ['edge', 'A public edge, a private service'], ['request', 'Following an API request'], ['network', 'Private networking and egress'], ['delivery', 'Three delivery workflows'], ['tradeoffs', 'Security and availability tradeoffs'], ['sources', 'Source files'] ];
+
+export default function AwsPlatformArticle() {
+  return <>
+    <p>This project connects a static Next.js frontend to a private FastAPI service on AWS. Terraform defines the infrastructure, while separate GitHub Actions workflows release the frontend, backend, and infrastructure changes.</p>
+    <p>The architectural focus is the boundary between public entry points and private application resources. S3 stores the frontend without making the bucket public. API Gateway accepts API traffic without giving the Fargate tasks public IP addresses. The supporting Terraform makes those boundaries inspectable.</p>
+    <h2 id="edge">A public edge, a private service</h2>
+    <p>CloudFront serves the static export from S3 using Origin Access Control with signed origin requests. S3 public access is blocked. Viewer HTTP requests are redirected to HTTPS, and a CloudFront Function handles path rewriting for the static export.</p>
+    <p>The public API entry point is an HTTP API Gateway. Its routes connect through a VPC Link to an internal Application Load Balancer. The load balancer forwards to Fargate tasks in private subnets, using IP targets and a <code>/health</code> check. The <a href={`${s}/terraform/environments/dev/main.tf`}>environment wiring</a> connects the networking, frontend, API, compute, and database modules.</p>
+    <ArticleDiagram name="aws-platform" />
+    <ArticleEvidence src="/projects/evidence/aws-vpc-link.webp" width={1920} height={1294} alt="AWS API Gateway VPC Link details and private subnet assignments" caption="The captured VPC Link is marked Available and lists two private subnets. It documents the private integration at the time of capture." source={`${s}/docs/aws_screenshots/api/vpc-link.png`} />
+    <h2 id="request">Following an API request</h2>
+    <p>The frontend demo reads its API address from <code>NEXT_PUBLIC_API_URL</code>. A request enters API Gateway, crosses the VPC Link, reaches the internal ALB, and then arrives at the FastAPI process. This keeps public API routing separate from task placement.</p>
+    <p>The <a href={`${s}/backend/app/main.py`}>backend</a> implements item creation, reads, updates, and deletion through <code>/items</code> and <code>/items/&#123;id&#125;</code>. DynamoDB records use a key shaped as <code>ITEM#&lt;uuid&gt;</code> with a metadata sort key. This is a small CRUD workload, but it supplies a real request to follow through the infrastructure instead of an architecture made only of AWS service names.</p>
+    <h2 id="network">Private networking and egress</h2>
+    <p>The <a href={`${s}/terraform/modules/networking/main.tf`}>network module</a> creates public and private subnets across the configured availability zones. Fargate tasks do not receive public IP addresses. S3 and DynamoDB gateway endpoints, plus ECR and CloudWatch Logs interface endpoints, provide private paths for several AWS dependencies.</p>
+    <p>One NAT Gateway sits in the first public subnet, and the private route table uses it for general outbound traffic. This reduces the number of NAT gateways to pay for, but makes egress dependent on that gateway’s availability zone. Multiple private subnets alone do not remove that dependency.</p>
+    <h2 id="delivery">Three delivery workflows</h2>
+    <p>The backend workflow assumes an AWS role through GitHub OIDC, builds commit-tagged and <code>latest</code> images, pushes to ECR, renders a new ECS task definition, and waits for the updated service to stabilize. Using a commit tag supplies a specific artifact identity for the release.</p>
+    <p>The frontend workflow builds the static site, syncs it to S3, and invalidates CloudFront. It distinguishes long-lived caching for static assets from HTML that should be revalidated. Infrastructure changes have their own Terraform format, initialization, validation, and plan stages; qualifying main-branch pushes apply the plan. Terraform state is stored remotely with locking resources defined through the bootstrap setup.</p>
+    <ArticleEvidence src="/projects/evidence/aws-backend-release.webp" width={1920} height={919} alt="GitHub Actions backend deployment run with a successful build and deploy job" caption="A recorded backend release includes the container image, cluster, and service in its deployment summary." source={`${s}/docs/cicd_screenshots/backend_deploy_succes.png`} />
+    <h2 id="tradeoffs">Security and availability tradeoffs</h2>
+    <p>Private tasks, a private bucket, OIDC federation, and a task role scoped to the DynamoDB table are implemented controls. They should be evaluated individually rather than being collapsed into a broad claim of production readiness.</p>
+    <p>There are still explicit lab assumptions. The backend allows wildcard CORS origins with credentials enabled and includes a comment to restrict that for production. The single NAT remains an egress dependency, and this review did not establish ECS autoscaling. The repository’s CloudFront and API outputs are historical deployment records from December 2025, not a current availability claim.</p>
+    <p>The project’s value is the complete, source-visible path from a static client to a private service and data store. A next iteration could narrow the browser-origin policy, exercise failure recovery, and justify egress redundancy against the workload’s budget and availability requirements.</p>
+    <h2 id="sources">Source files</h2>
+    <ul className="source-files"><li><a href={`${s}/terraform/environments/dev/main.tf`}>Environment module wiring</a><span>How the infrastructure components are connected.</span></li><li><a href={`${s}/terraform/modules/api-gateway/main.tf`}>API Gateway module</a><span>Public routes and the private VPC Link integration.</span></li><li><a href={`${s}/terraform/modules/networking/main.tf`}>Networking module</a><span>Subnet, NAT, route, and endpoint choices.</span></li><li><a href={`${s}/.github/workflows/backend.yml`}>Backend release workflow</a><span>OIDC, image publication, and ECS deployment.</span></li><li><a href={`${s}/backend/app/main.py`}>FastAPI application</a><span>The workload, data shape, health check, and CORS settings.</span></li></ul>
+  </>;
+}

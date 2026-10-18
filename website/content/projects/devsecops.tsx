@@ -1,0 +1,35 @@
+import { ArticleEvidence } from '@/components/ArticleEvidence';
+import { ArticleDiagram } from '@/components/ArticleDiagram';
+
+const s = 'https://github.com/HimanM/devsecops-aws-pipeline-githubactions/blob/bf71c435e5305933b5c5649d719a99a0f4489377';
+export const toc = [ ['controls', 'Several different security questions'], ['policy', 'Policy against the planned infrastructure'], ['runtime', 'The application network'], ['release', 'Approval and deployment'], ['limits', 'Enforcement and evidence'], ['sources', 'Source files'] ];
+
+export default function DevsecopsArticle() {
+  return <>
+    <p>A pipeline is only a security control when its findings change what can be released. This project combines source, image, infrastructure, and policy checks in GitHub Actions, then deploys a split frontend/backend application to AWS ECS.</p>
+    <p>The interesting work is not the number of scanner logos. It is the relationship between inputs, blocking behavior, the Terraform plan, AWS identity, and the approval boundary. Reading those details also exposes places where the implementation is more permissive than its README description.</p>
+    <h2 id="controls">Several different security questions</h2>
+    <p>The <a href={`${s}/.github/workflows/devsecops-pipeline.yml`}>workflow</a> starts with secret scanning and change detection, runs relevant application lint/build jobs, and publishes SHA-tagged images to GHCR. Trivy scans container images for high and critical findings with a failing exit code configured.</p>
+    <p>Infrastructure goes through Terraform format and validation plus Checkov. These tools answer different questions: a valid Terraform configuration can still contain an unsafe security group, and an image that builds can still contain vulnerable packages. Keeping the checks visible makes that distinction easier to audit.</p>
+    <ArticleDiagram name="devsecops" />
+    <ArticleEvidence src="/projects/evidence/security-container-scan.webp" width={1920} height={951} alt="GitHub Actions Trivy container scan output for the backend image" caption="The captured Trivy job reports zero HIGH and CRITICAL findings for the scanned backend image. This is one image scan, not a guarantee about later builds." source={`${s}/docs/github_container_security_scan.png`} />
+    <h2 id="policy">Policy against the planned infrastructure</h2>
+    <p>Conftest/OPA evaluates the Terraform plan’s JSON representation. The repository’s Rego policies cover public backend exposure, broadly open administrative or database ports, and required project/environment/management tags.</p>
+    <p>Checking the plan rather than only searching source text provides a policy boundary around the resources Terraform intends to create or change. The policies are still a defined subset of security requirements. Passing them does not prove that every IAM permission, runtime route, or application behavior is safe.</p>
+    <ArticleEvidence src="/projects/evidence/security-policy-check.webp" width={1920} height={951} alt="GitHub Actions OPA policy job showing fourteen passing tests" caption="The OPA job records 14 tests and 14 passes against a Terraform plan. The selected policies define the scope of that result." source={`${s}/docs/github_opa_plocy_enforcement.png`} />
+    <h2 id="runtime">The application network</h2>
+    <p>Terraform creates public and private subnets across two availability zones, with a NAT Gateway in each zone. A public ALB routes to frontend Fargate tasks in private subnets. The frontend’s Next.js server proxies API requests through an internal ALB to backend tasks.</p>
+    <p>The security-group chain follows that topology: frontend ingress comes from the public load balancer, the internal load balancer accepts the frontend group, and backend ingress comes from that internal load balancer. The checked task settings allocate 512 CPU units and 1024 MiB, with a desired count of two. CPU target tracking is configured at 70%, and the capacity-provider strategy includes Fargate Spot.</p>
+    <p>This architecture trades extra NAT and load-balancer resources for separate network entry points and per-zone egress. Spot capacity also means interruption handling belongs in the operational discussion. The configuration alone is not an interruption-recovery test.</p>
+    <h2 id="release">Approval and deployment</h2>
+    <p>AWS authentication uses GitHub OIDC with a repository-specific trust condition. The apply job references the GitHub <code>production</code> environment and applies a saved Terraform plan. Required human reviewers must be configured on that environment outside the workflow file; the environment name alone does not create that reviewer policy.</p>
+    <p>The workflow also contains post-apply drift detection, policy evaluation, and documentation/image-tag update stages. Infrastructure planning and applying are gated to qualifying main-branch push or manual paths in the checked workflow, so this article does not describe every pull request as receiving an apply-ready plan.</p>
+    <ArticleEvidence src="/projects/evidence/security-approval.webp" width={1920} height={951} alt="GitHub Actions production deployment approval dialog while the workflow waits" caption="The run is waiting for a production deployment review, with the approval dialog open. This captures the gate, not a completed apply." source={`${s}/docs/github_manual_approval_workflow_approve.png`} />
+    <h2 id="limits">Enforcement and evidence</h2>
+    <p>One concrete discrepancy is <code>npm audit --audit-level=high || true</code>: it reports findings but explicitly suppresses failure. That differs from a blocking audit gate. Checkov also has learning-project exclusions, and the AWS role includes broad service permissions with wildcard resources. OIDC removes long-lived credentials, but does not by itself make that role least-privilege.</p>
+    <p>HTTPS is optional and disabled by default in the checked configuration. Existing AWS and approval screenshots document an earlier exercise, while the README’s deployment output is dated December 2025. A documentation-site deployment proves publication of the project page, not current operation of the AWS stack.</p>
+    <p>The useful next step is to tighten the connection between stated policy and actual enforcement: decide which findings must block, constrain the deployment role, configure required reviewers, and validate the conditional job graph for both application and infrastructure-only changes.</p>
+    <h2 id="sources">Source files</h2>
+    <ul className="source-files"><li><a href={`${s}/.github/workflows/devsecops-pipeline.yml`}>DevSecOps workflow</a><span>Triggers, dependencies, scanner flags, plan, and approval wiring.</span></li><li><a href={`${s}/terraform/security-groups.tf`}>Security groups</a><span>The actual permitted frontend/backend traffic.</span></li><li><a href={`${s}/terraform/ecs.tf`}>ECS configuration</a><span>Tasks, capacity providers, and scaling policy.</span></li><li><a href={`${s}/terraform/iam.tf`}>Deployment identity</a><span>OIDC trust and the scope of AWS permissions.</span></li></ul>
+  </>;
+}
