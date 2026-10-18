@@ -35,8 +35,10 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default (phase: string): NextConfig => ({
-  ...nextConfig,
-  // Static export validation rejects unknown dynamic routes during development.
-  output: phase === PHASE_DEVELOPMENT_SERVER ? undefined : 'export',
-});
+export default function configForPhase(phase: string): NextConfig {
+  return {
+    ...nextConfig,
+    // Static export validation rejects unknown dynamic routes during development.
+    output: phase === PHASE_DEVELOPMENT_SERVER ? undefined : 'export',
+  };
+}

@@ -148,6 +148,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className={`${inter.variable} ${syne.variable} font-inter bg-bg text-fg min-h-screen transition-colors duration-[400ms] antialiased overflow-x-hidden`} suppressHydrationWarning>
+        <noscript><style>{'.project-reveal { opacity: 1 !important; transform: none !important; }'}</style></noscript>
         <Providers>
           {children}
           <Cursor />

@@ -4,6 +4,7 @@ import { Navbar } from '@/components/Navbar';
 import { ProjectCards } from '@/components/ProjectCards';
 import { projects } from '@/data/projects';
 import profileData from '@/data/profile.json';
+import { ProjectReveal } from '@/components/ProjectReveal';
 
 const pageUrl = 'https://www.himanm.com/projects';
 
@@ -57,10 +58,12 @@ export default function ProjectsPage() {
             <span aria-hidden="true" className="text-muted/50">/</span>
             <span aria-current="page" className="text-fg">Projects</span>
           </nav>
-          <header className="mb-8 md:mb-10">
-            <h1 className="font-syne text-[clamp(44px,7vw,84px)] font-extrabold leading-[0.95] tracking-[-0.05em]">Projects</h1>
-            <p className="mt-5 max-w-[640px] text-[14px] leading-relaxed text-muted md:text-[16px]">Cloud infrastructure, delivery automation, and operations tooling. {projects.length} projects, explained through their implementation.</p>
-          </header>
+          <ProjectReveal className="mb-8 md:mb-10">
+            <header>
+              <h1 className="font-syne text-[clamp(44px,7vw,84px)] font-extrabold leading-[0.95] tracking-[-0.05em]">Projects</h1>
+              <p className="mt-5 max-w-[640px] text-[14px] leading-relaxed text-muted md:text-[16px]">Cloud infrastructure, delivery automation, and operations tooling. {projects.length} projects, explained through their implementation.</p>
+            </header>
+          </ProjectReveal>
           <ProjectCards projects={projects} heading="h2" />
           <div className="mt-12 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-7">
             <Link href="/#work" className="text-[10px] uppercase tracking-[0.12em] text-muted transition-colors hover:text-fg">← Featured on home</Link>
