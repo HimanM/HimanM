@@ -5,6 +5,7 @@ import { Navbar } from '@/components/Navbar';
 import { projects } from '@/data/projects';
 import { projectArticles } from '@/content/projects';
 import profileData from '@/data/profile.json';
+import { ArticleContents } from '@/components/ArticleContents';
 
 export const dynamicParams = false;
 export function generateStaticParams() { return projects.map(({ slug }) => ({ slug })); }
@@ -59,7 +60,6 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
       ] },
     ],
   };
-  const contents = <ol>{toc.map(([id,label]) => <li key={id}><a href={`#${id}`}>{label}</a></li>)}</ol>;
 
   return <>
     <Navbar />
@@ -84,10 +84,10 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
             <a href={project.repository} target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a>
           </div>
         </header>
-        <details className="project-mobile-contents"><summary>On this page</summary>{contents}</details>
+        <details className="project-mobile-contents"><summary>On this page</summary><ArticleContents toc={toc} /></details>
         <div className="project-article-layout">
           <div className="project-prose"><Content /></div>
-          <nav className="project-toc" aria-label="Article contents"><p>On this page</p>{contents}</nav>
+          <nav className="project-toc" aria-label="Article contents"><p>On this page</p><ArticleContents toc={toc} /></nav>
         </div>
         <footer className="project-article-footer">
           <Link href="/projects">← All projects</Link>
