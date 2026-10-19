@@ -125,7 +125,7 @@
 - [HimanM/IPFamilySwitcher](https://github.com/HimanM/IPFamilySwitcher) - Per-application IPv4 and IPv6 control for Windows. Persistent executable-scoped firewall rules, built with .NET 10 and WPF.
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
-- [HimanM/aurasmile-landing-page](https://github.com/HimanM/aurasmile-landing-page) - A cinematic, Dribbble‑inspired &#34;vibe‑coded&#34; studio UI prototype. Built with React (v19), Vite, Tailwind CSS v4, Framer Motion &amp; GSAP, and TypeScript; visual designs were assisted by Google Gemini / Google AI Studio. 
+- [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
 ### 🌱 My latest projects
 
 - [HimanM/IPFamilySwitcher](https://github.com/HimanM/IPFamilySwitcher) - Per-application IPv4 and IPv6 control for Windows. Persistent executable-scoped firewall rules, built with .NET 10 and WPF.
