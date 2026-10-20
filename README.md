@@ -125,7 +125,7 @@
 - [HimanM/IPFamilySwitcher](https://github.com/HimanM/IPFamilySwitcher) - Per-application IPv4 and IPv6 control for Windows. Persistent executable-scoped firewall rules, built with .NET 10 and WPF.
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
-- [HimanM/alvaria-landing-page](https://github.com/HimanM/alvaria-landing-page) - Premium Workforce OS Interface. Vibe coded with fluid motion and brutalist elegance.
+- [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 ### 🌱 My latest projects
 
 - [HimanM/IPFamilySwitcher](https://github.com/HimanM/IPFamilySwitcher) - Per-application IPv4 and IPv6 control for Windows. Persistent executable-scoped firewall rules, built with .NET 10 and WPF.
