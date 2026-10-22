@@ -135,11 +135,11 @@
 - [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 ### 🔨 My recent Pull Requests
 
+- [20.6 beta: browser-free web login, badge alerts and optional expiry skipping](https://github.com/HimanM/DropForge/pull/23) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Restore Twitch progress and modernize session login](https://github.com/HimanM/DropForge/pull/22) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Fix web campaign discovery on headless servers](https://github.com/HimanM/DropForge/pull/21) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Fix Twitch device login startup crash](https://github.com/HimanM/DropForge/pull/20) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 - [Add priority-first idle free badge farming](https://github.com/HimanM/DropForge/pull/19) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
-- [Make Twitch GQL recovery self-healing](https://github.com/HimanM/DropForge/pull/18) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 ### ⭐ Recent Stars
 
 - [Manoj-engineer/k8squest](https://github.com/Manoj-engineer/k8squest) - K8sQuest — A local, hands-on Kubernetes learning game with real-world troubleshooting challenges. Practice Pods, Deployments, Services, networking, storage, and debugging using kubectl on a local cluster (kind/k3d). No cloud required.
