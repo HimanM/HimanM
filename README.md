@@ -121,18 +121,18 @@
 
 ### 👷 Check out what I'm currently working on
 
+- [HimanM/Udemy-Study-Tools](https://github.com/HimanM/Udemy-Study-Tools) - StudyDock: private Udemy question notes, focused review, and browser or desktop study exports.
 - [HimanM/DropForge](https://github.com/HimanM/DropForge) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
 - [HimanM/IPFamilySwitcher](https://github.com/HimanM/IPFamilySwitcher) - Per-application IPv4 and IPv6 control for Windows. Persistent executable-scoped firewall rules, built with .NET 10 and WPF.
 - [HimanM/Fuck-Udemy-Exam-UI](https://github.com/HimanM/Fuck-Udemy-Exam-UI) - A Tampermonkey userscript that fixes Udemy&#39;s absolutely fucking annoying practice exam interface.
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
-- [HimanM/medusa-tattoo-studio](https://github.com/HimanM/medusa-tattoo-studio) - Tattoo Studio Medusa - A premium gothic tattoo studio landing page. Vibe coded with Google Gemini.
 ### 🌱 My latest projects
 
+- [HimanM/Udemy-Study-Tools](https://github.com/HimanM/Udemy-Study-Tools) - StudyDock: private Udemy question notes, focused review, and browser or desktop study exports.
 - [HimanM/IPFamilySwitcher](https://github.com/HimanM/IPFamilySwitcher) - Per-application IPv4 and IPv6 control for Windows. Persistent executable-scoped firewall rules, built with .NET 10 and WPF.
 - [HimanM/MCP-Agent](https://github.com/HimanM/MCP-Agent) - Multilingual MCP-powered shopping assistant for Kapruka with chat, cart, checkout, order tracking, and voice support.
 - [HimanM/BrokenOps](https://github.com/HimanM/BrokenOps) - An interactive, open-source DevOps and Sysadmin training platform that spins up intentionally broken VMs for hands-on troubleshooting practice. Features in-browser terminal, automated verification, and gamified progress tracking.
 - [HimanM/DropForge](https://github.com/HimanM/DropForge) - An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.
-- [HimanM/Github-Actions-Telemetry](https://github.com/HimanM/Github-Actions-Telemetry) - A Centralized GitHub Actions Telemetry Observer that securely monitors workflow execution, extracts structured metrics (JSON), and generates visual timeline reports (SVG) for any repository, without modifying the target workflows.
 ### 🔨 My recent Pull Requests
 
 - [20.6 beta: browser-free web login, badge alerts and optional expiry skipping](https://github.com/HimanM/DropForge/pull/23) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
