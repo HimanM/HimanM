@@ -27,11 +27,11 @@
 ### 🏅 Certifications
 
 <p align="left">
-  <a href="https://www.credly.com/badges/444930d9-3945-4d99-850c-5d73952633f9" target="_blank" rel="noreferrer" style="margin-right: 10px;">
-    <img src="assets/badges/444930d9-3945-4d99-850c-5d73952633f9.png" alt="AWS Certified Cloud Practitioner" height="80" />
-  </a>
   <a href="https://www.credly.com/badges/10853947-1f04-4076-9f7c-253b997fa01b" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/10853947-1f04-4076-9f7c-253b997fa01b.png" alt="AWS Certified Solutions Architect – Associate" height="80" />
+  </a>
+  <a href="https://www.credly.com/badges/444930d9-3945-4d99-850c-5d73952633f9" target="_blank" rel="noreferrer" style="margin-right: 10px;">
+    <img src="assets/badges/444930d9-3945-4d99-850c-5d73952633f9.png" alt="AWS Certified Cloud Practitioner" height="80" />
   </a>
   <a href="https://www.credly.com/badges/45d7b42f-e034-4f53-bde3-5755ff613c56" target="_blank" rel="noreferrer" style="margin-right: 10px;">
     <img src="assets/badges/45d7b42f-e034-4f53-bde3-5755ff613c56.png" alt="Cybersecurity Essentials" height="80" />
