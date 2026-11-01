@@ -88,7 +88,7 @@ export function About() {
           
           <motion.a 
             href="/resume" 
-            className="inline-flex items-center gap-[7px] self-start bg-transparent border border-border rounded-full py-[7px] px-[15px] text-muted font-inter text-[11px] tracking-[0.08em] uppercase whitespace-nowrap transition-all duration-300 hover:bg-fg hover:text-bg hover:border-fg group mt-5"
+            className="cta-border inline-flex items-center gap-[7px] self-start bg-transparent border border-border rounded-full py-[7px] px-[15px] text-muted font-inter text-[11px] tracking-[0.08em] uppercase whitespace-nowrap transition-all duration-300 hover:bg-fg hover:text-bg hover:border-fg group mt-5"
             data-cursor
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}

@@ -1,5 +1,31 @@
 @import "tailwindcss";
 
+@property --cta-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.cta-border { position: relative; }
+.cta-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: conic-gradient(from var(--cta-angle), transparent 45%, var(--accent) 85%, transparent 100%);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+  animation: cta-border-orbit 4s linear infinite;
+}
+.cta-border:is(:hover, :focus-visible)::before { background: var(--accent); }
+.cta-border:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+@keyframes cta-border-orbit { to { --cta-angle: 360deg; } }
+@media (prefers-reduced-motion: reduce) {
+  .cta-border::before { animation: none; background: var(--accent); }
+}
+
 .error-state, .error-state * { cursor: auto !important; }
 .error-state a, .error-state button { cursor: pointer !important; }
 body:has(.error-state) .custom-cursor { display: none !important; }

@@ -51,7 +51,7 @@ export function ResumeViewer() {
         <div className="flex flex-wrap items-center gap-2.5 sm:self-end">
           <button
             onClick={handlePrint}
-            className="inline-flex items-center gap-1.5 bg-transparent border border-border rounded-full py-2 px-4 text-muted font-inter text-[11px] tracking-[0.08em] uppercase hover:bg-fg hover:text-bg hover:border-fg transition-all duration-300"
+            className="cta-border inline-flex items-center gap-1.5 bg-transparent border border-border rounded-full py-2 px-4 text-muted font-inter text-[11px] tracking-[0.08em] uppercase hover:bg-fg hover:text-bg hover:border-fg transition-all duration-300"
             data-cursor
             title="Print Resume"
           >
@@ -65,7 +65,7 @@ export function ResumeViewer() {
             href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 bg-transparent border border-border rounded-full py-2 px-4 text-muted font-inter text-[11px] tracking-[0.08em] uppercase hover:bg-fg hover:text-bg hover:border-fg transition-all duration-300"
+            className="cta-border inline-flex items-center gap-1.5 bg-transparent border border-border rounded-full py-2 px-4 text-muted font-inter text-[11px] tracking-[0.08em] uppercase hover:bg-fg hover:text-bg hover:border-fg transition-all duration-300"
             data-cursor
             title="Open raw PDF in new tab"
           >
@@ -78,7 +78,7 @@ export function ResumeViewer() {
           <a
             href="/resume.pdf"
             download="Himan_Manduja_Resume.pdf"
-            className="inline-flex items-center gap-1.5 bg-fg text-bg border border-fg rounded-full py-2 px-4 font-inter text-[11px] tracking-[0.08em] uppercase hover:bg-accent hover:border-accent hover:text-white transition-all duration-300 shadow-sm"
+            className="cta-border inline-flex items-center gap-1.5 bg-fg text-bg border border-fg rounded-full py-2 px-4 font-inter text-[11px] tracking-[0.08em] uppercase hover:bg-accent hover:border-accent hover:text-white transition-all duration-300 shadow-sm"
             data-cursor
             title="Download PDF document"
           >
@@ -159,7 +159,7 @@ export function ResumeViewer() {
               <a
                 href="/resume.pdf"
                 download="Himan_Manduja_Resume.pdf"
-                className="inline-flex items-center gap-2 bg-fg text-bg py-2.5 px-6 rounded-full text-xs uppercase tracking-wider font-semibold"
+                className="cta-border inline-flex items-center gap-2 bg-fg text-bg py-2.5 px-6 rounded-full text-xs uppercase tracking-wider font-semibold"
               >
                 Download Resume PDF
               </a>

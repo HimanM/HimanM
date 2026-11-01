@@ -17,7 +17,7 @@ export function Work() {
       <ProjectCards projects={projects.slice(0, 4)} />
 
       <ProjectReveal className="mt-8 flex justify-center" delay={0.16}>
-        <Link href="/projects" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-3 text-[10px] uppercase tracking-[0.1em] text-muted transition-colors hover:border-fg hover:bg-fg hover:text-bg" data-cursor>
+        <Link href="/projects" className="cta-border inline-flex items-center gap-2 rounded-full border border-border px-5 py-3 text-[10px] uppercase tracking-[0.1em] text-muted transition-colors hover:border-fg hover:bg-fg hover:text-bg" data-cursor>
           View all {projects.length} projects
           <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <path d="M3 8h10M9 4l4 4-4 4" />
