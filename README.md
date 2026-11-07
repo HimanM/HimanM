@@ -103,8 +103,8 @@
 - [Add priority-first idle free badge farming](https://github.com/HimanM/DropForge/pull/19) on [HimanM/DropForge](https://github.com/HimanM/DropForge)
 ### ⭐ Recent Stars
 
+- [harunaadoga/rhcsa-ex200-exam-labs](https://github.com/harunaadoga/rhcsa-ex200-exam-labs) - Free RHCSA EX200 hands-on labs for RHEL, Rocky Linux and AlmaLinux 9/10: practice tasks, solutions and a full mock exam, organised by the official exam objectives, with a video walkthrough for every lab.
 - [irbis-sh/zen-desktop](https://github.com/irbis-sh/zen-desktop) - System-wide ad-blocker and privacy guard for Windows, macOS and Linux.
 - [AhmadHassan-BTed/Turnitout-Humanizer](https://github.com/AhmadHassan-BTed/Turnitout-Humanizer) - FREE FOREVER, NO LIMITS 100% Programmatic, Zero-AI Plagiarism Remover &amp; Similarity Evader. Bypass Turnitin, iThenticate, GPTZero, CopyLeaks, Quillbot &amp; ZeroGPT for LaTeX, DOCX, &amp; Multi-Language Source Code.
 - [Manoj-engineer/k8squest](https://github.com/Manoj-engineer/k8squest) - K8sQuest — A local, hands-on Kubernetes learning game with real-world troubleshooting challenges. Practice Pods, Deployments, Services, networking, storage, and debugging using kubectl on a local cluster (kind/k3d). No cloud required.
 - [latent-spaces/brag](https://github.com/latent-spaces/brag) - You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.
-- [kalkman-code/beamer](https://github.com/kalkman-code/beamer) - One keyboard and mouse for a Mac and a Windows PC over the local network, in either direction.
